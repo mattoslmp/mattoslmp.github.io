@@ -1,4 +1,4 @@
-### Teaching:
+### Teaching experience:
 
  - **2017 - Preceptor in "NGS and Bioinformatics" in the Biology and Biomedicine Programs - Care, Multiprofessional Residency Cancer - COREMU, 16-hour workload, 20      and 21 July. Barretos Cancer Hospital.**
  - **2017 - Preceptor in "NGS and Bioinformatics" in the Biology and Medicine Programs - Care, Multiprofessional Residency Cancer - COREMU, 16-hour workload, August      30th and 31st. Barretos Cancer Hospital.**
