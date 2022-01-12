@@ -14,9 +14,6 @@ navbar_entries:
   - title: Databiomics
     url: Databiomics
     
-  - title: AngioDB 
-    url: AngioDB
-
   - title: blog
     url: blog
 
