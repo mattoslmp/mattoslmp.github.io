@@ -1,10 +1,12 @@
 title: About
 author: Leandro de Mattos Pereira
-description: Computational Biology
+
+description: > # description of the site (multiple lines allowed)
+  Undergraduate course in Biological Sciences at State University of Northern Rio de Janeiro (Universidade Estadual do Norte Fluminense Darcy Ribeiro)(2007)
 
 permalink: /:slug.html
 
-logo: "./leandro.jpeg" # relative path to site's favicon
+mattoslmp.github.io: "./leandro.jpeg" # relative path to site's favicon
 
 twitter:
     username: mattoslmp # update or delete this
