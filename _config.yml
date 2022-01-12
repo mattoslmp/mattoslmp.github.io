@@ -3,7 +3,7 @@ author: Leandro de Mattos Pereira
 description: Computational Biology
 permalink: /:slug.html
 
-mattoslmp: "./databiomics3.png" # relative path to site's favicon
+logo: "./leandro.png" # relative path to site's favicon
 
 twitter:
     username: abhinav # update or delete this
