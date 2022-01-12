@@ -7,10 +7,7 @@ navbar_entries:
     
   - title: Teaching
     url: Teaching
-  
-  - title: AngioDB
-    url: AngioDB
-    
+   
   - title: Databiomics
     url: Databiomics
     
