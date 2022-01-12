@@ -10,7 +10,7 @@ description: > # description of the site (multiple lines allowed)
 permalink: /:slug.html
 
 logo: "https://media-exp1.licdn.com/dms/image/C4E03AQGl4xxsU6orew/profile-displayphoto-shrink_200_200/0/1625092505392?e=1647475200&v=beta&t=z9IRAk_BDGDEgGMpLnLdhbjzjl2oK4L2gyiVZwDrw9I" # relative path to site's favicon
-mattoslmp: "https://media-exp1.licdn.com/dms/image/C4E03AQGl4xxsU6orew/profile-displayphoto-shrink_200_200/0/1625092505392?e=1647475200&v=beta&t=z9IRAk_BDGDEgGMpLnLdhbjzjl2oK4L2gyiVZwDrw9I" # relative path to site's favicon
+mattoslmp: "./https://media-exp1.licdn.com/dms/image/C4E03AQGl4xxsU6orew/profile-displayphoto-shrink_200_200/0/1625092505392?e=1647475200&v=beta&t=z9IRAk_BDGDEgGMpLnLdhbjzjl2oK4L2gyiVZwDrw9I" # relative path to site's favicon
 
 twitter:
     username: mattoslmp # update or delete this
