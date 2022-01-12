@@ -2,6 +2,26 @@
 ---
 
 @import "moonwalk";
+header {
+  img {
+    border-radius: 50%;
+  }
+  p {
+    text-align: center;
+  }
+  p.view {
+    text-align: center;
+  }
+}
+section  {
+  p {
+    text-align: justify;
+  }
+}
+footer  {
+  p {
+    text-align: justify;
+  }
+}
 @import "list";
 @import "syntax";
-
