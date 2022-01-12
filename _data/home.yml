@@ -11,9 +11,6 @@ navbar_entries:
   - title: Databiomics
     url: Databiomics
     
-  - title: blog
-    url: blog
-
 old_project_entries:
 
   - title: Transcriptome of Angiostrongylus cantonensis
