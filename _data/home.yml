@@ -11,13 +11,13 @@ navbar_entries:
   - title: AngioDB
     url: AngioDB
     
-   - title: Databiomics
+  - title: Databiomics
     url: Databiomics
     
   - title: AngioDB 
     url: AngioDB
 
-- title: blog
+  - title: blog
     url: blog
 
 old_project_entries:
