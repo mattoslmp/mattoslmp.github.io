@@ -6,10 +6,10 @@ header {
     border-radius: 50%;
   }
   p {
-    text-align: center;
+    text-align: justify;
   }
   p.view {
-    text-align: center;
+    text-align: justify;
   }
 }
 section  {
@@ -19,7 +19,7 @@ section  {
 }
 footer  {
   p {
-    text-align: justify;
+    text-align: left;
   }
 }
 @import "list";
