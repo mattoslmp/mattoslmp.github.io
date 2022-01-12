@@ -33,9 +33,6 @@ footer_entries:
   - title: Linkedin
     url: https://www.linkedin.com/in/leandrodemattos/
 
-  - title: feed
-    url: feed.xml
-
 misc_entries:
   - title: this is an example vertical list
     url: false
@@ -55,9 +52,6 @@ misc_entries:
     entries:
       - title: on Github
         url: https://github.com/abhinavs/moonwalk
-
-      - title: originally built for abhinav's homepage
-        url: https://www.abhinav.co
 
       - title: this list is scalable and can be nested
         url: false
