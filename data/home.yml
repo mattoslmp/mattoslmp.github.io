@@ -1,0 +1,70 @@
+navbar_entries:
+
+  - title: Publications
+    url: Publications
+
+  - title: Courses
+    url: Courses
+    
+  - title: Teaching
+    url: Teaching
+  
+  - title: AngioDB
+    url: AngioDB
+    
+   - title: Databiomics
+    url: Databiomics
+    
+   - title: blog
+    url: blog
+
+
+#project_entries:
+#  - title: Project 1
+#    url: overview-post
+#    desc: This is an example project, configured in _data/home.yml
+
+old_project_entries:
+
+  - title: Transcriptome of Angiostrongylus cantonensis
+    url: https://angiostrongylus.lad.pucrs.br/admin/
+    desc: Trancriptome results from Angiostrongylus cantonensis
+
+footer_entries:
+  - title: github
+    url: https://github.com/mattoslmp
+    
+  - title: Linkedin
+    url: https://www.linkedin.com/in/leandrodemattos/
+
+#  - title: feed
+#    url: feed.xml
+
+misc_entries:
+  - title: this is an example vertical list
+    url: false
+
+  - title: you can show or hide using a boolean flag in _config.yml
+    url: true
+
+  - title: and you can add data in _data/home.yml
+    url: false
+
+  - title: Blog posts
+    post_list: true
+    url: false
+
+  - title: Github
+    url: false
+    entries:
+      - title: on Github
+        url: https://github.com/mattoslmp
+
+      - title: this list is scalable and can be nested
+        url: false
+        entries:
+          - title: this is nested inside a nested list
+            url: false
+
+          - title: it is easy to use, see _data/home.yml to see how to configure it.
+            url: false
