@@ -9,7 +9,7 @@
 - **2011 - Functional Genomics and its applications in biomedicine, 80hrs Instituto Pasteur de Montevideo – Uruguay.**
 - **2013 - Advanced School of Functional Genomics, 90 hours, Rio de Janeiro (UFRJ). 2012 - RNA-Seq, 45hs. Federal University of Minas Gerais. UFMG. State of Minas - **Gerais, Brazil.**
 - **2010 - 1 Summer Course: Topics in Computational Biology" State University of Norte Fluminense, 24 hours.**
-- **2018 - Data collection and management in research using REDCap at the Barretos Cancer Hospital - Pio XII Foundation, held from 22 to 25 January 2018,  12 hours.
+- **2018 - Data collection and management in research using REDCap at the Barretos Cancer Hospital - Pio XII Foundation, held from 22 to 25 January 2018, 12 hours.**
 - **2018 - NEB Summer Course on "Survival Analysis" at the Barretos Cancer Hospital - Pio XII Foundation, held from January 3 to 5, 2018,  12 hours.**
 - **2020 - Distance Extension Course on "Introduction to Computing for Bioinformatics (Python programming language)", promoted by the Department of Computer Science, Institute of Exact Sciences of the Federal University of Minas Gerais, in the period of 08/15/2020 on 10/15/2020, 40 hours.**
 - **2021 - International School on Big Data and Epigenomics applied to Public Health with a duration of 30 hours, from 11/23/2020 to 11/25/2020**
