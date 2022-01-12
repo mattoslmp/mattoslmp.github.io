@@ -1,12 +1,18 @@
 title: About
 author: Leandro de Mattos Pereira
-description: Computational Biology
+description: > Computational Biology
+Undergraduate course in Biological Sciences at State University of Northern Rio de Janeiro (Universidade Estadual do Norte Fluminense Darcy Ribeiro)(2007)
+
+Master s degree in Bioscience and Technology at State University of Northern Rio de Janeiro (Universidade Estadual do Norte Fluminense Darcy Ribeiro)(2009)
+
+PhD Computational Biology and Systems (2010-2014) - Oswaldo Cruz Institute, Fiocruz, Rio de Janeiro - RJ
+
 permalink: /:slug.html
 
 logo: "./leandro.png" # relative path to site's favicon
 
 twitter:
-    username: abhinav # update or delete this
+    username: mattoslmp # update or delete this
     card: summary_large_image
 
 #theme: moonwalk # if you are using GitHub Pages, change it to remote_theme: abhinavs/moonwalk
