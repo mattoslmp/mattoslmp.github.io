@@ -9,8 +9,8 @@ description: > # description of the site (multiple lines allowed)
   
 permalink: /:slug.html
 
-mattoslmp: "./leandro.jpeg" # relative path to site's favicon
-logo: "./leandro.jpeg" # relative path to site's favicon
+mattoslmp: "leandro.jpeg" # relative path to site's favicon
+logo: "leandro.jpeg" # relative path to site's favicon
 
 twitter:
     username: mattoslmp # update or delete this
@@ -36,8 +36,8 @@ theme_config:
   # options for "home" page
   home:
  #   title_projects: Portfolio
-  #  title_misc_list: Details
-    title_blog: Blog
+ #  title_misc_list: Details
+ #  title_blog: Blog
     title_old_projects: Old Projects
 
 soopr:
