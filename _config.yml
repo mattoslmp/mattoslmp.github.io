@@ -9,7 +9,8 @@ description: > # description of the site (multiple lines allowed)
   
 permalink: /:slug.html
 
-mattoslmp.github.io: "./leandro.jpeg" # relative path to site's favicon
+mattoslmp: "./leandro.jpeg" # relative path to site's favicon
+logo: "./leandro.jpeg" # relative path to site's favicon
 
 twitter:
     username: mattoslmp # update or delete this
