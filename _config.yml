@@ -1,12 +1,11 @@
-title: Moonwalk
-author: Abhinav Saxena
-url: https://www.abhinavsaxena.com/moonwalk # root address of the site
-description: > # description of the site (multiple lines allowed)
+title: About
+author: Leandro de Mattos Pereira
+description: Computational Biology
   Moonwalk is a fast and elegant Jekyll theme with a clean dark mode. It comes with horizontal list (for navbar and footer), card list (for portfolio), and a generic vertical list. It is very easy to modify in case you want to build over it - please see _layouts/home.html to do that.
 
 permalink: /:slug.html
 
-favicon: "./logo.png" # relative path to site's favicon
+mattoslmp: "./databiomics3.png" # relative path to site's favicon
 
 twitter:
     username: abhinav # update or delete this
