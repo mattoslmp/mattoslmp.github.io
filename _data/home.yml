@@ -1,17 +1,24 @@
 navbar_entries:
   - title: Publications
     url: Publications
-
-  - title: blog
-    url: blog
-
+    
+  - title: Courses
+    url: Courses
+    
+  - title: Teaching
+    url: Teaching
+  
+  - title: AngioDB
+    url: AngioDB
+    
+   - title: Databiomics
+    url: Databiomics
+    
   - title: AngioDB 
     url: AngioDB
 
-project_entries:
-  - title: Project 1
-    url: overview-post
-    desc: This is an example project, configured in _data/home.yml
+- title: blog
+    url: blog
 
 old_project_entries:
 
