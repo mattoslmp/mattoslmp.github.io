@@ -9,7 +9,7 @@ description: > # description of the site (multiple lines allowed)
   
 permalink: /:slug.html
 
-Linkedin: "https://github.com/mattoslmp/mattoslmp.github.io/blob/main/leandro.jpeg" # relative path to site's favicon
+logo: "https://github.com/mattoslmp/mattoslmp.github.io/blob/main/leandro.jpeg" # relative path to site's favicon
 
 twitter:
     username: mattoslmp # update or delete this
