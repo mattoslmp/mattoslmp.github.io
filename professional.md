@@ -1,6 +1,6 @@
 ### Professional Exeperience
 
- - **June 2021 – march 2022 - Postdoctoral in Genomics and Phylogenomics of SARS-CoV-2. IAM - Lab. Dr. Gabriel Wallau, Fiocruz, Recife, Pernambuco, Brazil.**
+ - **June 2021 – march 2022 - Postdoctoral in Genomics and Phylogenomics of SARS-CoV-2. IAM - Fiocruz, Recife, Pernambuco, Brazil.**
 
  - **October 2019 – October 2020 - Postdoctoral in Coral Microbiome. Federal University of Rio de Janeiro, Rio de Janeiro, Brazil.**
 
