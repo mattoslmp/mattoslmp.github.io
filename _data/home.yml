@@ -12,7 +12,7 @@ navbar_entries:
   - title: Additional formation - Courses
     url: Courses
     
--  title: Databiomics
+  - title: Databiomics
     url: Databiomics
     
 old_project_entries:
