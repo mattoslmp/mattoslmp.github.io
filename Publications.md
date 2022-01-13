@@ -37,7 +37,7 @@
 
 - **Comparison of The Nasopharynx Microbiome Between Influenza and Non-Influenza Cases of Severe Acute Respiratory Infections: A Pilot Study. Borges, Luiz Gustavo Dos Anjos.; Giongo, Adriana.; Pereira, Leandro de Mattos.; Trindade, Fernanda J.; Gregianini, Tatiana Schäffer.; Campos, Fabrício Souza.; Ghedin, Elodie.; Da Veiga, Ana Beatriz Gorini. Health Science Reports, v. 1, P. E47-1, 2018.** [Link to the Paper](10.1002/hsr2.47)
 
-- **Guarana (Paullinia Cupana Mart.) Alters Gut Microbiota and Modulates Redox Status, Partially Via Caffeine in Wistar Rats. Kleber Silveira, Alexandre.; Moresco, Karla Suzana.; Mautone Gomes, Henrique.; Da Silva Morrone.; Maurílio; Kich Grun, Lucas.; Pens Gelain, Daniel.; de Mattos Pereira, Leandro.; Giongo, Adriana.; Rodrigues De Oliveira, Rafael.; Fonseca Moreira, José Cláudio. September 2018. Phytotherapy Research 32(5).** [Link to the Paper](DOI: 10.1002/ptr.6185)
+- **Guarana (Paullinia Cupana Mart.) Alters Gut Microbiota and Modulates Redox Status, Partially Via Caffeine in Wistar Rats. Kleber Silveira, Alexandre.; Moresco, Karla Suzana.; Mautone Gomes, Henrique.; Da Silva Morrone.; Maurílio; Kich Grun, Lucas.; Pens Gelain, Daniel.; de Mattos Pereira, Leandro.; Giongo, Adriana.; Rodrigues De Oliveira, Rafael.; Fonseca Moreira, José Cláudio. September 2018. Phytotherapy Research 32(5).** [Link to the Paper](10.1002/ptr.6185)
 
 ### 2017
 
