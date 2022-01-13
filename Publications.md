@@ -15,7 +15,7 @@
 
 - **Mollusk microbiota shift during Angiostrongylus cantonensis infection in the freshwater snail Biomphalaria glabrata and the terrestrial slug Phillocaulis soleiformis. Leandro de Mattos Pereira#.; Joana Borges Osório#.; Alessandra Loureiro Morassutti.; Jeremy Potriquet.; Adriana Giongo.; Renata Russo F. Cândido.; Jason Mulvenna.; Malcolm Jones, Carlos Graeff- Teixeira. Parasitology Research volume 119, pages2495–2503(2020).** [Link to the Paper](10.1007/s00436-020-06743-y)
 
-- **Microbial communities in anaerobic digesters change over time and sampling depth. Adriana Giongo.; Granada, C. E.; Borges, L. G. A.; Leandro de M. Pereira.; Trindade, F. J.; Mattiello, S. P.; Oliveira, R. R.; Shubeita, F. M.; Lovato, A.; Marcon, C.; Renata Medina-Silva . Braz J Microbiol. 2020 Sep;51(3):1177-1190.* [Link to the Paper](10.1007/s42770-020-00272-7)
+- **Microbial communities in anaerobic digesters change over time and sampling depth. Adriana Giongo.; Granada, C. E.; Borges, L. G. A.; Leandro de M. Pereira.; Trindade, F. J.; Mattiello, S. P.; Oliveira, R. R.; Shubeita, F. M.; Lovato, A.; Marcon, C.; Renata Medina-Silva . Braz J Microbiol. 2020 Sep;51(3):1177-1190.** [Link to the Paper](10.1007/s42770-020-00272-7)
 
 - **Identification of cross-reactive markers to strengthen the development of immunodiagnostic methods for angiostrongyliasis and other parasitic infections. Bianca Cognato.; Sukwan Handali.; Leandro de Mattos, José Barradas.; Alexandre Da Silva.; Carlos Graeff-Teixeira. Experimental Parasitology. 2020 Nov;218:107999, Epub 2020 Sep 18.** [Link to the Paper](10.1016/j.exppara.2020.107999)
 
