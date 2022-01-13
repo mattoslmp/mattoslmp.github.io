@@ -1,14 +1,18 @@
 navbar_entries:
+
+- title: Professional Experience
+    url: professional_experience   
+
   - title: Publications
     url: Publications
-    
+  
+  - title: Teaching Experience
+    url: Teaching
+
   - title: Additional formation - Courses
     url: Courses
     
-  - title: Teaching Experience
-    url: Teaching
-   
-  - title: Databiomics
+-  title: Databiomics
     url: Databiomics
     
 old_project_entries:
