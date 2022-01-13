@@ -8,7 +8,7 @@
 
 - **SARS-CoV-2 mutations in Brazil: from genomics to putative clinical conditions. L. F. S. M. Timmers.; J. V. Peixoto.; R. G. Ducati, J. F. R.; Bachega.; L. P. de Mattos.; R. A. Caceres.; F. Majolo.; G. L. da Silva.; M. I. Goettert.; O. A. Dellagostin.; J. A.  P. Henriques.; L.  L.  Xavier.; S. Laufer. Janeiro de 2021. . Science Reports, 11, article number: 11998 (2021).**
 
-- **De novo transcriptome reveals blood coagulation/antithrombin factors and infection mechanisms in Angiostrongylus cantonensis adult worms. Leandro de Mattos Pereira.; Milene Pereira Guimarães de Jezuz.; Amaranta Ramos Rangel.; Bruna Dalcin Baldasso.; Amanda Bungi Zaluskic.; Carlos Graeff-Teixeira.; Alessandra Loureiro Morassutti. Parasitology.1 – 44.** [Link to Paper] (./https://doi.org/10.1038/s41598-021-91585-6) 
+- **De novo transcriptome reveals blood coagulation/antithrombin factors and infection mechanisms in Angiostrongylus cantonensis adult worms. Leandro de Mattos Pereira.; Milene Pereira Guimarães de Jezuz.; Amaranta Ramos Rangel.; Bruna Dalcin Baldasso.; Amanda Bungi Zaluskic.; Carlos Graeff-Teixeira.; Alessandra Loureiro Morassutti. Parasitology.1 – 44.** [Link to Paper](./https://doi.org/10.1038/s41598-021-91585-6) 
 
 - **Coral Microbiome Manipulation Elicits metabolic and genetic restructuring to mitigate heat stress and evade Mortality. Santoro, E. P.; Borges, R. M.; Espinoza, J. L.; Freire., M.; Messias, C. S. M. A.; Villela, H. M. D.; Mattos, L. P.; Vilela, C. L. S.; Rosado, J. G.; Cardoso, P. M.; Rosado, P. M.; Assis, J. M.; Duarte, G. A. S.; Perna, G.; Rosado, A. S.; Macrae, A.; Dupont, C. L.; Nelson, K.E.; Sweet, M. J.; Voolstra, C. R.; Peixoto, R. S. Novembro de 2020. Science Advance. v. 7, p. eabg3088, 2021. DOI:: 10.1126/sciadv.abg3088**
 
