@@ -61,3 +61,4 @@
 ### 2012
 
 - **Essential role of the Czc determinant for cadmium, cobalt and zinc resistance in Gluconacetobacter diazotrophicus PAl 5. Aline C. Intorne ; Marcos V. V. de Oliveira; Leandro de M. Pereira; Gonçalo A. de Souza Filho. International Microbiology, v. 15, p. 69-78, 2012.** [Link to the Paper](http://revistes.iec.cat/index.php/IM/article/viewFile/63837/63768)
+
