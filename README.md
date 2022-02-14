@@ -133,17 +133,3 @@ This theme's original base is [no style please!](https://github.com/riggraz/no-s
 
 The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
 
-## Other Projects
-If you like Moonwalk, do check out my other projects
-*   [cookie](https://github.com/abhinavs/cookie) - a free landing website boilerplate using Jekyll and Tailwind CSS
-*   [scoop](https://github.com/abhinavs/scoop) - a Sinatra boilerplate project using Corneal, ActiveRecord, Capistrano, Puma & Nginx
-*   [soopr](https://www.soopr.co) - a tool that supports you in content marketing
-*   [apicagent](https://www.apicagent.com) - a FREE API that extracts device details from user-agent string
-*   [pincodr](https://pincodr.apiclabs.com) - a FREE API for Indian pincodes
-*   [humangous](https://www.humangous.co) - create public and private 'working with you' guides
-*   [blockr](https://www.abhinav.co/blockr) - a CLI tool to help you easily block and unblock websites
-*   [microrequests](https://www.abhinav.co/microrequests) - a Python library to help you consume microservice efficiently
-
-✨⚡You can read more about me on my [blog](https://www.abhinav.co/about/) or follow me on Twitter - [@abhinav](https://twitter.com/abhinav)
-
-✨⚡If you like my work, you can [buy me a coffee](https://buymeacoffee.com/abhinavs)                
