@@ -3,8 +3,8 @@
 
 ### 2022:
 
-De novo transcriptome assembly of Amynthas gracilis reveals the potential of the giant hemoglobin (HbAg) as a marker of environmental metals pollution.
-Isis Sebastião, Leandro Mattos Pereira; Fernando R. Bachega; Lierge Ramos; Claudemir O. Souza; Francisco Adriano O. Carvalho; Patrícia Gleydes Morgante; Patrícia S. Santiago. Submitted (February) to Journal: Biocatalysis and Agricultural Biotechnology.
+- **De novo transcriptome assembly of Amynthas gracilis reveals the potential of the giant hemoglobin (HbAg) as a marker of environmental metals pollution.
+Isis Sebastião, Leandro Mattos Pereira; Fernando R. Bachega; Lierge Ramos; Claudemir O. Souza; Francisco Adriano O. Carvalho; Patrícia Gleydes Morgante; Patrícia S. Santiago. Submitted (February) to Biocatalysis and Agricultural Biotechnology.
 
 ### 2021
 
