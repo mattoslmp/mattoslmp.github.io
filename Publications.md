@@ -6,6 +6,8 @@
 - **De novo transcriptome assembly of Amynthas gracilis reveals the potential of the giant hemoglobin (HbAg) as a marker of environmental metals pollution.
 Isis Sebastião, Leandro Mattos Pereira; Fernando R. Bachega; Lierge Ramos; Claudemir O. Souza; Francisco Adriano O. Carvalho; Patrícia Gleydes Morgante; Patrícia S. Santiago. In preparation for submission.
 
+Genomic surveillance reveals spatiotemporal spread of SARS-CoV-2 in Pernambuco - Brazil. Authors: Genomic Network Fiocruz. In preparation for submission.
+
 ### 2021
 
 - **SARS-CoV-2 Mutations in Brazil: From Genomics to Clinical Conditions. L. F. S. M. Timmers.; J. V. Peixoto.;	R. G. Ducati.; J. F. R. Bachega.; L. P. de Mattos.; R. A. Caceres.; F. Majolo.; G. L. da Silva.; M. I. Goettert.; O. A. Dellagostin.; J. A.  P. Henriques.;   L.  L.  Xavier.; S. Laufer.** [Link to the Paper](https://doi.org/10.26434/chemrxiv.14045783.v1)
