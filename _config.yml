@@ -7,8 +7,7 @@ description: > # description of the site (multiple lines allowed)
   I have a Master's degree in Bioscience and Biotechnology at State University of Northern Rio de Janeiro (Universidade Estadual do Norte Fluminense Darcy Ribeiro)(2009) and a
   PhD in Computational Biology and Systems (2010-2014) - Oswaldo Cruz Institute, Fiocruz, Rio de Janeiro - RJ.
   
-permalink:https://github.com/mattoslmp/mattoslmp.github.io/blob/85942ae5dc281b552afa3e2093dff2777e8b6600/leandro.jpeg
-##/:slug.html
+permalink:slug.html
 
 twitter:
     username: mattoslmp # update or delete this
