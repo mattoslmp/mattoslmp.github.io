@@ -5,8 +5,9 @@
   <body>
     <main class="page-content" aria-label="Content">
         <div class="w">
-        <a href="url"><img src="leandro.jpeg" height="auto" width="200" style="border-radius:50%"></a>
-          {{ content }}
+        {{ 
+           <a href="url"><img src="leandro.jpeg" height="auto" width="200" style="border-radius:50%"></a>
+               content }}
                      {% if site.theme_config.appearance_toggle %}
           {% include toggle_theme_button.html %}
         {% endif %}
