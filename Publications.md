@@ -6,7 +6,8 @@
 - **De novo transcriptome assembly of Amynthas gracilis reveals the potential of the giant hemoglobin (HbAg) as a marker of environmental metals pollution.
 Isis Sebastião, Leandro Mattos Pereira; Fernando R. Bachega; Lierge Ramos; Claudemir O. Souza; Francisco Adriano O. Carvalho; Patrícia Gleydes Morgante; Patrícia S. Santiago. In preparation for submission.** 
 
-- **Genomic surveillance reveals spatiotemporal spread of SARS-CoV-2 in Pernambuco - Brazil. Authors: Genomic Network Fiocruz. In preparation for submission.** 
+- **Genomic surveillance reveals spatiotemporal spread of SARS-CoV-2 in Pernambuco - Brazil. Authors: Genomic Network Fiocruz. In preparation for submission: Virus.**
+- **Genome-resolved metagenomics unveil metabolic pathways hotspots of Carbon fixation, Methane, Nitrogen and Sulfur cycles coupled to Iron oxidation and reduction in     natural lakes over Top an extensive lateritic crust in the Amazonian Savanna. In preparation for submission: Microbial Ecology Journal - The ISME Journal   
 
 ### 2021
 
