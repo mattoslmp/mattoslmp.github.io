@@ -7,13 +7,13 @@
 Isis Sebastião, Leandro Mattos Pereira; Fernando R. Bachega; Lierge Ramos; Claudemir O. Souza; Francisco Adriano O. Carvalho; Patrícia Gleydes Morgante; Patrícia S. Santiago. In preparation for submission.** 
 
 - **Genomic surveillance reveals spatiotemporal spread of SARS-CoV-2 in Pernambuco - Brazil. Authors: Genomic Network Fiocruz. In preparation for submission: Virus.**
-- **Genome-resolved metagenomics unveil metabolic pathways hotspots of Carbon fixation, Methane, Nitrogen and Sulfur cycles coupled to Iron oxidation and reduction in     natural lakes over Top an extensive lateritic crust in the Amazonian Savanna. In preparation for submission: Microbial Ecology Journal - The ISME Journal.**   
+- **Genome-resolved metagenomics unveil metabolic pathways hotspots of Carbon fixation, Methane, Nitrogen and Sulfur cycles coupled to Iron oxidation and reduction in     natural lakes over Top an extensive lateritic crust in the Amazonian Savanna. In preparation for submission: Microbial Ecology Journal - The ISME Journal.** [Link to the Paper](https://www.medrxiv.org/content/10.1101/2023.01.25.23284831v1)
 
 ### 2021
 
 - **SARS-CoV-2 Mutations in Brazil: From Genomics to Clinical Conditions. L. F. S. M. Timmers.; J. V. Peixoto.;	R. G. Ducati.; J. F. R. Bachega.; L. P. de Mattos.; R. A. Caceres.; F. Majolo.; G. L. da Silva.; M. I. Goettert.; O. A. Dellagostin.; J. A.  P. Henriques.;   L.  L.  Xavier.; S. Laufer.** [Link to the Paper](https://doi.org/10.26434/chemrxiv.14045783.v1)
 
-- **SARS-CoV-2 mutations in Brazil: from genomics to putative clinical conditions. L. F. S. M. Timmers.; J. V. Peixoto.; R. G. Ducati, J. F. R.; Bachega.; L. P. de Mattos.; R. A. Caceres.; F. Majolo.; G. L. da Silva.; M. I. Goettert.; O. A. Dellagostin.; J. A.  P. Henriques.; L.  L.  Xavier.; S. Laufer. Janeiro de 2021. . Science Reports, 11, article number: 11998 (2021).** [Link to the Paper](https://www.nature.com/articles/s41598-021-91585-6)
+- **SARS-CoV-2 mutations in Brazil: from genomics to putative clinical conditions. L. F. S. M. Timmers.; J. V. Peixoto.; R. G. Ducati, J. F. R.; Bachega.; L. P. de Mattos.; R. A. Caceres.; F. Majolo.; G. L. da Silva.; M. I. Goettert.; O. A. Dellagostin.; J. A.  P. Henriques.; L.  L.  Xavier.; S. Laufer. Janeiro de 2021. Science Reports, 11, article number: 11998 (2021).** [Link to the Paper](https://www.nature.com/articles/s41598-021-91585-6)
 
 - **De novo transcriptome reveals blood coagulation/antithrombin factors and infection mechanisms in Angiostrongylus cantonensis adult worms. Leandro de Mattos Pereira.; Milene Pereira Guimarães de Jezuz.; Amaranta Ramos Rangel.; Bruna Dalcin Baldasso.; Amanda Bungi Zaluskic.; Carlos Graeff-Teixeira.; Alessandra Loureiro Morassutti. Parasitology.1 – 44.** [Link to the Paper](https://doi.org/10.1017/S0031182021000469) 
 
