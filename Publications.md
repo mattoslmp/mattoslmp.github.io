@@ -1,13 +1,15 @@
 
 ### Publications:
 
-### 2022:
+### 2023:
 
 - **De novo transcriptome assembly of Amynthas gracilis reveals the potential of the giant hemoglobin (HbAg) as a marker of environmental metals pollution.
 Isis Sebastião, Leandro Mattos Pereira; Fernando R. Bachega; Lierge Ramos; Claudemir O. Souza; Francisco Adriano O. Carvalho; Patrícia Gleydes Morgante; Patrícia S. Santiago. In preparation for submission.** 
 
-- **Genomic surveillance reveals spatiotemporal spread of SARS-CoV-2 in Pernambuco - Brazil. Authors: Genomic Network Fiocruz. In preparation for submission: Virus.**
-- **Genome-resolved metagenomics unveil metabolic pathways hotspots of Carbon fixation, Methane, Nitrogen and Sulfur cycles coupled to Iron oxidation and reduction in     natural lakes over Top an extensive lateritic crust in the Amazonian Savanna. In preparation for submission: Microbial Ecology Journal - The ISME Journal.** [Link to the Paper](https://www.medrxiv.org/content/10.1101/2023.01.25.23284831v1)
+- **Genomic surveillance reveals spatiotemporal spread of SARS-CoV-2 in Pernambuco - Brazil. Authors: Genomic Network Fiocruz. Submitted to Heliyon cell press.**
+[Link to the Paper, print version](https://www.medrxiv.org/contet/10.1101/2023.01.25.23284831v1)
+
+- **Genome-resolved metagenomics unveil metabolic pathways hotspots of Carbon fixation, Methane, Nitrogen and Sulfur cycles coupled to Iron oxidation and reduction in     natural lakes over Top an extensive lateritic crust in the Amazonian Savanna. In preparation for submission: Microbial Ecology Journal - The ISME Journal.** 
 
 ### 2021
 
