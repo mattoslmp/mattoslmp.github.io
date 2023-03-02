@@ -1,6 +1,6 @@
 ### Professional Exeperience
 
- - **June 2021 – march 2022 - Postdoctoral in Genomics and Phylogenomics of SARS-CoV-2. IAM - Fiocruz, Brazil.**
+ - **June 2021 – march 2022 - Postdoctoral in Genomics and Phylogenomics of SARS-CoV-2, short project participation. IAM - Fiocruz, Brazil.**
 
  - **October 2019 – October 2020 - Postdoctoral in Coral Microbiome. Federal University of Rio de Janeiro, Rio de Janeiro, Brazil.**
 
