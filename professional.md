@@ -1,6 +1,6 @@
 ### Professional Exeperience
 
- - **Junior Researcher - CNP team @ CIIMAR (Leao Lab)
+ - **Junior Researcher - CNP team @ CIIMAR (Leao Lab).**
  
  - **June 2021 – march 2022 - Postdoctoral in Genomics and Phylogenomics of SARS-CoV-2, short project participation. IAM - Fiocruz, Brazil.**
 
