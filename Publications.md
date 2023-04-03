@@ -24,7 +24,7 @@ Roberto do Val Vilela. Submitted to Pathogens.**
 
 ### 2020
 
-- **Mollusk microbiota shift during Angiostrongylus cantonensis infection in the freshwater snail Biomphalaria glabrata and the terrestrial slug Phillocaulis soleiformis. Leandro de Mattos Pereira#.; Joana Borges Osório#.; Alessandra Loureiro Morassutti.; Jeremy Potriquet.; Adriana Giongo.; Renata Russo F. Cândido.; Jason Mulvenna.; Malcolm Jones, Carlos Graeff- Teixeira. Parasitology Research volume 119, pages2495–2503(2020).** [Link to the Paper](https://link.springer.com/article/10.1007%2Fs00436-020-06743-y)
+- **Mollusk microbiota shift during Angiostrongylus cantonensis infection in the freshwater snail Biomphalaria glabrata and the terrestrial slug Phillocaulis soleiformis. Leandro de Mattos Pereira#; Joana Borges Osório#; Alessandra Loureiro Morassutti.; Jeremy Potriquet.; Adriana Giongo.; Renata Russo F. Cândido.; Jason Mulvenna.; Malcolm Jones, Carlos Graeff- Teixeira. Parasitology Research volume 119, pages2495–2503(2020). #Equal contribution ** [Link to the Paper](https://link.springer.com/article/10.1007%2Fs00436-020-06743-y)
 
 - **Microbial communities in anaerobic digesters change over time and sampling depth. Adriana Giongo.; Granada, C. E.; Borges, L. G. A.; Leandro de M. Pereira.; Trindade, F. J.; Mattiello, S. P.; Oliveira, R. R.; Shubeita, F. M.; Lovato, A.; Marcon, C.; Renata Medina-Silva . Braz J Microbiol. 2020 Sep;51(3):1177-1190.** [Link to the Paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7455671/)
 
