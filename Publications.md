@@ -14,7 +14,7 @@ Roberto do Val Vilela. Submitted to Pathogens.**
 
 ### 2021
 
-- **SARS-CoV-2 Mutations in Brazil: From Genomics to Clinical Conditions. L. F. S. M. Timmers.; J. V. Peixoto.;	R. G. Ducati.; J. F. R. Bachega.; L. P. de Mattos.; R. A. Caceres.; F. Majolo.; G. L. da Silva.; M. I. Goettert.; O. A. Dellagostin.; J. A.  P. Henriques.;   L.  L.  Xavier.; S. Laufer.** [Link to the Paper](https://doi.org/10.26434/chemrxiv.14045783.v1)
+- **SARS-CoV-2 Mutations in Brazil: From Genomics to Clinical Conditions. L. F. S. M. Timmers.; J. V. Peixoto.;	R. G. Ducati.; J. F. R. Bachega.; L. P. de Mattos.; R. A. Caceres.; F. Majolo.; G. L. da Silva.; M. I. Goettert.; O. A. Dellagostin.; J. A.  P. Henriques.;   L.  L.  Xavier.; S. Laufer. Preprint ChemRxiv** [Link to the Paper](https://doi.org/10.26434/chemrxiv.14045783.v1)
 
 - **SARS-CoV-2 mutations in Brazil: from genomics to putative clinical conditions. L. F. S. M. Timmers.; J. V. Peixoto.; R. G. Ducati, J. F. R.; Bachega.; L. P. de Mattos.; R. A. Caceres.; F. Majolo.; G. L. da Silva.; M. I. Goettert.; O. A. Dellagostin.; J. A.  P. Henriques.; L.  L.  Xavier.; S. Laufer. Janeiro de 2021. Science Reports, 11, article number: 11998 (2021).** [Link to the Paper](https://www.nature.com/articles/s41598-021-91585-6)
 
