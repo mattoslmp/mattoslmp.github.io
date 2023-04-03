@@ -9,6 +9,9 @@ Isis Sebastião, Leandro Mattos Pereira; Fernando R. Bachega; Lierge Ramos; Clau
 - **Genomic surveillance reveals spatiotemporal spread of SARS-CoV-2 in Pernambuco - Brazil. Authors: Genomic Network Fiocruz. Submitted to Heliyon cell press.**
 [Link to the Paper](https://www.medrxiv.org/content/10.1101/2023.01.25.23284831v1)
 
+- **In the dawn of an early invasion: No genetic diversity of Angiostrongylus cantonensis in Ecuador? Authors: Luis Fernando Solórzano-Álava, César Humberto Bedoya-Pilozo, Hilda Hernández-Álvarez, Lázara Rojas-Rivero, Misladys Rodríguez-Ortega, Jorge Fraga-Nodarse, Leandro de Mattos Pereira, Raquel de Oliveira Simões,
+Roberto do Val Vilela. Submitted to Pathogens.** 
+
 - **Genome-resolved metagenomics unveil metabolic pathways hotspots of Carbon fixation, Methane, Nitrogen and Sulfur cycles coupled to Iron oxidation and reduction in     natural lakes over Top an extensive lateritic crust in the Amazonian Savanna. In preparation for submission: Microbial Ecology Journal - The ISME Journal.** 
 
 ### 2021
