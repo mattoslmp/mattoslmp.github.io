@@ -2,7 +2,6 @@
 ### Publications:
 
 ### 2023:
-
 - **De novo transcriptome assembly reveals giant hemoglobin model in Amynthas gracilis and sheds light on its future use as a biomarker of environmental metal pollution.**Isis Sebastião, Leandro Mattos Pereira; Fernando R. Bachega; Lierge Ramos; Claudemir O. Souza; Francisco Adriano O. Carvalho; Patrícia Gleydes Morgante; Patrícia S. Santiago. In preparation for submission.**
 
 - **Genomic surveillance reveals spatiotemporal spread of SARS-CoV-2 in Pernambuco - Brazil. Authors: Genomic Network Fiocruz. Submitted to Heliyon cell press.**
