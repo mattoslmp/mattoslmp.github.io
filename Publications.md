@@ -8,7 +8,7 @@
 [Link to the Paper](https://www.medrxiv.org/content/10.1101/2023.01.25.23284831v1)
 
 - **In the dawn of an early invasion: No genetic diversity of Angiostrongylus cantonensis in Ecuador? Authors: Luis Fernando Solórzano-Álava, César Humberto Bedoya-Pilozo, Hilda Hernández-Álvarez, Lázara Rojas-Rivero, Misladys Rodríguez-Ortega, Jorge Fraga-Nodarse, Leandro de Mattos Pereira, Raquel de Oliveira Simões,
-Roberto do Val Vilela.** [Link to the Paper](https://www.preprints.org/manuscript/202304.0047/v1) Submitted to Pathogens.
+Roberto do Val Vilela.** [Link to the Paper](https://www.preprints.org/manuscript/202304.0047/v1), Article will be published in Pathogens, Accepted - May 2023.
 
 - **Genome-resolved metagenomics unveil metabolic pathways hotspots of Carbon fixation, Methane, Nitrogen and Sulfur cycles coupled to Iron oxidation and reduction in     natural lakes over Top an extensive lateritic crust in the Amazonian Savanna. In preparation for submission: Microbial Ecology Journal - The ISME Journal.** 
 
