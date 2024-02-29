@@ -1,6 +1,7 @@
 
 ### Publications:
-### 2024
+
+### 2024:
 
 - **A Journey through Cyanobacteria in Brazil: a review of novel genera and 16S rRNA sequences" is now officially accepted for publication in Cryptogamie, Algologie. S. Hentschke et al., 2024.**
 
