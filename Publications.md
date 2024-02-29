@@ -2,9 +2,9 @@
 ### Publications:
 
 ### 2023:
-- **De novo transcriptome assembly reveals giant hemoglobin model in Amynthas gracilis and sheds light on its future use as a biomarker of environmental metal pollution. Isis Sebastião, Leandro Mattos Pereira; Fernando R. Bachega; Lierge Ramos; Claudemir O. Souza; Francisco Adriano O. Carvalho; Patrícia Gleydes Morgante; Patrícia S. Santiago. Submitted to Genetics and Molecular Biology.**
+- **De novo transcriptome assembly reveals giant hemoglobin model in Amynthas gracilis and sheds light on its future use as a biomarker of environmental metal pollution. Isis Sebastião, Leandro Mattos Pereira; Fernando R. Bachega; Lierge Ramos; Claudemir O. Souza; Francisco Adriano O. Carvalho; Patrícia Gleydes Morgante; Patrícia S. Santiago. In preparation phase.**
 
-- **Genomic surveillance reveals spatiotemporal spread of SARS-CoV-2 in Pernambuco - Brazil. Authors: Genomic Network Fiocruz. Submitted to Heliyon cell press.**
+- **Genomic surveillance reveals spatiotemporal spread of SARS-CoV-2 in Pernambuco - Brazil. Authors: Genomic Network Fiocruz. Aprovado para publicação no Microbiology Spectrum, fevereiro de 2024.**
 [Link to the Paper](https://www.medrxiv.org/content/10.1101/2023.01.25.23284831v1)
 
 - **In the dawn of an early invasion: No genetic diversity of Angiostrongylus cantonensis in Ecuador? Authors: Luis Fernando Solórzano-Álava, César Humberto Bedoya-Pilozo, Hilda Hernández-Álvarez, Lázara Rojas-Rivero, Misladys Rodríguez-Ortega, Jorge Fraga-Nodarse, Leandro de Mattos Pereira, Raquel de Oliveira Simões, Roberto do Val Vilela.** [Link to the Paper](https://www.mdpi.com/2076-0817/12/7/878), Pathogens, May 2023.
