@@ -1,5 +1,12 @@
 
 ### Publications:
+### 2024
+
+- **A Journey through Cyanobacteria in Brazil: a review of novel genera and 16S rRNA sequences" is now officially accepted for publication in Cryptogamie, Algologie. S. Hentschke et al., 2024.**
+
+- **Genomic surveillance reveals spatiotemporal spread of SARS-CoV-2 in Pernambuco - Brazil. Authors: Genomic Network Fiocruz. Aprovado para publicação no Microbiology Spectrum, fevereiro de 2024.**
+[Link to the Pre-print article](https://www.medrxiv.org/content/10.1101/2023.01.25.23284831v1)
+
 
 ### 2023:
 - **De novo transcriptome assembly reveals giant hemoglobin model in Amynthas gracilis and sheds light on its future use as a biomarker of environmental metal pollution. Isis Sebastião, Leandro Mattos Pereira; Fernando R. Bachega; Lierge Ramos; Claudemir O. Souza; Francisco Adriano O. Carvalho; Patrícia Gleydes Morgante; Patrícia S. Santiago. In preparation phase.**
