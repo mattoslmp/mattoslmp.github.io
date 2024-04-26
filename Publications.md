@@ -5,7 +5,7 @@
 
 - **A Journey through Cyanobacteria in Brazil: a review of novel genera and 16S rRNA sequences" accepted for publication in Cryptogamie, Algologie. S. S, G., K. R. de S., Mattos, L., & Oliveira, F. 2024.**
 
-- **Genomic surveillance reveals spatiotemporal spread of SARS-CoV-2 in Pernambuco - Brazil. Authors: Genomic Network Fiocruz. Aprovado para publicação no Microbiology Spectrum, fevereiro de 2024.**
+- **Machado, L. C., Dezordi, F. Z., Lima, G. B. de, Lima, R. E. de, Silva, L. C. A., Pereira, L. de M., Silva, A. F. da, et al. (2024). Spatiotemporal transmission of SARS-CoV-2 lineages during 2020–2021 in Pernambuco—Brazil. Microbiology Spectrum, Ahead of Print. https://doi.org/10.1128/spectrum.04218-23**
 
 ### 2023:
 - **De novo transcriptome assembly reveals giant hemoglobin model in Amynthas gracilis and sheds light on its future use as a biomarker of environmental metal pollution. Isis Sebastião, Leandro Mattos Pereira; Fernando R. Bachega; Lierge Ramos; Claudemir O. Souza; Francisco Adriano O. Carvalho; Patrícia Gleydes Morgante; Patrícia S. Santiago. In preparation phase.**
