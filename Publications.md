@@ -9,7 +9,7 @@
 
 ### 2023:
 
-- Scientific Fiction: Book: Galaxium: The Guardian of Stars: An Epic Sci-Fi Hero's Journey: A Tale of Power, Strength, Love, Science, Harmony, and Unity. https://www.amazon.com/Galaxium-Guardian-Journey-Strength-Science-ebook
+- ** Scientific Fiction: Book: Galaxium: The Guardian of Stars: An Epic Sci-Fi Hero's Journey: A Tale of Power, Strength, Love, Science, Harmony, and Unity. https://www.amazon.com/Galaxium-Guardian-Journey-Strength-Science-ebook.**
   
 - **De novo transcriptome assembly reveals giant hemoglobin model in Amynthas gracilis and sheds light on its future use as a biomarker of environmental metal pollution. Isis Sebastião, Leandro Mattos Pereira; Fernando R. Bachega; Lierge Ramos; Claudemir O. Souza; Francisco Adriano O. Carvalho; Patrícia Gleydes Morgante; Patrícia S. Santiago. In preparation phase.**
 
