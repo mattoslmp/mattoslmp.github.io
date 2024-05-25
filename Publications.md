@@ -8,6 +8,9 @@
 - **Machado, L. C., Dezordi, F. Z., Lima, G. B. de, Lima, R. E. de, Silva, L. C. A., Pereira, L. de M., Silva, A. F. da, et al. (2024). Spatiotemporal transmission of SARS-CoV-2 lineages during 2020–2021 in Pernambuco—Brazil. Microbiology Spectrum, Ahead of Print.**  [Link to the Paper](https://doi.org/10.1128/spectrum.04218-23)
 
 ### 2023:
+
+- Scientific Fiction: Book: Galaxium: The Guardian of Stars: An Epic Sci-Fi Hero's Journey: A Tale of Power, Strength, Love, Science, Harmony, and Unity. https://www.amazon.com/Galaxium-Guardian-Journey-Strength-Science-ebook
+- 
 - **De novo transcriptome assembly reveals giant hemoglobin model in Amynthas gracilis and sheds light on its future use as a biomarker of environmental metal pollution. Isis Sebastião, Leandro Mattos Pereira; Fernando R. Bachega; Lierge Ramos; Claudemir O. Souza; Francisco Adriano O. Carvalho; Patrícia Gleydes Morgante; Patrícia S. Santiago. In preparation phase.**
 
 - **In the dawn of an early invasion: No genetic diversity of Angiostrongylus cantonensis in Ecuador? Authors: Luis Fernando Solórzano-Álava, César Humberto Bedoya-Pilozo, Hilda Hernández-Álvarez, Lázara Rojas-Rivero, Misladys Rodríguez-Ortega, Jorge Fraga-Nodarse, Leandro de Mattos Pereira, Raquel de Oliveira Simões, Roberto do Val Vilela.** [Link to the Paper](https://www.mdpi.com/2076-0817/12/7/878), Pathogens, May 2023.
