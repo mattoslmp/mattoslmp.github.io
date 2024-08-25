@@ -7,6 +7,10 @@
 
 - **Machado, L. C., Dezordi, F. Z., Lima, G. B. de, Lima, R. E. de, Silva, L. C. A., Pereira, L. de M., Silva, A. F. da, et al. (2024). Spatiotemporal transmission of SARS-CoV-2 lineages during 2020–2021 in Pernambuco—Brazil. Microbiology Spectrum, Ahead of Print.**  [Link to the Paper](https://doi.org/10.1128/spectrum.04218-23)
 
+## Grant:
+
+Research grant of $133,588 USD in credits on the Google Cloud Platform! This grant, awarded in the "2ª edição Concurso de Projetos de Computação Avançada: Inteligência Artificial em Cloud," will empower our team to research deeper into unraveling Fatty Acyl-AMP Ligase substrates in Cyanobacteria using artificial intelligence.
+
 ### 2023:
 
 - **Scientific Fiction: Book: Galaxium: The Guardian of Stars: An Epic Sci-Fi Hero's Journey: A Tale of Power, Strength, Love, Science, Harmony, and Unity. https://www.amazon.com/Galaxium-Guardian-Journey-Strength-Science-ebook.**
