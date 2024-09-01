@@ -9,7 +9,7 @@
 
 ## Grant:
 
-- **Research grant of $133,588 USD in credits on the Google Cloud Platform! This grant, awarded in the "2ª edição Concurso de Projetos de Computação Avançada: Inteligência Artificial em Cloud," will empower CNP team - CIIMAR to research deeper into unraveling Fatty Acyl-AMP Ligase substrates in Cyanobacteria using artificial intelligence.**
+- **Research grant of $133,588 USD in credits on the Google Cloud Platform! This grant, awarded in the "2ª edição Concurso de Projetos de Computação Avançada: Inteligência Artificial em Cloud," will empower CNP team - CIIMAR to research deeper into unraveling Fatty Acyl-AMP Ligase substrates in Cyanobacteria using artificial intelligence. Our project achieved an evaluation score of 9.21, the highest rated in all categories of the call for proposals.** 
 
 ### 2023:
 
