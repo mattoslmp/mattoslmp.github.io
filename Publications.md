@@ -4,8 +4,8 @@
 
 ### 2024:
 
-**Newsletter Editor/Author - Article and Text: Mathematical Functions Describe the Biological World
-Outreach Publications, Without peer review, purpose: solely scientific outreach and promotion, dissemination, and stimulation of knowledge. Platform: LinkedIn:** 
+**Newsletter Editor/Author - Article and Text: Mathematical Functions Describe the Biological World,
+Outreach Publications without peer review, purpose: solely scientific outreach and promotion, dissemination, and stimulation of knowledge. Platform: LinkedIn:** 
 
 - **The Golden Ratio: The Mathematical Foundations of Nature's Patterns.
 [Link to the article], 2024. (https://www.linkedin.com/pulse/golden-ratio-mathematical-biological-foundations-de-mattos-pereira-jztvf).**
