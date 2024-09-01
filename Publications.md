@@ -8,13 +8,13 @@
 Outreach Publications without peer review, purpose: solely scientific outreach and promotion, dissemination, and stimulation of knowledge. Platform: LinkedIn:** 
 
 - **The Golden Ratio: The Mathematical Foundations of Nature's Patterns.
-[Link to the article], 2024. (https://www.linkedin.com/pulse/golden-ratio-mathematical-biological-foundations-de-mattos-pereira-jztvf).**
+[Link to the article](https://www.linkedin.com/pulse/golden-ratio-mathematical-biological-foundations-de-mattos-pereira-jztvf).**
 
 - **Good and Bad News: AI's Energy Demand: Today, Tomorrow, and in the Future
-[Link to the article], 2024.(https://www.linkedin.com/pulse/good-bad-news-ais-energy-demand-today-tomorrow-future-leandro-4pfrf).**
+[Link to the article](https://www.linkedin.com/pulse/good-bad-news-ais-energy-demand-today-tomorrow-future-leandro-4pfrf).**
 
 - **Markov Models in Sequence Analysis (DNA and Protein)
-[Link to the article], 2024. (https://www.linkedin.com/pulse/mathematical-function-describe-biological-world-de-mattos-pereira-xljff)**
+[Link to the article](https://www.linkedin.com/pulse/mathematical-function-describe-biological-world-de-mattos-pereira-xljff)**
 
 **Scientific publications**  
 
