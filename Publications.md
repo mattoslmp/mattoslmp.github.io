@@ -4,7 +4,7 @@
 
 ### 2024:
 
-**Newsletter Editor/Author - Article and Text: Mathematical Functions Describe the Biological World,
+**Newsletter Editor/Author - Article and Video - Based on AI: Mathematical Functions Describe the Biological World,
 Outreach Publications without peer review, purpose: solely scientific outreach and promotion, dissemination, and stimulation of knowledge. Platform: LinkedIn:** 
 
 - **The Golden Ratio: The Mathematical Foundations of Nature's Patterns.
