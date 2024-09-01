@@ -12,7 +12,7 @@
 - **Research grant of $133,588 USD in credits on the Google Cloud Platform! This grant, awarded in the "2ª edição Concurso de Projetos de Computação Avançada: Inteligência Artificial em Cloud," will empower CNP team - CIIMAR to research deeper into unraveling Fatty Acyl-AMP Ligase substrates in Cyanobacteria using artificial intelligence.**
 ### 2023:
 
-- **Scientific Fiction: Book: Galaxium: The Guardian of Stars: An Epic Sci-Fi Hero's Journey: A Tale of Power, Strength, Love, Science, Harmony, and Unity. https://www.amazon.com/Galaxium-Guardian-Journey-Strength-Science-ebook.**
+- **Scientific Fiction: Book: Galaxium: The Guardian of Stars: An Epic Sci-Fi Hero's Journey: A Tale of Power, Strength, Love, Science, Harmony, and Unity.https://www.amazon.com.br/Galaxium-Guardi%C3%A3o-Estrelas-Hist%C3%B3ria-Harmonia-ebook**
   
 - **De novo transcriptome assembly reveals giant hemoglobin model in Amynthas gracilis and sheds light on its future use as a biomarker of environmental metal pollution. Isis Sebastião, Leandro Mattos Pereira; Fernando R. Bachega; Lierge Ramos; Claudemir O. Souza; Francisco Adriano O. Carvalho; Patrícia Gleydes Morgante; Patrícia S. Santiago. In preparation phase.**
 
