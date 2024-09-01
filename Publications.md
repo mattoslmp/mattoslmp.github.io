@@ -1,7 +1,22 @@
 
 ### Publications:
 
+
 ### 2024:
+
+**Newsletter Editor/Author: Mathematical Functions Describe the Biological World
+Platform: LinkedIn:**
+
+- **The Golden Ratio: The Mathematical Foundations of Nature's Patterns.
+[Link to the article], 2024. (https://www.linkedin.com/pulse/golden-ratio-mathematical-biological-foundations-de-mattos-pereira-jztvf).
+
+- **Good and Bad News: AI's Energy Demand: Today, Tomorrow, and in the Future
+[Link to the article], 2024.(https://www.linkedin.com/pulse/good-bad-news-ais-energy-demand-today-tomorrow-future-leandro-4pfrf).**
+
+- **Markov Models in Sequence Analysis (DNA and Protein)
+[Link to the article], 2024. (https://www.linkedin.com/pulse/mathematical-function-describe-biological-world-de-mattos-pereira-xljff)**
+
+**Scientific publications**  
 
 - **A Journey through Cyanobacteria in Brazil: a review of novel genera and 16S rRNA sequences" accepted for publication in Cryptogamie, Algologie. S. S, G., K. R. de S., Mattos, L., & Oliveira, F. 2024.**
 
@@ -12,7 +27,7 @@
 - **Research grant of $133,588 USD in credits on the Google Cloud Platform! This grant, awarded in the "2ª edição Concurso de Projetos de Computação Avançada: Inteligência Artificial em Cloud," will empower CNP team - CIIMAR to research deeper into unraveling Fatty Acyl-AMP Ligase substrates in Cyanobacteria using artificial intelligence.**
 ### 2023:
 
-- **Scientific Fiction: Book: Galaxium: The Guardian of Stars: An Epic Sci-Fi Hero's Journey: A Tale of Power, Strength, Love, Science, Harmony, and Unity.https://www.amazon.com.br/Galaxium-Guardi%C3%A3o-Estrelas-Hist%C3%B3ria-Harmonia-ebook**
+- **Scientific Fiction: Book: Galaxium: The Guardian of Stars: An Epic Sci-Fi Hero's Journey: A Tale of Power, Strength, Love, Science, Harmony, and Unity. https://www.amazon.com.br/Galaxium-Guardi%C3%A3o-Estrelas-Hist%C3%B3ria-Harmonia-ebook/dp/B0CP1LSPYQ**
   
 - **De novo transcriptome assembly reveals giant hemoglobin model in Amynthas gracilis and sheds light on its future use as a biomarker of environmental metal pollution. Isis Sebastião, Leandro Mattos Pereira; Fernando R. Bachega; Lierge Ramos; Claudemir O. Souza; Francisco Adriano O. Carvalho; Patrícia Gleydes Morgante; Patrícia S. Santiago. In preparation phase.**
 
