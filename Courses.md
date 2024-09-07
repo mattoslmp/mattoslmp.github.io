@@ -1,6 +1,6 @@
 ### Complementary training:
 
-- **2024 - Introduction to Prompt Engineering for Generative AI (2023) 44 minutes.**
+- **2024 - Introduction to Prompt Engineering for Generative AI. 44 minutes.**
 - **2024 - What Is Generative AI?, By: Pinar Seyhan Demirdag. LinkedIn Learning Certificate of Completion. 42 minutes.**
 - **2024 - Cultivating a Growth Mindset, By: Dr Gemma Leigh Roberts. LinkedIn Learning Certificate of Completion. 42 minutes.**
 - **2024 - Prompt Engineering: How to Talk to the AIs. Ny: Xavier Amatriain. LinkedIn Learning Certificate of Completion. 29 minutes.** 
