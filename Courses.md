@@ -1,15 +1,13 @@
 ### Complementary training:
 
-- **2024 - Introduction to Prompt Engineering for Generative AI (2023) 44 minutes.
-- **2024 - What Is Generative AI?, By: Pinar Seyhan Demirdag. LinkedIn Learning Certificate of Completion. 42 minutes.
-- **2024 - Cultivating a Growth Mindset, By: Dr Gemma Leigh Roberts. LinkedIn Learning Certificate of Completion. 42 minutes.
-- **2024 - Prompt Engineering: How to Talk to the AIs. Ny: Xavier Amatriain. LinkedIn Learning Certificate of Completion. 29 minutes. 
-	
+- **2024 - Introduction to Prompt Engineering for Generative AI (2023) 44 minutes.**
+- **2024 - What Is Generative AI?, By: Pinar Seyhan Demirdag. LinkedIn Learning Certificate of Completion. 42 minutes.**
+- **2024 - Cultivating a Growth Mindset, By: Dr Gemma Leigh Roberts. LinkedIn Learning Certificate of Completion. 42 minutes.**
+- **2024 - Prompt Engineering: How to Talk to the AIs. Ny: Xavier Amatriain. LinkedIn Learning Certificate of Completion. 29 minutes.** 
 - **2021 - International School on Big Data and Epigenomics applied to Public Health with a duration of 30 hours, from 11/23/2020 to 11/25/2020**
 - **2021 - 2022 - Extension Course on Microbial Diversity of Environmental Samples III at PUCRS in the period 05/20/2021 to 01/20/2022**
 - **2021 - Python for Data Science and IA. IBM – Coursera. Period of Five  weeks with Final project.**
-- **2021 - Cabana Course: “Innovative methods for viral detection and discovery in genomic and metagenomic”, EMBL, November 2021, from 11/08/2021 to 11/12/2021. 40 
-           hours.**
+- **2021 - Cabana Course: “Innovative methods for viral detection and discovery in genomic and metagenomic”, EMBL, November 2021, from 11/08/2021 to 11/12/2021. 40 hours.**
 - **2020 - Distance Extension Course on "Introduction to Computing for Bioinformatics (Python programming language)", promoted by the Department of Computer 
            Science, Institute of Exact Sciences of the Federal University of Minas Gerais, in the period of 08/15/2020 on 10/15/2020, 40 hours.**
 - **2018 - NEB Summer Course on "Survival Analysis" at the Barretos Cancer Hospital - Pio XII Foundation, held from January 3 to 5, 2018,  12 hours.**
