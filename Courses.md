@@ -1,4 +1,9 @@
 ### Complementary training:
+
+- **2024 - Introduction to Prompt Engineering for Generative AI (2023) 44 minutes.
+- **2024 - What Is Generative AI?, By: Pinar Seyhan Demirdag. LinkedIn Learning Certificate of Completion. 42 minutes.
+- **2024 - Cultivating a Growth Mindset, By: Dr Gemma Leigh Roberts. LinkedIn Learning Certificate of Completion. 42 minutes.
+- **2024 - Prompt Engineering: How to Talk to the AIs. Ny: Xavier Amatriain. LinkedIn Learning Certificate of Completion. 29 minutes. 
 	
 - **2021 - International School on Big Data and Epigenomics applied to Public Health with a duration of 30 hours, from 11/23/2020 to 11/25/2020**
 - **2021 - 2022 - Extension Course on Microbial Diversity of Environmental Samples III at PUCRS in the period 05/20/2021 to 01/20/2022**
@@ -19,8 +24,7 @@
 - **2010 - V School of Modeling Biomolecular Systems, hours: 60hs. National Laboratory of Scientific Computing, Petrópolis-RJ.**
 - **2010 - 1 Summer Course: Topics in Computational Biology" State University of Norte Fluminense, 24 hours.**
 - **2004 - Molecular Markers in Biodiversity Assessment, taught by Prof. Angela P. Victoria. State University of Norte Fluminense, November 19th to 21st, 2004.**
-- **2006 - Extension Course: Therapy and Treatment for Genetic Diseases" Carlos Biophysics Institute of the Federal University of Rio de Janeiro, with a workload of 
-           16 hours on October 7th and 8th, 2006**
+- **2006 - Extension Course: Therapy and Treatment for Genetic Diseases" Carlos Biophysics Institute of the Federal University of Rio de Janeiro, with a workload of 16 hours on October 7th and 8th, 2006**
 
 
 
