@@ -6,6 +6,10 @@
 
 - **Science Fiction: Book (amateur sci-fi author): Galaxium: The Guardian of Stars: An Epic Sci-Fi Hero's Journey: A Tale of Power, Strength, Love, Science, Harmony, and Unity. https://www.amazon.com.br/Galaxium-Guardi%C3%A3o-Estrelas-Hist%C3%B3ria-Harmonia-ebook/dp/B0CP1LSPYQ**
 
+### 2025:
+
+- **Borges Osório, Joana; Gosch Berton, Giovanni; Pereira, Leandro Mattos; Potriquet, Jeremy; Cândido, Renata Russo F.; Mulvenna, Jason; Jones, Malcolm K.; Graeff-Teixeira, Carlos; Morassutti, Alessandra Loureiro. "Infection with Angiostrongylus cantonensis reveals up- and down-regulation of the protein profile in the mucus of infected slugs". Parasitology 152 4 (2025): 395-398. https://doi.org/10.1017/s0031182025000435.10.1017/s0031182025000435.**
+
 ### 2024:
 
 **Newsletter Editor/Author - Article and Video - Based on AI: Mathematical Functions Describe the Biological World,
@@ -21,10 +25,6 @@ Outreach Publications without peer review, purpose: solely scientific outreach a
 [Link to the article](https://www.linkedin.com/pulse/mathematical-function-describe-biological-world-de-mattos-pereira-xljff)**
 
 **Scientific publications**  
-
-### 2025:
-
-- **Borges Osório, Joana; Gosch Berton, Giovanni; Pereira, Leandro Mattos; Potriquet, Jeremy; Cândido, Renata Russo F.; Mulvenna, Jason; Jones, Malcolm K.; Graeff-Teixeira, Carlos; Morassutti, Alessandra Loureiro. "Infection with Angiostrongylus cantonensis reveals up- and down-regulation of the protein profile in the mucus of infected slugs". Parasitology 152 4 (2025): 395-398. https://doi.org/10.1017/s0031182025000435.10.1017/s0031182025000435.**
 
 ### 2024:
 
