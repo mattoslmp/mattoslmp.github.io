@@ -22,7 +22,7 @@ Outreach Publications without peer review, purpose: solely scientific outreach a
 
 **Scientific publications**  
 
-.**Borges Osório, Joana; Gosch Berton, Giovanni; Pereira, Leandro Mattos; Potriquet, Jeremy; Cândido, Renata Russo F.; Mulvenna, Jason; Jones, Malcolm K.; Graeff-Teixeira, Carlos; Morassutti, Alessandra Loureiro. "Infection with Angiostrongylus cantonensis reveals up- and down-regulation of the protein profile in the mucus of infected slugs". Parasitology 152 4 (2025): 395-398. https://doi.org/10.1017/s0031182025000435.10.1017/s0031182025000435 .**
+- **Borges Osório, Joana; Gosch Berton, Giovanni; Pereira, Leandro Mattos; Potriquet, Jeremy; Cândido, Renata Russo F.; Mulvenna, Jason; Jones, Malcolm K.; Graeff-Teixeira, Carlos; Morassutti, Alessandra Loureiro. "Infection with Angiostrongylus cantonensis reveals up- and down-regulation of the protein profile in the mucus of infected slugs". Parasitology 152 4 (2025): 395-398. https://doi.org/10.1017/s0031182025000435.10.1017/s0031182025000435.**
 
 - **A Journey through Cyanobacteria in Brazil: a review of novel genera and 16S rRNA sequences" accepted for publication in Cryptogamie, Algologie. S. S, G., K. R. de S., Mattos, L., & Oliveira, F. 2024.**
 
