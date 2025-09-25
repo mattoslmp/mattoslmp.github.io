@@ -1,3 +1,7 @@
+## Grant/awards:
+
+- **Research grant (awards) of $158,588 USD on the Google Cloud Platform! This grant, awarded in the "2ª edição Concurso de Projetos de Computação Avançada: Inteligência Artificial em Cloud," will empower CNP team - CIIMAR to research deeper into unraveling Fatty Acyl-AMP Ligase substrates in Cyanobacteria using artificial intelligence.**
+
 ### Publications:
 
 - **Science Fiction: Book (amateur sci-fi author): Galaxium: The Guardian of Stars: An Epic Sci-Fi Hero's Journey: A Tale of Power, Strength, Love, Science, Harmony, and Unity. https://www.amazon.com.br/Galaxium-Guardi%C3%A3o-Estrelas-Hist%C3%B3ria-Harmonia-ebook/dp/B0CP1LSPYQ**
@@ -18,13 +22,12 @@ Outreach Publications without peer review, purpose: solely scientific outreach a
 
 **Scientific publications**  
 
+.**Borges Osório, Joana; Gosch Berton, Giovanni; Pereira, Leandro Mattos; Potriquet, Jeremy; Cândido, Renata Russo F.; Mulvenna, Jason; Jones, Malcolm K.; Graeff-Teixeira, Carlos; Morassutti, Alessandra Loureiro. "Infection with Angiostrongylus cantonensis reveals up- and down-regulation of the protein profile in the mucus of infected slugs". Parasitology 152 4 (2025): 395-398. https://doi.org/10.1017/s0031182025000435.10.1017/s0031182025000435 .**
+
 - **A Journey through Cyanobacteria in Brazil: a review of novel genera and 16S rRNA sequences" accepted for publication in Cryptogamie, Algologie. S. S, G., K. R. de S., Mattos, L., & Oliveira, F. 2024.**
 
 - **Machado, L. C., Dezordi, F. Z., Lima, G. B. de, Lima, R. E. de, Silva, L. C. A., Pereira, L. de M., Silva, A. F. da, et al. (2024). Spatiotemporal transmission of SARS-CoV-2 lineages during 2020–2021 in Pernambuco—Brazil. Microbiology Spectrum, Ahead of Print.**  [Link to the Paper](https://doi.org/10.1128/spectrum.04218-23)
 
-## Grant:
-
-- **Research grant of $133,588 USD in credits on the Google Cloud Platform! This grant, awarded in the "2ª edição Concurso de Projetos de Computação Avançada: Inteligência Artificial em Cloud," will empower CNP team - CIIMAR to research deeper into unraveling Fatty Acyl-AMP Ligase substrates in Cyanobacteria using artificial intelligence.**
 ### 2023:
   
 - **De novo transcriptome assembly reveals giant hemoglobin model in Amynthas gracilis and sheds light on its future use as a biomarker of environmental metal pollution. Isis Sebastião, Leandro Mattos Pereira; Fernando R. Bachega; Lierge Ramos; Claudemir O. Souza; Francisco Adriano O. Carvalho; Patrícia Gleydes Morgante; Patrícia S. Santiago. In preparation phase.**
