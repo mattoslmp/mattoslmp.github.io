@@ -1,6 +1,6 @@
 
 - **Science Fiction: Book (amateur sci-fi author): Galaxium: The Guardian of Stars: An Epic Sci-Fi Hero's Journey: A Tale of Power, Strength, Love, Science, Harmony, and Unity. https://www.amazon.com.br/Galaxium-Guardi%C3%A3o-Estrelas-Hist%C3%B3ria-Harmonia-ebook/dp/B0CP1LSPYQ**
-- 
+
 ### Publications:
 
 ### 2024:
