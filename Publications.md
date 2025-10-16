@@ -1,14 +1,14 @@
 ## Grant/awards:
 
-- **Research grant (awards) of $158,588 USD on the Google Cloud Platform! This grant, awarded in the "2ª edição Concurso de Projetos de Computação Avançada: Inteligência Artificial em Cloud," will empower CNP team - CIIMAR to research deeper into unraveling Fatty Acyl-AMP Ligase substrates in Cyanobacteria using artificial intelligence. 2023.** 
+- **Research grant (awards) as Investigador Principal of $158,588 USD on the Google Cloud Platform! This grant, awarded in the "2ª edição Concurso de Projetos de Computação Avançada: Inteligência Artificial em Cloud," will empower CNP team - CIIMAR to research deeper into unraveling Fatty Acyl-AMP Ligase substrates in Cyanobacteria using artificial intelligence. 2023. **
 
-### Publications:
+- **TerpenoScanner (2025): Exploring and Expanding the Natural Chemical Potential of Cyanobacteria Terpenes and Their Biotechnological Potential in Portugal and Brazil through AI. Integrantes: Leandro de Mattos Pereira - Integrante / Mariane Bittencourt FagundesMariane Bittencourt Fagundes - Integrante / Pedro Nuno Leão - Integrante / Leila Zepka - Integrante / Eduardo Jacob-Lopes - Coordenador, ~$100,000 USD **
+
+**Books Science Fiction**:
 
 - **Science Fiction: Book (amateur sci-fi author): Galaxium: The Guardian of Stars: An Epic Sci-Fi Hero's Journey: A Tale of Power, Strength, Love, Science, Harmony, and Unity. https://www.amazon.com.br/Galaxium-Guardi%C3%A3o-Estrelas-Hist%C3%B3ria-Harmonia-ebook/dp/B0CP1LSPYQ**
 
-### 2025:
-
-- **Borges Osório, Joana; Gosch Berton, Giovanni; Pereira, Leandro Mattos; Potriquet, Jeremy; Cândido, Renata Russo F.; Mulvenna, Jason; Jones, Malcolm K.; Graeff-Teixeira, Carlos; Morassutti, Alessandra Loureiro. "Infection with Angiostrongylus cantonensis reveals up- and down-regulation of the protein profile in the mucus of infected slugs". Parasitology 152 4 (2025): 395-398. https://doi.org/10.1017/s0031182025000435.10.1017/s0031182025000435.**
+***Science Communication***
 
 ### 2024:
 
@@ -24,7 +24,11 @@ Outreach Publications without peer review, purpose: solely scientific outreach a
 - **Markov Models in Sequence Analysis (DNA and Protein)
 [Link to the article](https://www.linkedin.com/pulse/mathematical-function-describe-biological-world-de-mattos-pereira-xljff)**
 
-**Scientific publications**  
+**Scientific Publications in Indexed Journals**:
+
+### 2025:
+
+- **Borges Osório, Joana; Gosch Berton, Giovanni; Pereira, Leandro Mattos; Potriquet, Jeremy; Cândido, Renata Russo F.; Mulvenna, Jason; Jones, Malcolm K.; Graeff-Teixeira, Carlos; Morassutti, Alessandra Loureiro. "Infection with Angiostrongylus cantonensis reveals up- and down-regulation of the protein profile in the mucus of infected slugs". Parasitology 152 4 (2025): 395-398. https://doi.org/10.1017/s0031182025000435.10.1017/s0031182025000435.**
 
 ### 2024:
 
