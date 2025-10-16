@@ -1,8 +1,8 @@
 ## Grant/awards:
 
-- **Research grant (awards) as Investigador Principal of $158,588 USD on the Google Cloud Platform! This grant, awarded in the "2ª edição Concurso de Projetos de Computação Avançada: Inteligência Artificial em Cloud," will empower CNP team - CIIMAR to research deeper into unraveling Fatty Acyl-AMP Ligase substrates in Cyanobacteria using artificial intelligence. 2023. **
+- **Research grant (awards) as Investigador Principal of $158,588 USD on the Google/FCT! This grant, awarded in the "2ª edição Concurso de Projetos de Computação Avançada: Inteligência Artificial em Cloud," will empower CNP team - CIIMAR to research deeper into unraveling Fatty Acyl-AMP Ligase substrates in Cyanobacteria using artificial intelligence. 2023.**
 
-- **TerpenoScanner (2025): Exploring and Expanding the Natural Chemical Potential of Cyanobacteria Terpenes and Their Biotechnological Potential in Portugal and Brazil through AI. Integrantes: Leandro de Mattos Pereira - Integrante / Mariane Bittencourt FagundesMariane Bittencourt Fagundes - Integrante / Pedro Nuno Leão - Integrante / Leila Zepka - Integrante / Eduardo Jacob-Lopes - Coordenador, ~$100,000 USD **
+- **TerpenoScanner (2025): Exploring and Expanding the Natural Chemical Potential of Cyanobacteria Terpenes and Their Biotechnological Potential in Portugal and Brazil through AI. Integrantes: Leandro de Mattos Pereira - Integrante / Mariane Bittencourt FagundesMariane Bittencourt Fagundes - Integrante / Pedro Nuno Leão - Integrante / Leila Zepka - Integrante / Eduardo Jacob-Lopes - Coordenador, ~$100,000 USD**
 
 **Books Science Fiction**:
 
