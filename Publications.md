@@ -3,7 +3,7 @@
 
 - **Research Grant (Award) as Principal Investigator of $158,588 USD from Google/FCT (Fundação para a Ciência e a Tecnologia – the Portuguese Foundation for Science and Technology). This grant was awarded in the “2nd Edition of the Advanced Computing Projects Competition: Artificial Intelligence in the Cloud – 2024”, for the project “Unraveling Fatty Acyl-AMP Ligase Substrates in Cyanobacteria Using Artificial Intelligence” (project website; [FAALPred website](https://faalpred.ciimar.up.pt/). The project received the highest score in the competition.**
 
-- **TerpenoScanner (2025): Exploring and Expanding the Natural Chemical Potential of Cyanobacteria Terpenes and Their Biotechnological Potential in Portugal and Brazil through AI. CNPQ -Brazil. Integrantes: Leandro de Mattos Pereira - Integrante / Mariane Bittencourt Fagundes / Pedro Nuno Leão - Integrante / Leila Zepka - Integrante / Eduardo Jacob-Lopes - Coordenador, ~$100,000 USD**
+- **TerpenoScanner (2025): Exploring and Expanding the Natural Chemical Potential of Cyanobacteria Terpenes and Their Biotechnological Potential in Portugal and Brazil through AI. CNPQ -Brazil. Integrantes: Leandro de Mattos Pereira - Integrante / Mariane Bittencourt Fagundes / Pedro Nuno Leão - Integrante / Leila Zepka - Integrante / Eduardo Jacob-Lopes - Coordenador, ~$100,000 USD**.
 
 **Books Science Fiction**:
 
