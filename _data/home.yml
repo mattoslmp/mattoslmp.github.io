@@ -20,7 +20,7 @@ project_entries:
 
   - title: FAALPred
     url: https://faalpred.ciimar.up.pt/
-    desc: Web app para predição de fatty acyl-AMP ligases (FAALs) – CIIMAR/BB4F
+    desc: Aplicativo web para predição da especificidade de substrato (comprimento da cadeia de ácidos graxos) de fatty acyl-AMP ligases (FAALs) – CIIMAR/BB4F.
   
 
 old_project_entries:
