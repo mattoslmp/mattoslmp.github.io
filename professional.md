@@ -1,22 +1,18 @@
-### Professional Exeperience
+### Experiência profissional
 
- - **2022-2025- Junior Researcher - CIIMAR - Interdisciplinary Center for Marine and Environmental Research, University of Porto.**
+ - **2022-2025- Pesquisador Júnior - CIIMAR - Centro Interdisciplinar de Investigação Marinha e Ambiental, Universidade do Porto.**
  
- - **June 2021 – march 2022 - Postdoctoral in Genomics and Phylogenomics of SARS-CoV-2, short project participation. IAM - Fiocruz, Brazil.**
+ - **junho de 2021 – março de 2022 - Pós-doutorado em Genômica e Filogenômica do SARS-CoV-2, participação em projeto de curta duração. IAM - Fiocruz, Brasil.**
 
- - **October 2019 – October 2020 - Postdoctoral in Coral Microbiome. Federal University of Rio de Janeiro, Rio de Janeiro, Brazil.**
+ - **outubro de 2019 – outubro de 2020 - Pós-doutorado em Microbioma de Corais. Universidade Federal do Rio de Janeiro, Rio de Janeiro, Brasil.**
 
- - **December 2016 - April 2017 - Postdoctoral in the Core Facility – Experimental Center Studies of Clinical Hospital of Porto Alegre  - Research Center – UAMP,   
-    Porto Alegre, Rio Grande do Sul, Brazil.**
+ - **dezembro de 2016 – abril de 2017 - Pós-doutorado no Core Facility – Centro de Estudos Experimentais do Hospital de Clínicas de Porto Alegre - Centro de Pesquisa – UAMP, Porto Alegre, Rio Grande do Sul, Brasil.**
 
- - **December 2014 – 2016 - Postdoctoral in Molecular Biology. Genomic, Transcriptomic and Comparative Genomic Analysis of Nematode Parasites. Pontifical Catholic     
-     University of Rio Grande do Sul (PUCRS), Porto Alegre, Rio Grande do Sul, Brazil.**
+ - **dezembro de 2014 – 2016 - Pós-doutorado em Biologia Molecular. Análises genômicas, transcriptômicas e genômica comparativa de parasitas nematoides. Pontifícia Universidade Católica do Rio Grande do Sul (PUCRS), Porto Alegre, Rio Grande do Sul, Brasil.**
 
- - **2015 - 2016 - Collaborator Researcher in Bioinformatician at Petroleum Research Institute and Natural Resource, Pontifical Catholic University of Rio Grande do 
-     Sul (PUCRS), Porto Alegre, Rio Grande do Sul, Brazil.**
+ - **2015 - 2016 - Pesquisador colaborador em Bioinformática no Instituto do Petróleo e dos Recursos Naturais, Pontifícia Universidade Católica do Rio Grande do Sul (PUCRS), Porto Alegre, Rio Grande do Sul, Brasil.**
 
- - **2017 -2019 - Bioinformatician at Molecular Diagnostic Laboratory and Core Facility of Bioinformatics, Molecular Oncology Research Center, 44 hours load, CLT. 
-     Cancer Barretos Hospital, Barretos, São Paulo, Brazil.**
+ - **2017 -2019 - Bioinformata no Laboratório de Diagnóstico Molecular e Core Facility de Bioinformática, Centro de Pesquisa em Oncologia Molecular, carga horária de 44 horas, CLT. Hospital de Câncer de Barretos, Barretos, São Paulo, Brasil.**
 
- - **April 2016 – November 2018 - Bioinformatician Researcher/Individual Microentrepreneur at DATABIOMICS. Computer training and education company. CNPJ 
-     24.696.167/0001-05, Porto Alegre, Rio Grande do Sul, Brazil.**
+ - **abril de 2016 – novembro de 2018 - Pesquisador em Bioinformática/Microempreendedor Individual na DATABIOMICS. Empresa de treinamento e educação em informática. CNPJ 24.696.167/0001-05, Porto Alegre, Rio Grande do Sul, Brasil.**
+
