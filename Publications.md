@@ -8,7 +8,7 @@
 
 - **Science Fiction: Book (amateur sci-fi author): Galaxium: The Guardian of Stars: An Epic Sci-Fi Hero's Journey: A Tale of Power, Strength, Love, Science, Harmony, and Unity. https://www.amazon.com.br/Galaxium-Guardi%C3%A3o-Estrelas-Hist%C3%B3ria-Harmonia-ebook/dp/B0CP1LSPYQ**
 
-***Science Communication***
+***Science Communication:***
 
 ### 2024:
 
@@ -26,9 +26,12 @@ Outreach Publications without peer review, purpose: solely scientific outreach a
 
 
 **Scientific Publications in Indexed Journals**:
+
 ### 2025:
 
 - **Borges Osório, Joana; Gosch Berton, Giovanni; Pereira, Leandro Mattos; Potriquet, Jeremy; Cândido, Renata Russo F.; Mulvenna, Jason; Jones, Malcolm K.; Graeff-Teixeira, Carlos; Morassutti, Alessandra Loureiro. "Infection with Angiostrongylus cantonensis reveals up- and down-regulation of the protein profile in the mucus of infected slugs". Parasitology 152 4 (2025): 395-398. https://doi.org/10.1017/s0031182025000435.10.1017/s0031182025000435.**
+
+- **Genome-resolved metagenomics unveil metabolic pathways hotspots of Carbon fixation, Methane, Nitrogen and Sulfur cycles coupled to Iron oxidation and reduction in natural lakes over Top an extensive lateritic crust in the Amazonian Savanna. In preparation for submission.**
 
 ### 2024:
 
@@ -42,7 +45,7 @@ Outreach Publications without peer review, purpose: solely scientific outreach a
 
 - **In the dawn of an early invasion: No genetic diversity of Angiostrongylus cantonensis in Ecuador? Authors: Luis Fernando Solórzano-Álava, César Humberto Bedoya-Pilozo, Hilda Hernández-Álvarez, Lázara Rojas-Rivero, Misladys Rodríguez-Ortega, Jorge Fraga-Nodarse, Leandro de Mattos Pereira, Raquel de Oliveira Simões, Roberto do Val Vilela.** [Link to the Paper](https://www.mdpi.com/2076-0817/12/7/878), Pathogens, May 2023.
 
-- **Genome-resolved metagenomics unveil metabolic pathways hotspots of Carbon fixation, Methane, Nitrogen and Sulfur cycles coupled to Iron oxidation and reduction in natural lakes over Top an extensive lateritic crust in the Amazonian Savanna. In preparation for submission: Microbial Ecology Journal - The ISME Journal.** 
+ 
 
 ### 2021
 
