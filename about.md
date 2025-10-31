@@ -1,8 +1,6 @@
 ---
-layout: post
-title: Sobre
+layout: home
+title: About Leandro de Mattos Pereira
 ---
 
-This is an example page!
-
-Actually, it has the same layout of a post...
+# About Leandro de Mattos Pereira
