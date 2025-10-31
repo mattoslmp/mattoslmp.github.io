@@ -1,11 +1,12 @@
-### Teaching experience:
+### Experiência em Ensino
 
- - **2017 - Preceptor in "NGS and Bioinformatics" in the Biology and Biomedicine Programs - Care, Multiprofessional Residency Cancer - COREMU, 16-hour workload, 20      and 21 July. Barretos Cancer Hospital.**
- - **2017 - Preceptor in "NGS and Bioinformatics" in the Biology and Medicine Programs - Care, Multiprofessional Residency Cancer - COREMU, 16-hour workload, August      30th and 31st. Barretos Cancer Hospital.**
- - **2017 - Bioinformatics Course. IV Winter Course in Molecular Oncology, 23 – 27 July, 40 hours. Barretos Cancer Hospital.**
- - **2017 - Extension Course in Microbiome, workload: 44 hours. UFRGS –  Clinical Hospital of Porto Alegre (HCPA).**
- - **2016 - Bioinformatics Course: “Genome Assembly, functional annotation and analysis of biological networks”, 20 hours workload. PUC-RS**
- - **2013 - Bioinformatics Winter Course Coordinator, workload of 40 hours. Oswaldo Cruz Fiocruz Institute, RJ.**
- - **2011 - Professor of the Bioinformatics Winter Course, workload of 35 hours. Oswaldo Cruz Institute- Fiocruz, RJ.**
- - **2008 - Theoretical and Practical Course in Molecular Biology, Biological Sciences course, 78 hours. UENF, Campos-RJ.**
- - **2007 - Volunteer Professor in a social course for university admission: UENF discipline: General Biology. 1 year workload.**
+ - **2017 - Preceptor em "NGS e Bioinformática" nos Programas de Biologia e Biomedicina - Assistência, Residência Multiprofissional em Câncer - COREMU, carga horária de 16 horas, 20 e 21 de julho. Hospital de Câncer de Barretos.**
+ - **2017 - Preceptor em "NGS e Bioinformática" nos Programas de Biologia e Medicina - Assistência, Residência Multiprofissional em Câncer - COREMU, carga horária de 16 horas, 30 e 31 de agosto. Hospital de Câncer de Barretos.**
+ - **2017 - Curso de Bioinformática. IV Curso de Inverno em Oncologia Molecular, 23 – 27 de julho, 40 horas. Hospital de Câncer de Barretos.**
+ - **2017 - Curso de Extensão em Microbioma, carga horária: 44 horas. UFRGS –  Hospital de Clínicas de Porto Alegre (HCPA).**
+ - **2016 - Curso de Bioinformática: “Montagem de Genomas, anotação funcional e análise de redes biológicas”, carga horária de 20 horas. PUC-RS**
+ - **2013 - Coordenador do Curso de Inverno de Bioinformática, carga horária de 40 horas. Instituto Oswaldo Cruz – Fiocruz, RJ.**
+ - **2011 - Professor do Curso de Inverno de Bioinformática, carga horária de 35 horas. Instituto Oswaldo Cruz – Fiocruz, RJ.**
+ - **2008 - Curso Teórico e Prático de Biologia Molecular, curso de Ciências Biológicas, 78 horas. UENF, Campos-RJ.**
+ - **2007 - Professor voluntário em curso social preparatório para ingresso universitário: disciplina Biologia Geral (UENF). Duração de 1 ano.**
+
