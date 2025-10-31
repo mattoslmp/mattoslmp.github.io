@@ -15,22 +15,32 @@ navbar_entries:
   - title: Databiomics
     url: Databiomics
     
+
+project_entries:
+
+  - title: FAALPred
+    url: https://faalpred.ciimar.up.pt/
+    desc: Web app para predição de fatty acyl-AMP ligases (FAALs) – CIIMAR/BB4F
+  
+
 old_project_entries:
 
   - title: Transcriptome of Angiostrongylus cantonensis
     url: https://angiostrongylus.lad.pucrs.br/admin/
     desc: Trancriptome results from Angiostrongylus cantonensis
   
+
 footer_entries:
 
-  - title: github
+  - title: GitHub
     url: https://github.com/mattoslmp
     
-  - title: Linkedin
+  - title: LinkedIn
     url: https://www.linkedin.com/in/leandrodemattos/
   
-  - CV: Lattes
+  - title: CV (Lattes)
     url: http://lattes.cnpq.br/0378658543221383
+
 
 misc_entries:
   - title: this is an example vertical list
@@ -60,3 +70,4 @@ misc_entries:
 
           - title: it is easy to use, see _data/home.yml to see how to configure it.
             url: false
+
