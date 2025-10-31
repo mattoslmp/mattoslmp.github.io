@@ -1,6 +1,6 @@
 ### Professional Exeperience
 
- - **Junior Researcher - CIIMAR - Interdisciplinary Center for Marine and Environmental Research, University of Porto.**
+ - **2022-2025- Junior Researcher - CIIMAR - Interdisciplinary Center for Marine and Environmental Research, University of Porto.**
  
  - **June 2021 – march 2022 - Postdoctoral in Genomics and Phylogenomics of SARS-CoV-2, short project participation. IAM - Fiocruz, Brazil.**
 
