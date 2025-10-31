@@ -20,6 +20,7 @@
 - **2010 - I Curso de Verão: “Tópicos em Biologia Computacional”, Universidade Estadual do Norte Fluminense (UENF), 24 horas.**
 - **2004 - Marcadores Moleculares na Avaliação da Biodiversidade, ministrado pela Profa. Angela P. Victoria. UENF, 19 a 21 de novembro de 2004.**
 - **2006 - Curso de Extensão: “Terapia e Tratamento para Doenças Genéticas”, Instituto de Biofísica Carlos Chagas Filho (UFRJ), carga horária de 16 horas, 7 e 8 de outubro de 2006.**
+- **2001 - Serviço Militar Obrigatório - Exército.**
 
 
 
