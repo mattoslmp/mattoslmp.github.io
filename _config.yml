@@ -2,12 +2,14 @@ title: Sobre Leandro de Mattos Pereira
 author: Leandro de Mattos Pereira
 
 description: > # description of the site (multiple lines allowed)
-  
+    
   Graduado em Ciências Biológicas pela Universidade Estadual do Norte Fluminense Darcy Ribeiro (UENF), com mestrado em Biociências e Biotecnologia e doutorado em Biologia Computacional e Biologia de Sistemas pela Fundação Oswaldo Cruz (Fiocruz). 
-  Realizou pós-doutorados na Pontifícia Universidade Católica do Rio Grande do Sul (PUCRS), Universidade Federal do Rio de Janeiro (UFRJ), Fiocruz e Instituto Tecnológico Vale (ITV). Atuou como pesquisador colaborador do Instituto do Petróleo e 
-  dos Recursos Naturais (IPR/PUCRS) e como bioinformata no Hospital de Câncer de Barretos. Tem experiência em genômica, transcriptômica, proteômica, metagenômica e filogenômica, além de IA (redes neurais profundas, processamento de linguagem natural 
-  e aprendizado de máquina supervisionado e não supervisionado). Interesses atuais de pesquisa: bioinformática aplicada a análises ômicas, genômica comparativa, filogenia molecular e filogenômica, PLN e IA voltados à descoberta de enzimas e produtos 
-  naturais, anotação funcional e desenho de sequências biológicas. Tem experiência em programação em Python e R, machine learning tradicional, redes neurais, bancos de dados (SQL/NoSQL) e desenvolvimento de aplicações com Flutter.
+  Realizou pós-doutorados na Pontifícia Universidade Católica do Rio Grande do Sul (PUCRS), Universidade Federal do Rio de Janeiro (UFRJ), Fiocruz e Instituto Tecnológico Vale (ITV). 
+  Atuou como pesquisador Júnior no CIIMAR (Centro Interdisciplinar de Investigação Marinha e Ambiental, Universidade do Porto – Porto, Portugal), no projeto BluoBio4 (BB4F – BlueBio4Future). 
+  Atuou como pesquisador colaborador do Instituto do Petróleo e dos Recursos Naturais (IPR/PUCRS) e como bioinformata no Hospital de Câncer de Barretos. 
+  Tem experiência em genômica, transcriptômica, proteômica, metagenômica e filogenômica, além de IA (redes neurais profundas, processamento de linguagem natural e aprendizado de máquina supervisionado e não supervisionado). 
+  Interesses atuais de pesquisa: bioinformática aplicada a análises ômicas, genômica comparativa, filogenia molecular e filogenômica, PLN e IA voltados à descoberta de enzimas e produtos naturais, anotação funcional e desenho de sequências biológicas. 
+  Tem experiência em programação em Python e R, machine learning tradicional, redes neurais, bancos de dados (SQL/NoSQL) e desenvolvimento de aplicações com Flutter.
 
 permalink: /:slug
 
