@@ -1,28 +1,25 @@
 ### Complementary training:
 
-- **2024 - Introduction to Prompt Engineering for Generative AI. 44 minutes.**
-- **2024 - What Is Generative AI?, By: Pinar Seyhan Demirdag. LinkedIn Learning Certificate of Completion. 42 minutes.**
-- **2024 - Cultivating a Growth Mindset, By: Dr Gemma Leigh Roberts. LinkedIn Learning Certificate of Completion. 42 minutes.**
-- **2024 - Prompt Engineering: How to Talk to the AIs. Ny: Xavier Amatriain. LinkedIn Learning Certificate of Completion. 29 minutes.** 
-- **2021 - International School on Big Data and Epigenomics applied to Public Health with a duration of 30 hours, from 11/23/2020 to 11/25/2020**
-- **2021 - 2022 - Extension Course on Microbial Diversity of Environmental Samples III at PUCRS in the period 05/20/2021 to 01/20/2022**
-- **2021 - Python for Data Science and IA. IBM – Coursera. Period of Five  weeks with Final project.**
-- **2021 - Cabana Course: “Innovative methods for viral detection and discovery in genomic and metagenomic”, EMBL, November 2021, from 11/08/2021 to 11/12/2021. 40 hours.**
-- **2020 - Distance Extension Course on "Introduction to Computing for Bioinformatics (Python programming language)", promoted by the Department of Computer 
-           Science, Institute of Exact Sciences of the Federal University of Minas Gerais, in the period of 08/15/2020 on 10/15/2020, 40 hours.**
-- **2018 - NEB Summer Course on "Survival Analysis" at the Barretos Cancer Hospital - Pio XII Foundation, held from January 3 to 5, 2018,  12 hours.**
-- **2018 - Data collection and management in research using REDCap at the Barretos Cancer Hospital - Pio XII Foundation, held from 22 to 25 January 2018, 12    
-           hours.**
-- **2013 - Advanced School of Functional Genomics, 90 hours, Rio de Janeiro (UFRJ). 2012 - RNA-Seq, 45hs. Federal University of Minas Gerais. UFMG. State of Minas -            Gerais, Brazil.**
-- **2012 - International Course on Systems Biology, 80hs. Oswaldo Cruz Institute, Rio de Janeiro, Brazil.**
-- **2012 - RNAseq Course Held at the Federal University of Minas Gerais from May 14th to 18th, 2012 with a workload of 45 hours 100 point (concept A).**
-- **2011 - Functional Genomics and its applications in biomedicine, 80hrs Instituto Pasteur de Montevideo – Uruguay.**
-- **2010 - Advanced Methods of Phylogenetic Analysis, 90hrs Federal University of Rio de Janeiro (UFRJ) and European Institute of Molecular Biology (EMBL), 60hs, 
-           http://cwp.embo.org/wpc09-02**
-- **2010 - V School of Modeling Biomolecular Systems, hours: 60hs. National Laboratory of Scientific Computing, Petrópolis-RJ.**
-- **2010 - 1 Summer Course: Topics in Computational Biology" State University of Norte Fluminense, 24 hours.**
-- **2004 - Molecular Markers in Biodiversity Assessment, taught by Prof. Angela P. Victoria. State University of Norte Fluminense, November 19th to 21st, 2004.**
-- **2006 - Extension Course: Therapy and Treatment for Genetic Diseases" Carlos Biophysics Institute of the Federal University of Rio de Janeiro, with a workload of 16 hours on October 7th and 8th, 2006**
+- **2024 - Introdução à Engenharia de Prompt para IA Generativa. 44 minutos.**
+- **2024 - O que é IA Generativa?, Por: Pinar Seyhan Demirdag. LinkedIn Learning – Certificado de Conclusão. 42 minutos.**
+- **2024 - Cultivando uma Mentalidade de Crescimento, Por: Dra. Gemma Leigh Roberts. LinkedIn Learning – Certificado de Conclusão. 42 minutos.**
+- **2024 - Engenharia de Prompt: Como Conversar com as IAs. Por: Xavier Amatriain. LinkedIn Learning – Certificado de Conclusão. 29 minutos.** 
+- **2021 - Escola Internacional sobre Big Data e Epigenômica aplicada à Saúde Pública, carga horária de 30 horas, de 23/11/2020 a 25/11/2020.**
+- **2021 - 2022 - Curso de Extensão em Diversidade Microbiana de Amostras Ambientais III na PUCRS, no período de 20/05/2021 a 20/01/2022.**
+- **2021 - Python para Ciência de Dados e IA. IBM – Coursera. Período de cinco semanas com projeto final.**
+- **2021 - Curso CABANA: “Métodos inovadores para detecção e descoberta viral em genômica e metagenômica”, EMBL, novembro de 2021, de 08/11/2021 a 12/11/2021. 40 horas.**
+- **2020 - Curso de Extensão a Distância “Introdução à Computação para Bioinformática (linguagem Python)”, promovido pelo Departamento de Ciência da Computação, Instituto de Ciências Exatas da UFMG, no período de 15/08/2020 a 15/10/2020, 40 horas.**
+- **2018 - Curso de Verão NEB em “Análise de Sobrevivência” no Hospital de Câncer de Barretos – Fundação Pio XII, realizado de 3 a 5 de janeiro de 2018, 12 horas.**
+- **2018 - Coleta e gestão de dados em pesquisa utilizando REDCap no Hospital de Câncer de Barretos – Fundação Pio XII, realizado de 22 a 25 de janeiro de 2018, 12 horas.**
+- **2013 - Escola Avançada de Genômica Funcional, 90 horas, Rio de Janeiro (UFRJ). 2012 - RNA-Seq, 45 horas. Universidade Federal de Minas Gerais (UFMG), Minas Gerais, Brasil.**
+- **2012 - Curso Internacional de Biologia de Sistemas, 80 horas. Instituto Oswaldo Cruz, Rio de Janeiro, Brasil.**
+- **2012 - Curso de RNA-Seq realizado na UFMG de 14 a 18 de maio de 2012, carga horária de 45 horas, nota 100 (conceito A).**
+- **2011 - Genômica Funcional e suas aplicações em Biomedicina, 80 horas. Instituto Pasteur de Montevidéu – Uruguai.**
+- **2010 - Métodos Avançados de Análise Filogenética, 90 horas, Universidade Federal do Rio de Janeiro (UFRJ); e Instituto Europeu de Biologia Molecular (EMBL), 60 horas, http://cwp.embo.org/wpc09-02**
+- **2010 - V Escola de Modelagem de Sistemas Biomoleculares, 60 horas. Laboratório Nacional de Computação Científica (LNCC), Petrópolis-RJ.**
+- **2010 - I Curso de Verão: “Tópicos em Biologia Computacional”, Universidade Estadual do Norte Fluminense (UENF), 24 horas.**
+- **2004 - Marcadores Moleculares na Avaliação da Biodiversidade, ministrado pela Profa. Angela P. Victoria. UENF, 19 a 21 de novembro de 2004.**
+- **2006 - Curso de Extensão: “Terapia e Tratamento para Doenças Genéticas”, Instituto de Biofísica Carlos Chagas Filho (UFRJ), carga horária de 16 horas, 7 e 8 de outubro de 2006.**
 
 
 
