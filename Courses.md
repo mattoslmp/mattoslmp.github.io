@@ -1,4 +1,4 @@
-### Complementary training:
+### Cursos/Treinamento Complementar:
 
 - **2024 - Introdução à Engenharia de Prompt para IA Generativa. 44 minutos.**
 - **2024 - O que é IA Generativa?, Por: Pinar Seyhan Demirdag. LinkedIn Learning – Certificado de Conclusão. 42 minutos.**
