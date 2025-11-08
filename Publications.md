@@ -1,6 +1,6 @@
-**###Financiamento aprovado para Pesquisa:" 
+**###Financiamento aprovado para Pesquisa:**
 
-$158.588 USD do Google/FCT (Fundação para a Ciência e a Tecnologia – Portugal).
+**$158.588 USD do Google/FCT (Fundação para a Ciência e a Tecnologia – Portugal).
 Este financiamento foi concedido na “2ª Edição do Concurso de Projetos de Computação Avançada: Inteligência Artificial na Nuvem – 2023”, para o projeto “Desvendando os Substratos das Fatty Acyl-AMP Ligases em Cianobactérias Usando Inteligência Artificial”.
 O projeto recebeu a maior pontuação da competição. 👉 Website do FAALPred**
 
