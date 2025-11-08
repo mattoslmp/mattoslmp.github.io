@@ -1,12 +1,13 @@
-## Grant/awards:
+**###Financiamento aprovado para Pesquisa:" 
 
-- **Funding: $158,588 USD from Google/FCT (Fundação para a Ciência e a Tecnologia – the Portuguese Foundation for Science and Technology). This grant was awarded in the “2nd Edition of the Advanced Computing Projects Competition: Artificial Intelligence in the Cloud – 2023”, for the project “Unraveling Fatty Acyl-AMP Ligase Substrates in Cyanobacteria Using Artificial Intelligence”. The project received the highest score in the competition. 👉[FAALPred Website](https://faalpred.ciimar.up.pt/).**
+$158.588 USD do Google/FCT (Fundação para a Ciência e a Tecnologia – Portugal).
+Este financiamento foi concedido na “2ª Edição do Concurso de Projetos de Computação Avançada: Inteligência Artificial na Nuvem – 2023”, para o projeto “Desvendando os Substratos das Fatty Acyl-AMP Ligases em Cianobactérias Usando Inteligência Artificial”.
+O projeto recebeu a maior pontuação da competição. 👉 Website do FAALPred**
 
-- **TerpenoScanner (2025): Exploring and Expanding the Natural Chemical Potential of Cyanobacteria Terpenes and Their Biotechnological Potential in Portugal and Brazil through AI. CNPQ -Brazil. Integrantes: Leandro de Mattos Pereira - Integrante / Mariane Bittencourt Fagundes / Pedro Nuno Leão - Integrante / Leila Zepka - Integrante / Eduardo Jacob-Lopes - Coordenador, ~$100,000 USD**.
-
-**Books Science Fiction**:
-
-- **Science Fiction: Book (amateur sci-fi author): Galaxium: The Guardian of Stars: An Epic Sci-Fi Hero's Journey: A Tale of Power, Strength, Love, Science, Harmony, and Unity. https://www.amazon.com.br/Galaxium-Guardi%C3%A3o-Estrelas-Hist%C3%B3ria-Harmonia-ebook/dp/B0CP1LSPYQ**
+**TerpenoScanner (2025): Explorando e Expandindo o Potencial Químico Natural dos Terpenos de Cianobactérias e Seu Potencial Biotecnológico em Portugal e no Brasil por meio de IA.
+CNPq - Brasil.
+Integrantes: Leandro de Mattos Pereira (integrante) / Mariane Bittencourt Fagundes / Pedro Nuno Leão (integrante) / Leila Zepka (integrante) / Eduardo Jacob-Lopes (coordenador).
+Valor aproximado: $100.000 USD.**
 
 ***Science Communication:***
 
