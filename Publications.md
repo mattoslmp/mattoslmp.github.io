@@ -32,7 +32,7 @@ Outreach Publications without peer review, purpose: solely scientific outreach a
 [Link to the article](https://www.linkedin.com/pulse/mathematical-function-describe-biological-world-de-mattos-pereira-xljff)**
 
 
-**Scientific Publications in Indexed Journals**:
+**Scientific Publications in Indexed Journals (PUBMED)**:
 
 ### 2025:
 
