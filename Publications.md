@@ -1,8 +1,15 @@
+## Livros – Ficção Científica:
+
+**Ficção Científica: Livro (autor amador de ficção científica):**  
+*Galaxium: O Guardião das Estrelas – Uma Jornada Épica do Herói de Ficção Científica: Uma História de Poder, Força, Amor, Ciência, Harmonia e Unidade.*  
+📘 [Amazon - Galaxium](https://www.amazon.com.br/Galaxium-Guardi%C3%A3o-Estrelas-Hist%C3%B3ria-Harmonia-ebook/dp/B0CP1LSPYQ)
+
+
 **###Financiamento aprovado para Pesquisa:**
 
-**$158.588 USD do Google/FCT (Fundação para a Ciência e a Tecnologia – Portugal).
-Este financiamento foi concedido na “2ª Edição do Concurso de Projetos de Computação Avançada: Inteligência Artificial na Nuvem – 2023”, para o projeto “Desvendando os Substratos das Fatty Acyl-AMP Ligases em Cianobactérias Usando Inteligência Artificial”.
-O projeto recebeu a maior pontuação da competição. 👉 Website do FAALPred**
+**$158.588 USD do Google/FCT (Fundação para a Ciência e a Tecnologia – Portugal).  
+Este financiamento foi concedido na “2ª Edição do Concurso de Projetos de Computação Avançada: Inteligência Artificial na Nuvem – 2023”, para o projeto “Desvendando os Substratos das Fatty Acyl-AMP Ligases em Cianobactérias Usando Inteligência Artificial”.  
+O projeto recebeu a maior pontuação da competição. 👉 [Website do FAALPred](https://faalpred.ciimar.up.pt/)**
 
 **TerpenoScanner (2025): Explorando e Expandindo o Potencial Químico Natural dos Terpenos de Cianobactérias e Seu Potencial Biotecnológico em Portugal e no Brasil por meio de IA.
 CNPq - Brasil.
