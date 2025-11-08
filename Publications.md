@@ -1,4 +1,4 @@
-## Livros – Ficção Científica:
+## Livros – Ficção Científica (Autor de ficção científica - amador):
 
 **Ficção Científica: Livro (autor amador de ficção científica):**  
 *Galaxium: O Guardião das Estrelas – Uma Jornada Épica do Herói de Ficção Científica: Uma História de Poder, Força, Amor, Ciência, Harmonia e Unidade.*  
