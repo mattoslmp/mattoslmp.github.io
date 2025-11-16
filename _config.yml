@@ -7,9 +7,9 @@ description: > # description of the site (multiple lines allowed)
   Realizou pós-doutorados na Pontifícia Universidade Católica do Rio Grande do Sul (PUCRS), Universidade Federal do Rio de Janeiro (UFRJ), Fiocruz e Instituto Tecnológico Vale (ITV). 
   Atuou como pesquisador Júnior no CIIMAR (Centro Interdisciplinar de Investigação Marinha e Ambiental, Universidade do Porto – Porto, Portugal), no projeto BluoBio4 (BB4F – BlueBio4Future). 
   Atuou como pesquisador colaborador (sem vínculos lucrativos) do Instituto do Petróleo e dos Recursos Naturais (IPR/PUCRS) e como bioinformata no Hospital de Câncer de Barretos. 
-  Tem experiência em genômica, transcriptômica, proteômica, metagenômica e filogenômica, além de IA (redes neurais profundas, processamento de linguagem natural e aprendizado de máquina supervisionado e não supervisionado). 
-  Interesses atuais de pesquisa: bioinformática aplicada a análises ômicas, genômica comparativa, filogenia molecular e filogenômica, PLN e IA voltados à descoberta de enzimas e produtos naturais, anotação funcional e desenho de sequências biológicas. 
-  Tem experiência em programação em Python e R, machine learning tradicional, redes neurais, bancos de dados (SQL/NoSQL) e desenvolvimento de aplicações com Flutter.
+  Tem experiência em genômica, transcriptômica, proteômica, metagenômica e filogenômica, além de Inteligência artificial (redes neurais profundas e aprendizado de máquina tradicional, processamento de linguagem natural e aprendizado de máquina supervisionado e não supervisionado). 
+  Interesses atuais de pesquisa: bioinformática aplicada a análises ômicas, genômica comparativa, filogenia molecular e filogenômica, Processamento de Linguagem Natural e IA voltados à descoberta de enzimas e produtos naturais, anotação funcional e desenho de sequências biológicas. 
+  Tem experiência em programação em Perl, Python e R, machine learning tradicional, redes neurais, bancos de dados (SQL/NoSQL), desenvolvimento de plataformas WEB (Streamlit, Flask) e desenvolvimento de aplicações com Flutter.
 
 permalink: /:slug
 
