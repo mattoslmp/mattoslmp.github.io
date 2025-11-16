@@ -7,7 +7,7 @@
 
 ### Financiamento aprovado para Pesquisas:
 
-**Prêmio de $158.588 USD do Google/FCT (Fundação para a Ciência e a Tecnologia – Portugal).  
+**Prêmio de $158.588 USD do Google/FCT (Fundação para a Ciência e a Tecnologia – Portugal).**  
 
 Este financiamento foi concedido na “2ª Edição do Concurso de Projetos de Computação Avançada: Inteligência Artificial na Nuvem – 2023”, para o projeto “Desvendando os Substratos das Fatty Acyl-AMP Ligases em Cianobactérias Usando Inteligência Artificial”. Equipe: PI: Leandro de Mattos Pereira, CO-PI: Pedro Leão, Anne Liong, Maria Lígia da Silva Souza, Vitor Vasconcellos. O projeto recebeu a maior pontuação da competição. 👉 [Website do FAALPred](https://faalpred.ciimar.up.pt/)**. 
 
