@@ -10,7 +10,6 @@ description: > # description of the site (multiple lines allowed)
   Tem experiência em genômica, transcriptômica, proteômica, metagenômica e filogenômica, além de Inteligência artificial (redes neurais profundas e aprendizado de máquina tradicional, processamento de linguagem natural e aprendizado de máquina supervisionado e não supervisionado). 
   Interesses atuais de pesquisa: bioinformática aplicada a análises ômicas, genômica comparativa, filogenia molecular e filogenômica, Processamento de Linguagem Natural e IA voltados à descoberta de enzimas e produtos naturais, anotação funcional e desenho de sequências biológicas. 
   Tem experiência em programação em Perl, Python e R, machine learning tradicional, redes neurais, bancos de dados (SQL/NoSQL), desenvolvimento de plataformas WEB (Streamlit, Flask) e desenvolvimento de aplicações com Flutter.
-
 permalink: /:slug
 
 twitter:
