@@ -3,13 +3,21 @@ author: Leandro de Mattos Pereira
 
 description: > # description of the site (multiple lines allowed)
 
-  Graduado em Ciências Biológicas pela Universidade Estadual do Norte Fluminense Darcy Ribeiro (UENF), com mestrado em Biociências e Biotecnologia e doutorado em Biologia Computacional e Biologia de Sistemas pela Fundação Oswaldo Cruz (Fiocruz). 
-  Realizou pós-doutorados na Pontifícia Universidade Católica do Rio Grande do Sul, programa de Pós Graduação em Biologia Molecular - PUCRS, Universidade Federal do Rio de Janeiro, pós-doc no Centro de Pesquisas e Estudos experimentais (Hospital de Clínicas de Porto Alegre), programa de Pós-graduação em Microbiologia (UFRJ, Rio de Janeiro), Fiocruz (Programa de Pós-Graduação em Biociências e Biotecnologia em Saúde, Pernambuco) e Instituto Tecnológico Vale (ITV, Programa de Pós-Graduação em Biodiversidade, Belém do Pará). 
-  Atuou como pesquisador Júnior no CIIMAR (Centro Interdisciplinar de Investigação Marinha e Ambiental, Universidade do Porto – Porto, Portugal), no projeto BluoBio4 (BB4F – BlueBio4Future, https://bb4f.ciimar.up.pt//team/). 
-  Atuou como pesquisador colaborador (sem vínculos lucrativos) do Instituto do Petróleo e dos Recursos Naturais (IPR/PUCRS) e como bioinformata no Hospital de Câncer de Barretos. 
-  Tem experiência em genômica, transcriptômica, proteômica, metagenômica e filogenômica, além de Inteligência artificial (redes neurais profundas e aprendizado de máquina tradicional, processamento de linguagem natural e aprendizado de máquina supervisionado e não supervisionado). 
-  Interesses atuais de pesquisa: bioinformática aplicada a análises ômicas, genômica comparativa, filogenia molecular e filogenômica, Processamento de Linguagem Natural e IA voltados à descoberta de enzimas e produtos naturais, anotação funcional e desenho de sequências biológicas. 
-  Tem experiência em programação em Perl, Python e R, machine learning tradicional, redes neurais, bancos de dados (SQL/NoSQL), desenvolvimento de plataformas WEB (Streamlit, Flask) e desenvolvimento de aplicações com Flutter.
+Graduado em Ciências Biológicas pela Universidade Estadual do Norte Fluminense Darcy Ribeiro (UENF), com mestrado em Biociências e Biotecnologia e doutorado em Biologia Computacional e Biologia de Sistemas pela Fundação Oswaldo Cruz (Fiocruz).
+
+Realizou pós-doutorados na Pontifícia Universidade Católica do Rio Grande do Sul (PUCRS), no Laboratório de Parasitologia (Programa de Pós-Graduação em Biologia Molecular); no Centro de Pesquisas e Estudos Experimentais do Hospital de Clínicas de Porto Alegre; na Universidade Federal do Rio de Janeiro (UFRJ), no Laboratório de Biotecnologia e Ecologia Microbiana (Programa de Pós-Graduação em Microbiologia); na Fiocruz Pernambuco (Programa de Pós-Graduação em Biociências e Biotecnologia em Saúde); e no Instituto Tecnológico Vale (ITV), no Programa de Pós-Graduação em Biodiversidade, em Belém do Pará.
+
+Atuou como pesquisador júnior no CIIMAR (Centro Interdisciplinar de Investigação Marinha e Ambiental, Universidade do Porto, Portugal), no projeto BlueBio4Future (BB4F – https://bb4f.ciimar.up.pt//team/
+).
+
+Atuou também como pesquisador colaborador (sem vínculo empregatício) do Instituto do Petróleo e dos Recursos Naturais (IPR/PUCRS) e como bioinformata no Hospital de Câncer de Barretos.
+
+Possui experiência em genômica, transcriptômica, proteômica, metagenômica e filogenômica, além de Inteligência Artificial (redes neurais profundas e aprendizado de máquina tradicional, processamento de linguagem natural e aprendizado de máquina supervisionado e não supervisionado).
+
+Seus interesses atuais de pesquisa incluem: bioinformática aplicada a análises ômicas, genômica comparativa, filogenia molecular e filogenômica, processamento de linguagem natural e IA voltados à descoberta de enzimas e produtos naturais, anotação funcional e desenho de sequências biológicas.
+
+Tem experiência em programação em Perl, Python e R, machine learning tradicional, redes neurais, bancos de dados (SQL/NoSQL), desenvolvimento de plataformas web (Streamlit, Flask) e desenvolvimento de aplicações com Flutter.
+
 permalink: /:slug
 
 twitter:
