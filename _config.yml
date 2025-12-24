@@ -1,28 +1,28 @@
 title: Sobre Leandro de Mattos Pereira
 author: Leandro de Mattos Pereira
+
 description: > # description of the site (multiple lines allowed)
+  Graduado em Ciências Biológicas pela Universidade Estadual do Norte Fluminense Darcy Ribeiro (UENF), com mestrado em Biociências e Biotecnologia e doutorado em Biologia Computacional e Biologia de Sistemas pela Fundação Oswaldo Cruz (Fiocruz).
 
-Graduado em Ciências Biológicas pela Universidade Estadual do Norte Fluminense Darcy Ribeiro (UENF), com mestrado em Biociências e Biotecnologia e doutorado em Biologia Computacional e Biologia de Sistemas pela Fundação Oswaldo Cruz (Fiocruz).
+  Realizou pós-doutorados na Pontifícia Universidade Católica do Rio Grande do Sul (PUCRS) – Laboratório de Parasitologia – Programa de Pós-Graduação em Biologia Molecular; no Centro de Pesquisas e Estudos Experimentais do Hospital de Clínicas de Porto Alegre; na Universidade Federal do Rio de Janeiro (UFRJ) – Laboratório de Biotecnologia e Ecologia Microbiana, Programa de Pós-Graduação em Microbiologia; na Fiocruz Pernambuco – Programa de Pós-Graduação em Biociências e Biotecnologia em Saúde; e no Instituto Tecnológico Vale (ITV) – Programa de Pós-Graduação em Biodiversidade, em Belém do Pará.
 
-Realizou pós-doutorados na Pontifícia Universidade Católica do Rio Grande do Sul (PUCRS) – Laboratório de Parasitologia – Programa de Pós-Graduação em Biologia Molecular; no Centro de Pesquisas e Estudos Experimentais do Hospital de Clínicas de Porto Alegre; na Universidade Federal do Rio de Janeiro (UFRJ) – Laboratório de Biotecnologia e Ecologia Microbiana, Programa de Pós-Graduação em Microbiologia; na Fiocruz Pernambuco – Programa de Pós-Graduação em Biociências e Biotecnologia em Saúde; e no Instituto Tecnológico Vale (ITV) – Programa de Pós-Graduação em Biodiversidade, em Belém do Pará.
+  Atuou como pesquisador júnior no CIIMAR (Centro Interdisciplinar de Investigação Marinha e Ambiental, Universidade do Porto, Portugal), no projeto BlueBio4Future (BB4F – https://bb4f.ciimar.up.pt//team/).
 
-Atuou como pesquisador júnior no CIIMAR (Centro Interdisciplinar de Investigação Marinha e Ambiental, Universidade do Porto, Portugal), no projeto BlueBio4Future (BB4F – https://bb4f.ciimar.up.pt//team/).
+  Atuou também como pesquisador colaborador (sem vínculo empregatício) do Instituto do Petróleo e dos Recursos Naturais (IPR/PUCRS). Posteriormente como bioinformata no Hospital de Câncer de Barretos.
 
-Atuou também como pesquisador colaborador (sem vínculo empregatício) do Instituto do Petróleo e dos Recursos Naturais (IPR/PUCRS). Posteriormente como bioinformata no Hospital de Câncer de Barretos.
+  Possui experiência em genômica, transcriptômica, proteômica, metagenômica e filogenômica, além de Inteligência Artificial, redes neurais profundas: transformers e aprendizado de máquina tradicional, processamento de linguagem natural e aprendizado de máquina supervisionado e não supervisionado.
 
-Possui experiência em genômica, transcriptômica, proteômica, metagenômica e filogenômica, além de Inteligência Artificial, redes neurais profundas: transformers e aprendizado de máquina tradicional, processamento de linguagem natural e aprendizado de máquina supervisionado e não supervisionado).
+  Seus interesses atuais de pesquisa incluem: bioinformática aplicada a análises ômicas, genômica comparativa, filogenia molecular e filogenômica, processamento de linguagem natural e IA voltados à descoberta de enzimas e produtos naturais, anotação funcional e desenho de sequências biológicas.
 
-Seus interesses atuais de pesquisa incluem: bioinformática aplicada a análises ômicas, genômica comparativa, filogenia molecular e filogenômica, processamento de linguagem natural e IA voltados à descoberta de enzimas e produtos naturais, anotação funcional e desenho de sequências biológicas.
-
-Tem experiência em programação em Perl, Python e R, machine learning tradicional, redes neurais, bancos de dados (PostgreSQL, SQL), desenvolvimento de plataformas web (Streamlit, Flask) e desenvolvimento de aplicações com Flutter.
+  Tem experiência em programação em Perl, Python e R, machine learning tradicional, redes neurais, bancos de dados (PostgreSQL, SQL), desenvolvimento de plataformas web (Streamlit, Flask) e desenvolvimento de aplicações com Flutter.
 
 permalink: /:slug
 
 twitter:
-    username: mattoslmp # update or delete this
-    card: summary_large_image
+  username: mattoslmp # update or delete this
+  card: summary_large_image
 
-#theme: moonwalk # if you are using GitHub Pages, change it to remote_theme: abhinavs/moonwalk
+# theme: moonwalk # if you are using GitHub Pages, change it to remote_theme: abhinavs/moonwalk
 remote_theme: abhinavs/moonwalk
 
 theme_config:
@@ -32,21 +32,20 @@ theme_config:
   date_format: "%Y-%m-%d" # customize how date is formatted
   show_description: true # show blog description
   show_navbar: true # show horizontal navbar
-  show_footer: true # show footer links in home page,add in _data/home.yml
+  show_footer: true # show footer links in home page, add in _data/home.yml
   show_copyright: true # show copyright notice in footer
   # following keys are using to create home layout
   show_projects: true # show projects as cards, add in _data/home.yml
- # show_blog: true # show blog posts added in _posts
+  # show_blog: true # show blog posts added in _posts
   show_old_projects: true # show old projects as cards, add in _data/home.yml
   show_misc_list: false # show generic vertical list for misc details, add _data/home.yml
   # options for "home" page
   home:
- #   title_projects: Portfolio
- #  title_misc_list: Details
- #  title_blog: Blog
-    title_old_projects: Old Projects
- 
-    title: FAALPred    
+    # title_projects: Portfolio
+    # title_misc_list: Details
+    # title_blog: Blog
+    title_old_projects: "Old Projects"
+    title: "FAALPred"
 
 soopr:
   publish_token: "" # sign up at https://www.soopr.co to get your publish token and personalize share and reaction options
@@ -58,4 +57,5 @@ sass:
 
 plugins:
   - jekyll-feed
-  - jekyll-soopr-seo-tag 
+  - jekyll-soopr-seo-tag
+
