@@ -343,6 +343,53 @@ footer  {
   margin-top: 2rem;
 }
 
+.publication-grid {
+  display: grid;
+  gap: 2rem;
+}
+
+.publication-card {
+  background: var(--bg-secondary);
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+  display: grid;
+  gap: 1.5rem;
+}
+
+.publication-header h3 {
+  margin-bottom: 0.75rem;
+}
+
+.publication-meta {
+  margin: 0 0 0.5rem;
+  color: #475569;
+}
+
+.publication-abstract {
+  margin: 0;
+  color: #1e293b;
+}
+
+.publication-figures {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.publication-figures img {
+  width: 100%;
+  border-radius: 14px;
+  display: block;
+  object-fit: cover;
+}
+
+.publication-figures figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #475569;
+}
+
 .info-card {
   background: var(--bg-secondary);
   border-radius: 18px;
