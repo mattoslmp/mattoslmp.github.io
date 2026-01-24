@@ -1,6 +1,7 @@
 ---
 layout: default
 title: News & Articles
+permalink: /articles/
 ---
 
 # News & Articles
