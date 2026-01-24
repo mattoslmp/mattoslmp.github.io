@@ -60,6 +60,14 @@ footer  {
   box-shadow: 0 20px 60px rgba(15, 23, 42, 0.3);
 }
 
+.hero h1,
+.hero h2,
+.hero p,
+.hero li,
+.hero a {
+  color: #f8f9fb;
+}
+
 .hero-grid {
   display: grid;
   gap: 2.5rem;
