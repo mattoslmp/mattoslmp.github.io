@@ -15,13 +15,24 @@
         {% endif %}
 
         <div class="credits">
-          {%- if site.theme_config.show_copyright == true -%}
-            &copy;&nbsp;{{ "now" | date: "%Y" }}&nbsp;{{ site.author }}&nbsp;•&nbsp;
-          {%- endif -%}
-          {%- if site.soopr -%}
-            Powered by <a href="https://www.soopr.co" target="_blank" rel="noreferrer">Soopr</a>&nbsp;•&nbsp;
-          {%- endif -%}
-          Theme&nbsp;<a href="https://github.com/abhinavs/moonwalk" target="_blank" rel="noreferrer">Moonwalk</a>
+          <img class="credits-logo" src="{{ '/assets/databiomics-logo.svg' | relative_url }}" alt="Databiomics">
+          <span class="credits-links" aria-label="Siga a Databiomics">
+            <a href="https://www.linkedin.com/feed/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM.5 8.5h4V23h-4V8.5zM8.5 8.5h3.8v2h.1c.53-1 1.84-2.1 3.8-2.1 4.06 0 4.8 2.67 4.8 6.14V23h-4v-6.4c0-1.53-.03-3.5-2.13-3.5-2.14 0-2.47 1.67-2.47 3.39V23h-4V8.5z"/>
+              </svg>
+            </a>
+            <a href="https://github.com/mattoslmp" target="_blank" rel="noreferrer" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path d="M12 0C5.37 0 0 5.38 0 12.02c0 5.3 3.44 9.8 8.2 11.39.6.11.82-.26.82-.58 0-.29-.01-1.05-.02-2.06-3.34.73-4.04-1.61-4.04-1.61-.55-1.4-1.34-1.77-1.34-1.77-1.09-.75.08-.74.08-.74 1.2.09 1.84 1.24 1.84 1.24 1.07 1.85 2.8 1.31 3.49 1 .11-.78.42-1.31.76-1.61-2.66-.31-5.47-1.34-5.47-5.96 0-1.32.47-2.4 1.24-3.24-.12-.31-.54-1.56.12-3.25 0 0 1.01-.33 3.3 1.23a11.4 11.4 0 013.01-.41c1.02 0 2.04.14 3.01.41 2.29-1.56 3.3-1.23 3.3-1.23.66 1.69.24 2.94.12 3.25.77.84 1.24 1.92 1.24 3.24 0 4.63-2.81 5.65-5.49 5.95.43.38.82 1.12.82 2.26 0 1.63-.01 2.95-.01 3.35 0 .32.22.7.83.58C20.56 21.82 24 17.32 24 12.02 24 5.38 18.63 0 12 0z"/>
+              </svg>
+            </a>
+            <a href="https://www.youtube.com/@Databiomics" target="_blank" rel="noreferrer" aria-label="YouTube">
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path d="M23.5 6.2a2.9 2.9 0 00-2.05-2.05C19.7 3.6 12 3.6 12 3.6s-7.7 0-9.45.55A2.9 2.9 0 00.5 6.2 30.4 30.4 0 000 12a30.4 30.4 0 00.5 5.8 2.9 2.9 0 002.05 2.05c1.75.55 9.45.55 9.45.55s7.7 0 9.45-.55a2.9 2.9 0 002.05-2.05A30.4 30.4 0 0024 12a30.4 30.4 0 00-.5-5.8zM9.6 15.5V8.5l6.2 3.5-6.2 3.5z"/>
+              </svg>
+            </a>
+          </span>
         </div>
       </div>
     </main>
@@ -35,4 +46,3 @@
     {%- endif -%}
   </body>
 </html>
-

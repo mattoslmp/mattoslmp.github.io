@@ -194,6 +194,24 @@ p code, li code {
     margin-left: 0.5rem;
     vertical-align: middle;
   }
+  .credits-logo {
+    height: 48px;
+  }
+  .credits-links {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-left: 0.75rem;
+  }
+  .credits-links a {
+    display: inline-flex;
+    align-items: center;
+  }
+  .credits-links svg {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+  }
   a {
     color: var(--text);
     text-decoration: none;
