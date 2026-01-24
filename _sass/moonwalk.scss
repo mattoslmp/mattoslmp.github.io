@@ -188,6 +188,12 @@ p code, li code {
   color: var(--text);
   margin: 8em auto -4em auto;
   text-align: center;
+  img {
+    display: inline-block;
+    height: 24px;
+    margin-left: 0.5rem;
+    vertical-align: middle;
+  }
   a {
     color: var(--text);
     text-decoration: none;
