@@ -206,6 +206,7 @@ footer  {
 
 .lead-form input,
 .contact-form input,
+.contact-form select,
 .contact-form textarea {
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.35);
@@ -215,10 +216,17 @@ footer  {
 }
 
 .contact-form input,
+.contact-form select,
 .contact-form textarea {
   border-color: rgba(15, 23, 42, 0.15);
   background: var(--bg-secondary);
   color: var(--text);
+}
+
+.form-note {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #475569;
 }
 
 .checkbox {

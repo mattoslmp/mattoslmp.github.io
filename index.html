@@ -303,14 +303,29 @@ layout: landing
           <input type="text" name="full-name" required>
         </label>
         <label>
-          E-mail
-          <input type="email" name="contact-email" required>
+          Instituição
+          <input type="text" name="institution" required>
         </label>
         <label>
-          Mensagem
-          <textarea name="message" rows="4" placeholder="Como posso ajudar?"></textarea>
+          Endereço
+          <input type="text" name="address" required>
         </label>
-        <button class="button primary" type="submit">Enviar mensagem</button>
+        <label>
+          Interesse
+          <select name="interest" required>
+            <option value="" disabled selected>Selecione uma opção</option>
+            <option value="Curso">Curso</option>
+            <option value="Servicos">Serviços</option>
+            <option value="Palestra">Palestra</option>
+            <option value="Aula">Aula</option>
+          </select>
+        </label>
+        <label>
+          Detalhes da solicitação
+          <textarea name="message" rows="5" placeholder="Descreva sua necessidade, prazos e informações adicionais."></textarea>
+        </label>
+        <button class="button primary" type="submit">Enviar para Databiomics</button>
+        <p class="form-note">Prefere WhatsApp? <a href="https://wa.me/5522999796893" target="_blank" rel="noreferrer">Clique aqui para enviar mensagem</a>.</p>
       </form>
     </div>
   </div>
