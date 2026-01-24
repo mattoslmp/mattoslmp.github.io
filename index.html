@@ -210,11 +210,15 @@ layout: landing
       <iframe name="videoPlayer" src="https://www.youtube.com/embed/VIDEO_ID_1" title="Vídeo selecionado do canal Databiomics" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     <div class="video-list">
-      <button type="button" data-video="VIDEO_ID_1">Aula 1 · Introdução à Bioinformática</button>
-      <button type="button" data-video="VIDEO_ID_2">Aula 2 · Genômica e Pipeline</button>
-      <button type="button" data-video="VIDEO_ID_3">Aula 3 · IA aplicada em biologia</button>
-      <button type="button" data-video="VIDEO_ID_4">Aula 4 · Estudos de caso</button>
-      <p class="video-note">Substitua os <strong>VIDEO_ID</strong> pelos IDs reais dos vídeos do canal.</p>
+      <button type="button" data-video="VIDEO_ID_1">Vídeo 1 · Introdução à Bioinformática</button>
+      <button type="button" data-video="VIDEO_ID_2">🎬 Vídeo 2 · Bioinformática, Genômica e IA aplicadas à ciência real</button>
+      <button type="button" data-video="VIDEO_ID_3">🎬 Vídeo 3 · O que realmente importa em Bioinformática (para pesquisa e projetos reais)</button>
+      <button type="button" data-video="VIDEO_ID_4">Vídeo 4 · Genômica e pipelines: da teoria à prática científica</button>
+      <button type="button" data-video="VIDEO_ID_5">🎬 Vídeo 5 · Inteligência Artificial aplicada à biologia: o que funciona de verdade</button>
+      <button type="button" data-video="VIDEO_ID_6">🎬 Vídeo 6 · Estudo de caso: do dado biológico ao resultado científico</button>
+      <button type="button" data-video="VIDEO_ID_7">🎬 Vídeo 7 · Como posso ajudar seu projeto, laboratório ou instituição</button>
+      <button type="button" data-video="HbSAY_IjbCY">Vídeo 8 · AI Agents in the Field (Agriculture and Environmental Research)</button>
+      <p class="video-note">Substitua os <strong>VIDEO_ID</strong> pelos IDs reais dos vídeos 1 a 7 do canal.</p>
     </div>
   </div>
   <script>
@@ -225,6 +229,13 @@ layout: landing
       });
     });
   </script>
+</section>
+
+<section id="newsletter" class="section">
+  <div class="section-heading">
+    <h2>Newsletter Databiomics</h2>
+    <p>Seção Newsletter Databiomics: <a href="https://www.linkedin.com/newsletters/mathematics-ai-meets-biology-7211465469294178304/" target="_blank" rel="noreferrer">Mathematics AI Meets Biology</a>.</p>
+  </div>
 </section>
 
 <section id="divulgacao-cursos" class="section">
@@ -308,3 +319,44 @@ layout: landing
     <button class="button ghost" type="button">Show details</button>
   </div>
 </section>
+
+<footer class="site-footer">
+  <div class="footer-content">
+    <div class="footer-block">
+      <h2>Contato para visitas</h2>
+      <p>Agende uma visita: <a href="mailto:databiomics@gmail.com">databiomics@gmail.com</a></p>
+      <p>WhatsApp: <a href="https://wa.me/5522999796893" target="_blank" rel="noreferrer">+55 (22) 99979-6893</a></p>
+    </div>
+    <div class="footer-block">
+      <h2>Visitante</h2>
+      <p id="visitor-country">Carregando país do visitante...</p>
+      <img id="visitor-flag" class="visitor-flag" alt="Bandeira do país visitante" loading="lazy" hidden>
+    </div>
+  </div>
+</footer>
+
+<script>
+  fetch("https://ipapi.co/json/")
+    .then((response) => response.json())
+    .then((data) => {
+      const countryName = data.country_name || "País não identificado";
+      const countryCode = (data.country_code || "").toLowerCase();
+      const countryLabel = document.getElementById("visitor-country");
+      const flagImage = document.getElementById("visitor-flag");
+
+      if (countryLabel) {
+        countryLabel.textContent = `País do visitante: ${countryName}`;
+      }
+
+      if (flagImage && countryCode) {
+        flagImage.src = `https://flagcdn.com/${countryCode}.svg`;
+        flagImage.hidden = false;
+      }
+    })
+    .catch(() => {
+      const countryLabel = document.getElementById("visitor-country");
+      if (countryLabel) {
+        countryLabel.textContent = "Não foi possível identificar o país do visitante.";
+      }
+    });
+</script>
