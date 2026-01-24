@@ -7,6 +7,7 @@ layout: landing
   <a href="#servicos">Serviços</a>
   <a href="#cursos">Cursos &amp; Palestras</a>
   <a href="#videos">Vídeos</a>
+  <a href="#artigos">Artigos</a>
   <a href="#divulgacao-cursos">Divulgação</a>
   <a href="#programas">Programas</a>
   <a href="{{ '/articles' | relative_url }}">News/Articles</a>
@@ -211,10 +212,10 @@ layout: landing
       <iframe name="videoPlayer" src="https://www.youtube.com/embed/VIDEO_ID_1" title="Vídeo selecionado do canal Databiomics" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     <div class="video-list">
-      <button type="button" data-video="VIDEO_ID_1">Aula 1 · Introdução à Bioinformática</button>
-      <button type="button" data-video="VIDEO_ID_2">Aula 2 · Genômica e Pipeline</button>
-      <button type="button" data-video="VIDEO_ID_3">Aula 3 · IA aplicada em biologia</button>
-      <button type="button" data-video="VIDEO_ID_4">Aula 4 · Estudos de caso</button>
+      <button type="button" data-video="VIDEO_ID_1">Vídeo 1 · Introdução à Bioinformática</button>
+      <button type="button" data-video="VIDEO_ID_2">🎬 Vídeo 2 · Bioinformática, Genômica e IA aplicadas à ciência real</button>
+      <button type="button" data-video="VIDEO_ID_3">Vídeo 3 · IA aplicada em biologia</button>
+      <button type="button" data-video="VIDEO_ID_4">Vídeo 4 · Estudos de caso</button>
       <p class="video-note">Substitua os <strong>VIDEO_ID</strong> pelos IDs reais dos vídeos do canal.</p>
     </div>
   </div>
@@ -226,6 +227,30 @@ layout: landing
       });
     });
   </script>
+</section>
+
+<section id="artigos" class="section">
+  <div class="section-heading">
+    <h2>Artigos selecionados</h2>
+    <p>Resumo dos principais artigos publicados. Veja a lista completa na página dedicada.</p>
+  </div>
+  <div class="card-grid compact">
+    <article class="info-card">
+      <h3>FAALPred (2026)</h3>
+      <p>Diversity of FAAL enzymes and prediction of their substrate specificity using FAALPred.</p>
+    </article>
+    <article class="info-card">
+      <h3>SARS-CoV-2 mutations in Brazil (2021)</h3>
+      <p>From genomics to putative clinical conditions.</p>
+    </article>
+    <article class="info-card">
+      <h3>Angiostrongylus cantonensis (2021)</h3>
+      <p>De novo transcriptome reveals blood coagulation/antithrombin factors in adult worms.</p>
+    </article>
+  </div>
+  <div class="hero-actions">
+    <a class="button primary" href="{{ '/articles' | relative_url }}">Ver todos os artigos</a>
+  </div>
 </section>
 
 <section id="divulgacao-cursos" class="section">
