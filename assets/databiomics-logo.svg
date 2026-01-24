@@ -1,0 +1,6 @@
+<svg width="240" height="64" viewBox="0 0 240 64" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Databiomics">
+  <rect width="240" height="64" rx="18" fill="#0F172A"/>
+  <circle cx="36" cy="32" r="14" fill="#60A5FA"/>
+  <circle cx="36" cy="32" r="6" fill="#0F172A"/>
+  <text x="64" y="39" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="600">Databiomics</text>
+</svg>
