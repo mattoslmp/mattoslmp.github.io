@@ -60,6 +60,23 @@ footer  {
   box-shadow: 0 20px 60px rgba(15, 23, 42, 0.3);
 }
 
+.hero .hero-content,
+.hero .hero-content p,
+.hero .hero-content li,
+.hero .hero-content a,
+.hero .hero-content h1,
+.hero .hero-content h2,
+.hero .hero-content h3,
+.hero .hero-content .hero-eyebrow,
+.hero .hero-content .hero-subtitle,
+.hero .hero-content .button {
+  color: #fff;
+}
+
+.hero .hero-content .button.primary {
+  color: #fff;
+}
+
 .hero-grid {
   display: grid;
   gap: 2.5rem;
@@ -73,6 +90,10 @@ footer  {
   font-size: 0.75rem;
   margin-bottom: 0.75rem;
   color: rgba(248, 249, 251, 0.75);
+}
+
+.hero .hero-content .hero-eyebrow {
+  color: #fff;
 }
 
 .hero-subtitle {
@@ -110,6 +131,10 @@ footer  {
   border-radius: 20px;
   padding: 2rem;
   backdrop-filter: blur(8px);
+}
+
+.hero-card .card-intro {
+  color: #fff;
 }
 
 .button {
@@ -413,6 +438,55 @@ footer  {
   gap: 1rem;
   justify-content: space-between;
   align-items: center;
+}
+
+.article-list {
+  display: grid;
+  gap: 2.5rem;
+}
+
+.article-card {
+  display: grid;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  border-radius: 20px;
+  border: 1px solid rgba(148, 163, 184, 0.25);
+  background: var(--bg-secondary);
+}
+
+.article-card h3 {
+  margin-top: 0;
+}
+
+.article-meta,
+.article-authors,
+.article-links {
+  margin: 0.5rem 0;
+}
+
+.article-figure {
+  margin: 0;
+}
+
+.article-figure img {
+  width: 100%;
+  display: block;
+  border-radius: 16px;
+  border: 1px solid rgba(148, 163, 184, 0.4);
+  box-shadow: 0 16px 32px rgba(15, 23, 42, 0.12);
+}
+
+.article-figure figcaption {
+  margin-top: 0.75rem;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+@media (min-width: 960px) {
+  .article-card {
+    grid-template-columns: 1.1fr 0.9fr;
+    align-items: center;
+  }
 }
 
 @media (max-width: 700px) {

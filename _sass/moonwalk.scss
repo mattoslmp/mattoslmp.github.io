@@ -188,6 +188,14 @@ p code, li code {
   color: var(--text);
   margin: 8em auto -4em auto;
   text-align: center;
+  img {
+    display: inline-block;
+    height: 40px;
+    vertical-align: middle;
+  }
+  .credits-logo {
+    margin-left: 0.75rem;
+  }
   a {
     color: var(--text);
     text-decoration: none;
