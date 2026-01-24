@@ -60,6 +60,23 @@ footer  {
   box-shadow: 0 20px 60px rgba(15, 23, 42, 0.3);
 }
 
+.hero .hero-content,
+.hero .hero-content p,
+.hero .hero-content li,
+.hero .hero-content a,
+.hero .hero-content h1,
+.hero .hero-content h2,
+.hero .hero-content h3,
+.hero .hero-content .hero-eyebrow,
+.hero .hero-content .hero-subtitle,
+.hero .hero-content .button {
+  color: #fff;
+}
+
+.hero .hero-content .button.primary {
+  color: #fff;
+}
+
 .hero-grid {
   display: grid;
   gap: 2.5rem;
@@ -73,6 +90,10 @@ footer  {
   font-size: 0.75rem;
   margin-bottom: 0.75rem;
   color: rgba(248, 249, 251, 0.75);
+}
+
+.hero .hero-content .hero-eyebrow {
+  color: #fff;
 }
 
 .hero-subtitle {
