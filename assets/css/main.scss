@@ -50,7 +50,7 @@ footer  {
 }
 
 .hero {
-  background-image: linear-gradient(120deg, rgba(16, 24, 40, 0.88), rgba(9, 18, 33, 0.9)), url('/databiomics2.jpg');
+  background-image: linear-gradient(120deg, rgba(16, 24, 40, 0.88), rgba(9, 18, 33, 0.92)), url('/databiomics3.jpg');
   background-size: cover;
   background-position: center;
   border-radius: 28px;
@@ -179,6 +179,44 @@ footer  {
 
 .section {
   margin: 3rem 0;
+}
+
+.stats {
+  background: linear-gradient(135deg, rgba(96, 165, 250, 0.12), rgba(14, 116, 144, 0.08));
+  padding: 2.5rem;
+  border-radius: 24px;
+}
+
+.stats-grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.stat-card {
+  background: var(--bg);
+  border-radius: 18px;
+  padding: 1.5rem;
+  border: 1px solid rgba(96, 165, 250, 0.2);
+}
+
+.testimonials {
+  background: var(--bg-secondary);
+  padding: 2.5rem;
+  border-radius: 24px;
+}
+
+.testimonial-grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.testimonial-card {
+  background: var(--bg);
+  border-radius: 18px;
+  padding: 1.6rem;
+  border: 1px solid rgba(15, 23, 42, 0.08);
 }
 
 .section.alt {
@@ -382,6 +420,10 @@ footer  {
     padding: 2.5rem 1.5rem;
   }
   .section.alt {
+    padding: 2rem 1.5rem;
+  }
+  .stats,
+  .testimonials {
     padding: 2rem 1.5rem;
   }
   .landing-wrapper {

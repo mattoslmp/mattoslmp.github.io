@@ -6,6 +6,8 @@ layout: landing
   <a href="#sobre">Sobre</a>
   <a href="#servicos">Serviços</a>
   <a href="#cursos">Cursos &amp; Palestras</a>
+  <a href="#videos">Vídeos</a>
+  <a href="#divulgacao-cursos">Divulgação</a>
   <a href="#programas">Programas</a>
   <a href="#contato">Contato</a>
 </nav>
@@ -29,7 +31,7 @@ layout: landing
     <div class="hero-card">
       <h2>Unlock Your AI &amp; ML Potential</h2>
       <p class="card-intro">Solicite orientação personalizada para seus projetos e equipes.</p>
-      <form class="lead-form" action="mailto:contato@mattoslmp.com" method="post" enctype="text/plain">
+      <form class="lead-form" action="mailto:databiomics@gmail.com" method="post" enctype="text/plain">
         <label>
           Full Name
           <input type="text" name="name" placeholder="Seu nome completo" required>
@@ -53,6 +55,31 @@ layout: landing
         <button class="button primary" type="submit">Get Expert Guidance</button>
       </form>
       <p class="card-footnote">You'll hear back in 24 hours.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section stats">
+  <div class="section-heading">
+    <h2>Impacto e diferenciais</h2>
+    <p>Foco em resultados aplicados, eficiência de análise e capacitação de equipes multidisciplinares.</p>
+  </div>
+  <div class="stats-grid">
+    <div class="stat-card">
+      <h3>+10 anos</h3>
+      <p>de experiência combinada em bioinformática e análise de dados ômicos.</p>
+    </div>
+    <div class="stat-card">
+      <h3>Projetos internacionais</h3>
+      <p>colaborações com universidades, centros de pesquisa e empresas.</p>
+    </div>
+    <div class="stat-card">
+      <h3>IA aplicada</h3>
+      <p>modelos preditivos e NLP para acelerar descoberta científica.</p>
+    </div>
+    <div class="stat-card">
+      <h3>Treinamentos customizados</h3>
+      <p>do básico ao avançado, com foco em prática e reprodutibilidade.</p>
     </div>
   </div>
 </section>
@@ -102,6 +129,27 @@ layout: landing
     <article class="info-card">
       <h3>Mentoria Estratégica</h3>
       <p>Planejamento de pesquisa, revisão de pipelines e capacitação de equipes técnicas.</p>
+    </article>
+  </div>
+</section>
+
+<section class="section testimonials">
+  <div class="section-heading">
+    <h2>Como posso ajudar sua organização</h2>
+    <p>Transformo dados complexos em decisões claras, com entregas estruturadas e comunicação objetiva.</p>
+  </div>
+  <div class="testimonial-grid">
+    <article class="testimonial-card">
+      <h3>Diagnóstico de dados</h3>
+      <p>Mapeio o fluxo atual, identifico gargalos e proponho melhorias com ganho de produtividade.</p>
+    </article>
+    <article class="testimonial-card">
+      <h3>Pipeline reprodutível</h3>
+      <p>Desenvolvo soluções com documentação, versionamento e automação para equipes técnicas.</p>
+    </article>
+    <article class="testimonial-card">
+      <h3>Entrega estratégica</h3>
+      <p>Relatórios e dashboards claros para gestores, cientistas e decisores.</p>
     </article>
   </div>
 </section>
@@ -237,7 +285,7 @@ layout: landing
     </div>
     <div class="contact-card">
       <h3>Caixa de mensagem</h3>
-      <form class="contact-form" action="mailto:contato@mattoslmp.com" method="post" enctype="text/plain">
+      <form class="contact-form" action="mailto:databiomics@gmail.com" method="post" enctype="text/plain">
         <label>
           Nome completo
           <input type="text" name="full-name" required>
