@@ -17,7 +17,6 @@ description: > # description of the site (multiple lines allowed)
   Tem experiência em programação em Perl, Python e R, machine learning tradicional, redes neurais, bancos de dados (PostgreSQL, SQL), desenvolvimento de plataformas web (Streamlit, Flask) e desenvolvimento de aplicações com Flutter.
 
 permalink: /:slug
-
 twitter:
   username: mattoslmp # update or delete this
   card: summary_large_image
