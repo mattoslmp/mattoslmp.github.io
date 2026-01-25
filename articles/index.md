@@ -105,6 +105,3 @@ Abaixo estão os artigos principais solicitados, organizados por ano de publica�
   </article>
 </section>
 
-## Notas sobre uso de figuras e trechos
-
-Antes de reproduzir figuras ou trechos de texto, verifique a licença do artigo (ex.: CC BY) e siga as exigências de atribuição. Quando permitido, cite a fonte e a licença diretamente na legenda ou no texto.
