@@ -233,27 +233,10 @@ layout: landing
   </script>
 </section>
 
-<section id="artigos" class="section">
+<section id="newsletter" class="section">
   <div class="section-heading">
-    <h2>Artigos selecionados</h2>
-    <p>Resumo dos principais artigos publicados. Veja a lista completa na página dedicada.</p>
-  </div>
-  <div class="card-grid compact">
-    <article class="info-card">
-      <h3>FAALPred (2026)</h3>
-      <p>Diversity of FAAL enzymes and prediction of their substrate specificity using FAALPred.</p>
-    </article>
-    <article class="info-card">
-      <h3>SARS-CoV-2 mutations in Brazil (2021)</h3>
-      <p>From genomics to putative clinical conditions.</p>
-    </article>
-    <article class="info-card">
-      <h3>Angiostrongylus cantonensis (2021)</h3>
-      <p>De novo transcriptome reveals blood coagulation/antithrombin factors in adult worms.</p>
-    </article>
-  </div>
-  <div class="hero-actions">
-    <a class="button primary" href="{{ '/articles' | relative_url }}">Ver todos os artigos</a>
+    <h2>Newsletter Databiomics</h2>
+    <p>Seção Newsletter Databiomics: <a href="https://www.linkedin.com/newsletters/mathematics-ai-meets-biology-7211465469294178304/" target="_blank" rel="noreferrer">Mathematics AI Meets Biology</a>.</p>
   </div>
 </section>
 
@@ -338,3 +321,44 @@ layout: landing
     <button class="button ghost" type="button">Show details</button>
   </div>
 </section>
+
+<footer class="site-footer">
+  <div class="footer-content">
+    <div class="footer-block">
+      <h2>Contato para visitas</h2>
+      <p>Agende uma visita: <a href="mailto:databiomics@gmail.com">databiomics@gmail.com</a></p>
+      <p>WhatsApp: <a href="https://wa.me/5522999796893" target="_blank" rel="noreferrer">+55 (22) 99979-6893</a></p>
+    </div>
+    <div class="footer-block">
+      <h2>Visitante</h2>
+      <p id="visitor-country">Carregando país do visitante...</p>
+      <img id="visitor-flag" class="visitor-flag" alt="Bandeira do país visitante" loading="lazy" hidden>
+    </div>
+  </div>
+</footer>
+
+<script>
+  fetch("https://ipapi.co/json/")
+    .then((response) => response.json())
+    .then((data) => {
+      const countryName = data.country_name || "País não identificado";
+      const countryCode = (data.country_code || "").toLowerCase();
+      const countryLabel = document.getElementById("visitor-country");
+      const flagImage = document.getElementById("visitor-flag");
+
+      if (countryLabel) {
+        countryLabel.textContent = `País do visitante: ${countryName}`;
+      }
+
+      if (flagImage && countryCode) {
+        flagImage.src = `https://flagcdn.com/${countryCode}.svg`;
+        flagImage.hidden = false;
+      }
+    })
+    .catch(() => {
+      const countryLabel = document.getElementById("visitor-country");
+      if (countryLabel) {
+        countryLabel.textContent = "Não foi possível identificar o país do visitante.";
+      }
+    });
+</script>
