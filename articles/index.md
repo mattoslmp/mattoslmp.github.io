@@ -8,6 +8,7 @@ permalink: /articles/
 
 Página dedicada a publicações e divulgação científica.
 
+
 ## Artigos publicados selecionados:
 
 <section class="article-list">
