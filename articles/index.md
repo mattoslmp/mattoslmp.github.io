@@ -16,7 +16,7 @@ Página dedicada a publicações e divulgação científica.
     <div class="article-text">
       <h3>Diversity of FAAL enzymes and prediction of their substrate specificity using FAALPred</h3>
       <p class="article-meta"><strong>Ano:</strong> 2026 (first published: 21 January 2026)</p>
-      <p class="article-authors"><strong>Autores:</strong> Anne Liong; Leandro de Mattos Pereira; Pedro N. Leão.</p>
+      <p class="article-authors"><strong>Autores:</strong> Leandro de Mattos Pereira; Anne Liong; Pedro N. Leão.</p>
       <p class="article-links"><strong>DOI:</strong> <a href="https://doi.org/10.1002/pro.70468" target="_blank" rel="noopener">https://doi.org/10.1002/pro.70468</a></p>
     </div>
     <figure class="article-figure">
