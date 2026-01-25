@@ -20,7 +20,7 @@ Página dedicada a publicações e divulgação científica.
     </div>
     <figure class="article-figure">
       <img src="{{ '/assets/articles/faalpred-2026.svg' | relative_url }}" alt="Figura do artigo Diversity of FAAL enzymes and prediction of their substrate specificity using FAALPred" loading="lazy" />
-      <figcaption>Illustrative figure.</figcaption>
+      <figcaption> Illustrative figure.</figcaption>
     </figure>
   </article>
 
@@ -33,7 +33,7 @@ Página dedicada a publicações e divulgação científica.
     </div>
     <figure class="article-figure">
       <img src="{{ '/assets/articles/sarscov2-2021.svg' | relative_url }}" alt="Figura do artigo SARS-CoV-2 mutations in Brazil" loading="lazy" />
-      <figcaption>Illustrative figure.</figcaption>
+      <figcaption> Illustrative figure.</figcaption>
     </figure>
   </article>
 
@@ -46,7 +46,7 @@ Página dedicada a publicações e divulgação científica.
     </div>
     <figure class="article-figure">
       <img src="{{ '/assets/articles/angiostrongylus-worms-2021.svg' | relative_url }}" alt="Figura do artigo De novo transcriptome reveals blood coagulation/antithrombin factors" loading="lazy" />
-      <figcaption>Illustrative figure.</figcaption>
+      <figcaption> Illustrative figure.</figcaption>
     </figure>
   </article>
   
@@ -59,7 +59,7 @@ Página dedicada a publicações e divulgação científica.
     </div>
     <figure class="article-figure">
       <img src="{{ '/assets/articles/bothrops-2020.svg' | relative_url }}" alt="Figura do artigo Bothrops jararaca venom gland" loading="lazy" />
-      <figcaption>Illustrative figure.</figcaption>
+      <figcaption> Illustrative figure.</figcaption>
     </figure>
   </article>
 
@@ -72,7 +72,7 @@ Página dedicada a publicações e divulgação científica.
     </div>
     <figure class="article-figure">
       <img src="{{ '/assets/articles/mollusk-microbiota-2020.svg' | relative_url }}" alt="Figura do artigo Mollusk microbiota shift" loading="lazy" />
-      <figcaption>Illustrative figure.</figcaption>
+      <figcaption> Illustrative figure.</figcaption>
     </figure>
   </article>
 
@@ -85,7 +85,7 @@ Página dedicada a publicações e divulgação científica.
     </div>
     <figure class="article-figure">
       <img src="{{ '/assets/articles/microbiota-fusobacterium-2019.svg' | relative_url }}" alt="Figura do artigo Microbiota profile and impact of Fusobacterium nucleatum" loading="lazy" />
-      <figcaption>Illustrative figure.</figcaption>
+      <figcaption> Illustrative figure.</figcaption>
     </figure>
   </article>
 
