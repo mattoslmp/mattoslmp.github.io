@@ -190,11 +190,12 @@ p code, li code {
   text-align: center;
   img {
     display: inline-block;
-    height: 40px;
+    height: 24px;
+    margin-left: 0.5rem;
     vertical-align: middle;
   }
   .credits-logo {
-    margin-left: 0.75rem;
+    height: 36px;
   }
   a {
     color: var(--text);
