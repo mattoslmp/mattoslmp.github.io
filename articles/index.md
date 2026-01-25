@@ -8,9 +8,7 @@ permalink: /articles/
 
 Página dedicada a publicações e divulgação científica.
 
-## Artigos selecionados
-
-Abaixo estão os artigos principais solicitados, organizados por ano de publicação (do mais recente ao mais antigo), com autores completos, periódico/ano e links de acesso.
+## Artigos publicados selecionados:
 
 <section class="article-list">
   <article class="article-card">
@@ -22,7 +20,7 @@ Abaixo estão os artigos principais solicitados, organizados por ano de publica�
     </div>
     <figure class="article-figure">
       <img src="{{ '/assets/articles/faalpred-2026.svg' | relative_url }}" alt="Figura do artigo Diversity of FAAL enzymes and prediction of their substrate specificity using FAALPred" loading="lazy" />
-      <figcaption>Figura em destaque (substituir pela figura original do artigo com licença/atribuição).</figcaption>
+      <figcaption>Figura meramente ilustrativa).</figcaption>
     </figure>
   </article>
 
@@ -35,7 +33,7 @@ Abaixo estão os artigos principais solicitados, organizados por ano de publica�
     </div>
     <figure class="article-figure">
       <img src="{{ '/assets/articles/sarscov2-2021.svg' | relative_url }}" alt="Figura do artigo SARS-CoV-2 mutations in Brazil" loading="lazy" />
-      <figcaption>Figura em destaque (substituir pela figura original do artigo com licença/atribuição).</figcaption>
+      <figcaption>Figura ilustrativa).</figcaption>
     </figure>
   </article>
 
@@ -48,7 +46,7 @@ Abaixo estão os artigos principais solicitados, organizados por ano de publica�
     </div>
     <figure class="article-figure">
       <img src="{{ '/assets/articles/angiostrongylus-worms-2021.svg' | relative_url }}" alt="Figura do artigo De novo transcriptome reveals blood coagulation/antithrombin factors" loading="lazy" />
-      <figcaption>Figura em destaque (substituir pela figura original do artigo com licença/atribuição).</figcaption>
+      <figcaption>Figura ilustrativa).</figcaption>
     </figure>
   </article>
 
@@ -61,7 +59,7 @@ Abaixo estão os artigos principais solicitados, organizados por ano de publica�
     </div>
     <figure class="article-figure">
       <img src="{{ '/assets/articles/bothrops-2020.svg' | relative_url }}" alt="Figura do artigo Bothrops jararaca venom gland" loading="lazy" />
-      <figcaption>Figura em destaque (substituir pela figura original do artigo com licença/atribuição).</figcaption>
+      <figcaption>Figura ilustrativa).</figcaption>
     </figure>
   </article>
 
@@ -74,7 +72,7 @@ Abaixo estão os artigos principais solicitados, organizados por ano de publica�
     </div>
     <figure class="article-figure">
       <img src="{{ '/assets/articles/mollusk-microbiota-2020.svg' | relative_url }}" alt="Figura do artigo Mollusk microbiota shift" loading="lazy" />
-      <figcaption>Figura em destaque (substituir pela figura original do artigo com licença/atribuição).</figcaption>
+      <figcaption>Figura ilustrativa).</figcaption>
     </figure>
   </article>
 
