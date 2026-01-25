@@ -85,7 +85,7 @@ Página dedicada a publicações e divulgação científica.
     </div>
     <figure class="article-figure">
       <img src="{{ '/assets/articles/microbiota-fusobacterium-2019.svg' | relative_url }}" alt="Figura do artigo Microbiota profile and impact of Fusobacterium nucleatum" loading="lazy" />
-      <figcaption>Figura em destaque (substituir pela figura original do artigo com licença/atribuição).</figcaption>
+      <figcaption>Illustrative figure..</figcaption>
     </figure>
   </article>
 
