@@ -49,7 +49,7 @@ Página dedicada a publicações e divulgação científica.
       <figcaption>Figura ilustrativa).</figcaption>
     </figure>
   </article>
-
+  
   <article class="article-card">
     <div class="article-text">
       <h3>In depth transcriptome unravels the biotechnological potential of the Bothrops jararaca venom gland</h3>
