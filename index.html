@@ -5,6 +5,8 @@ layout: landing
 <nav class="landing-nav">
   <a href="#sobre">Sobre</a>
   <a href="#servicos">Serviços</a>
+  <a href="#artigos-projetos">Artigos / Projetos</a>
+  <a href="#formacao-complementar">Formação Complementar</a>
   <a href="#cursos">Cursos &amp; Palestras</a>
   <a href="#videos">Vídeos</a>
   <a href="#divulgacao-cursos">Divulgação</a>
@@ -157,6 +159,28 @@ layout: landing
       <h3>Entrega estratégica</h3>
       <p>Relatórios e dashboards claros para gestores, cientistas e decisores.</p>
     </article>
+  </div>
+</section>
+
+<section id="artigos-projetos" class="section alt">
+  <div class="section-heading">
+    <h2>Artigos / Projetos</h2>
+    <p>Conteúdo completo de publicações, projetos e divulgação científica.</p>
+  </div>
+  <div class="markdown-panel">
+    {% capture publications_content %}{% include_relative Publications.md %}{% endcapture %}
+    {{ publications_content | markdownify }}
+  </div>
+</section>
+
+<section id="formacao-complementar" class="section">
+  <div class="section-heading">
+    <h2>Formação Complementar</h2>
+    <p>Lista completa de cursos e treinamentos complementares.</p>
+  </div>
+  <div class="markdown-panel">
+    {% capture courses_content %}{% include_relative Courses.md %}{% endcapture %}
+    {{ courses_content | markdownify }}
   </div>
 </section>
 
