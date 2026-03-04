@@ -1,0 +1,22 @@
+---
+layout: landing
+title: Artigos / Projetos
+permalink: /artigos-projetos.html
+---
+
+<nav class="landing-nav">
+  <a href="{{ '/' | relative_url }}">Início</a>
+  <a href="{{ '/artigos-projetos.html' | relative_url }}">Artigos / Projetos</a>
+  <a href="{{ '/formacao-complementar.html' | relative_url }}">Formação Complementar</a>
+  <a href="{{ '/articles' | relative_url }}">News/Articles</a>
+</nav>
+
+<section class="section">
+  <div class="section-heading">
+    <h1>Artigos / Projetos</h1>
+  </div>
+  <div class="markdown-panel">
+    {% capture publications_content %}{% include_relative Publications.md %}{% endcapture %}
+    {{ publications_content | markdownify }}
+  </div>
+</section>
