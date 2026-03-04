@@ -164,6 +164,28 @@ layout: landing
   </div>
 </section>
 
+<section id="artigos-projetos" class="section alt">
+  <div class="section-heading">
+    <h2>Artigos / Projetos</h2>
+    <p>Conteúdo completo de publicações, projetos e divulgação científica.</p>
+  </div>
+  <div class="markdown-panel">
+    {% capture publications_content %}{% include_relative Publications.md %}{% endcapture %}
+    {{ publications_content | markdownify }}
+  </div>
+</section>
+
+<section id="formacao-complementar" class="section">
+  <div class="section-heading">
+    <h2>Formação Complementar</h2>
+    <p>Lista completa de cursos e treinamentos complementares.</p>
+  </div>
+  <div class="markdown-panel">
+    {% capture courses_content %}{% include_relative Courses.md %}{% endcapture %}
+    {{ courses_content | markdownify }}
+  </div>
+</section>
+
 <section id="cursos" class="section">
   <div class="section-heading">
     <h2>Cursos, Palestras &amp; Treinamentos</h2>
