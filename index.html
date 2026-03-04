@@ -5,6 +5,8 @@ layout: landing
 <nav class="landing-nav">
   <a href="#sobre">Sobre</a>
   <a href="#servicos">Serviços</a>
+  <a href="{{ '/artigos-projetos/' | relative_url }}">Artigos / Projetos</a>
+  <a href="{{ '/formacao-complementar/' | relative_url }}">Formação Complementar</a>
   <a href="#cursos">Cursos &amp; Palestras</a>
   <a href="#videos">Vídeos</a>
   <a href="#divulgacao-cursos">Divulgação</a>
@@ -32,7 +34,7 @@ layout: landing
     <div class="hero-card">
       <h2>Unlock Your AI &amp; ML Potential</h2>
       <p class="card-intro">Solicite orientação personalizada para seus projetos e equipes.</p>
-      <form class="lead-form" action="mailto:databiomics@gmail.com" method="post" enctype="text/plain">
+      <form class="lead-form" action="https://formsubmit.co/databiomics@gmail.com" method="post">
         <label>
           Full Name
           <input type="text" name="name" placeholder="Seu nome completo" required>
@@ -53,6 +55,8 @@ layout: landing
           <input type="checkbox" name="whatsapp">
           Send WhatsApp Updates
         </label>
+        <input type="hidden" name="_subject" value="Novo contato via site - Lead Form">
+        <input type="hidden" name="_captcha" value="false">
         <button class="button primary" type="submit">Get Expert Guidance</button>
       </form>
       <p class="card-footnote">You'll hear back in 24 hours.</p>
@@ -300,11 +304,16 @@ layout: landing
       <h3>Fale comigo</h3>
       <p><strong>Skype:</strong> mattoslmp</p>
       <p><strong>Horário:</strong> 8AM - 6PM (BRT) · Leandro de Mattos Pereira</p>
-      <p><strong>Email:</strong> databiomics@gmail.com</p>
+      <p><strong>Email:</strong> <a href="mailto:databiomics@gmail.com">databiomics@gmail.com</a></p>
+      <div class="contact-actions">
+        <a class="button primary" id="whatsapp-contact-link" href="#" target="_blank" rel="noreferrer">Enviar mensagem no WhatsApp</a>
+        <a class="button ghost" href="mailto:databiomics@gmail.com?subject=Contato%20via%20site%20Databiomics">Enviar e-mail</a>
+      </div>
+      <p class="contact-note">Seu atendimento pode ser iniciado por WhatsApp ou e-mail. O número não é exibido na página.</p>
     </div>
     <div class="contact-card">
       <h3>Caixa de mensagem</h3>
-      <form class="contact-form" action="mailto:databiomics@gmail.com" method="post" enctype="text/plain">
+      <form class="contact-form" action="https://formsubmit.co/databiomics@gmail.com" method="post">
         <label>
           Nome completo
           <input type="text" name="full-name" required>
@@ -317,7 +326,9 @@ layout: landing
           Mensagem
           <textarea name="message" rows="4" placeholder="Como posso ajudar?"></textarea>
         </label>
-        <button class="button primary" type="submit">Enviar mensagem</button>
+        <input type="hidden" name="_subject" value="Novo contato via site - Caixa de mensagem">
+        <input type="hidden" name="_captcha" value="false">
+        <button class="button primary" type="submit">Enviar mensagem por e-mail</button>
       </form>
     </div>
   </div>
@@ -338,6 +349,14 @@ layout: landing
 </footer>
 
 <script>
+  const whatsappButton = document.getElementById("whatsapp-contact-link");
+  if (whatsappButton) {
+    const phoneParts = ["55", "22", "99796", "8983"];
+    const phoneNumber = phoneParts.join("");
+    const message = encodeURIComponent("Olá Leandro! Vi seu site e gostaria de mais informações sobre consultoria/cursos.");
+    whatsappButton.href = `https://wa.me/${phoneNumber}?text=${message}`;
+  }
+
   fetch("https://ipapi.co/json/")
     .then((response) => response.json())
     .then((data) => {
