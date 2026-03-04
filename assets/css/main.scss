@@ -545,3 +545,25 @@ footer  {
 
 @import "list";
 @import "syntax";
+
+.markdown-panel {
+  background: var(--bg-secondary);
+  border: 1px solid rgba(148, 163, 184, 0.25);
+  border-radius: 18px;
+  padding: 1.5rem;
+}
+
+.markdown-panel h2,
+.markdown-panel h3,
+.markdown-panel h4 {
+  margin-top: 1.2rem;
+}
+
+.markdown-panel ul {
+  padding-left: 1.2rem;
+}
+
+.markdown-panel p,
+.markdown-panel li {
+  overflow-wrap: anywhere;
+}
