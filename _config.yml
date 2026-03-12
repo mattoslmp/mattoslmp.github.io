@@ -11,9 +11,9 @@ description: > # description of the site (multiple lines allowed)
   Atuou também como pesquisador colaborador (sem vínculo empregatício) do Instituto do Petróleo e dos Recursos Naturais (IPR/PUCRS). Posteriormente como bioinformata no Hospital de Câncer de Barretos.
   Diploma de doutorado validado e reconhecido pela Universidade do Porto (Portugal) e reconhecido pela Ecctis - Inglaterra.
   Possui experiência em genômica, transcriptômica, proteômica, metagenômica e filogenômica, além de Inteligência Artificial, redes neurais profundas: transformers e aprendizado de máquina tradicional, processamento de linguagem natural e aprendizado de máquina supervisionado e não supervisionado.
-
+  
   Seus interesses atuais de pesquisa incluem: bioinformática aplicada a análises ômicas, genômica comparativa, filogenia molecular e filogenômica, processamento de linguagem natural e IA voltados à descoberta de enzimas e produtos naturais, anotação funcional e desenho de sequências biológicas.
-
+  
   Tem experiência em programação em Perl, Python e R, machine learning tradicional, redes neurais, bancos de dados (PostgreSQL, SQL), desenvolvimento de plataformas web (Streamlit, Flask) e desenvolvimento de aplicações com Flutter.
 
 permalink: /:slug
@@ -53,7 +53,6 @@ highlighter: rouge
 
 sass:
   style: :compressed
-
 plugins:
   - jekyll-feed
   - jekyll-soopr-seo-tag
