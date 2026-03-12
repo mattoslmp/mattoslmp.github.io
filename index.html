@@ -416,6 +416,12 @@ layout: landing
         <div class="survey-options" id="formatOptions"></div>
       </fieldset>
 
+      <fieldset>
+        <legend data-i18n="qPricing"></legend>
+        <p class="survey-helper" data-i18n="qPricingHelp"></p>
+        <div class="survey-options" id="pricingOptions"></div>
+      </fieldset>
+
       <div class="survey-row">
         <fieldset>
           <legend data-i18n="qLive"></legend>
@@ -717,19 +723,22 @@ layout: landing
       qTopicsOther: "Outro(s): escreva um ou mais tópicos de interesse (opcional)",
       qTopicsOtherPlaceholder: "Ex.: biologia sintética, proteômica, automação de pipelines" ,
       qFormat: "C) Formato preferido",
-      qLive: "D) Onde você mora?",
-      qRegion: "E) Estado / região / país",
-      qBackground: "F) Perfil",
-      qUpdates: "G) Deseja receber atualizações sobre futuros cursos ou ferramentas?",
-      qEmail: "H) E-mail (opcional)",
-      qPhone: "I) WhatsApp / telefone (opcional)",
-      qOpportunities: "J) Também teria interesse em contato para outras oportunidades?",
+      qPricing: "D) Qual valor você estaria disposto(a) a pagar?",
+      qPricingHelp: "Referência de mercado (BRL): Básico (teoria) R$ 497–897; Intermediário (teoria + prática) R$ 1.497–2.497; Avançado Premium (teoria + prática + resolução de problema específico online/presencial) R$ 4.500–9.000.",
+      qLive: "E) Onde você mora?",
+      qRegion: "F) Estado / região / país",
+      qBackground: "G) Perfil",
+      qUpdates: "H) Deseja receber atualizações sobre futuros cursos ou ferramentas?",
+      qEmail: "I) E-mail (opcional)",
+      qPhone: "J) WhatsApp / telefone (opcional)",
+      qOpportunities: "K) Também teria interesse em contato para outras oportunidades?",
       submit: "Enviar resposta",
       success: "Obrigado! Sua resposta foi recebida com sucesso.",
       footer: "Sem exibição pública de respostas.",
       interest: ["Muito interessado(a)", "Talvez interessado(a)", "Apenas curioso(a)"],
       topics: ["IA para descoberta de enzimas","Anotação de genomas","Análise de metabarcoding","Análise de metagenômica","Mineração de biossíntese de produtos naturais","Machine learning para biologia","Bioinformática para biotecnologia industrial","Agente de IA para bioinformática","Chatbot de bioinformática","Outro(s)"],
       formats: ["Online ao vivo", "Online gravado", "Híbrido", "Presencial"],
+      pricing: ["Básico (somente teoria) · R$ 497–897", "Intermediário (teoria + prática) · R$ 1.497–2.497", "Avançado Premium (teoria + prática + resolução de problema específico online/presencial) · R$ 4.500–9.000"],
       live: ["Brasil", "Fora do Brasil"],
       background: ["Estudante de graduação", "Estudante de pós-graduação", "Pesquisador(a)", "Profissional da indústria", "Outro"],
       updates: ["Sim", "Não"],
@@ -741,15 +750,16 @@ layout: landing
       under30: "⏱️ This survey takes less than 30 seconds.",
       privacy: "🔒 Private responses: only the site owner can access them through Formspree.",
       qInterest: "A) Interest level", qTopics: "B) Topics of interest", qTopicsHelp: "Select one or more topics.", qTopicsOther: "Other(s): write one or more topics of interest (optional)", qTopicsOtherPlaceholder: "E.g., synthetic biology, proteomics, pipeline automation",
-      qFormat: "C) Preferred format", qLive: "D) Where do you live?", qRegion: "E) State / region / country",
-      qBackground: "F) Background", qUpdates: "G) Would you like updates about future courses or tools?",
-      qEmail: "H) Email (optional)", qPhone: "I) WhatsApp / phone (optional)",
-      qOpportunities: "J) Interested in being contacted for other opportunities?",
+      qFormat: "C) Preferred format", qPricing: "D) What price would you be willing to pay?", qPricingHelp: "Market reference (BRL): Basic (theory) R$ 497–897; Intermediate (theory + practice) R$ 1,497–2,497; Advanced Premium (theory + practice + solving a specific problem online/on-site) R$ 4,500–9,000.", qLive: "E) Where do you live?", qRegion: "F) State / region / country",
+      qBackground: "G) Background", qUpdates: "H) Would you like updates about future courses or tools?",
+      qEmail: "I) Email (optional)", qPhone: "J) WhatsApp / phone (optional)",
+      qOpportunities: "K) Interested in being contacted for other opportunities?",
       submit: "Submit response", success: "Thank you! Your response has been received successfully.",
       footer: "No public display of responses.",
       interest: ["Very interested", "Maybe interested", "Just curious"],
       topics: ["AI for enzyme discovery","Genome annotation","Metabarcoding analysis","Metagenomics analysis","Natural product biosynthesis mining","Machine learning for biology","Industrial biotechnology bioinformatics","AI agent for bioinformatics","Bioinformatics chatbot","Other(s)"],
       formats: ["Online live", "Online recorded", "Hybrid", "In person"],
+      pricing: ["Basic (theory only) · R$ 497–897", "Intermediate (theory + hands-on practice) · R$ 1,497–2,497", "Advanced Premium (theory + practice + solving a specific problem online/on-site) · R$ 4,500–9,000"],
       live: ["Brazil", "Outside Brazil"],
       background: ["Undergraduate student", "Graduate student", "Researcher", "Industry professional", "Other"],
       updates: ["Yes", "No"],
@@ -761,15 +771,16 @@ layout: landing
       under30: "⏱️ Esta encuesta toma menos de 30 segundos.",
       privacy: "🔒 Respuestas privadas: solo el propietario del sitio puede accederlas mediante Formspree.",
       qInterest: "A) Nivel de interés", qTopics: "B) Temas de interés", qTopicsHelp: "Selecciona uno o más temas.", qTopicsOther: "Otro(s): escribe uno o más temas de interés (opcional)", qTopicsOtherPlaceholder: "Ej.: biología sintética, proteómica, automatización de pipelines",
-      qFormat: "C) Formato preferido", qLive: "D) ¿Dónde vives?", qRegion: "E) Estado / región / país",
-      qBackground: "F) Perfil", qUpdates: "G) ¿Deseas recibir novedades sobre futuros cursos o herramientas?",
-      qEmail: "H) Correo electrónico (opcional)", qPhone: "I) WhatsApp / teléfono (opcional)",
-      qOpportunities: "J) ¿Te interesaría contacto para otras oportunidades?",
+      qFormat: "C) Formato preferido", qPricing: "D) ¿Qué valor estarías dispuesto(a) a pagar?", qPricingHelp: "Referencia de mercado (BRL): Básico (teoría) R$ 497–897; Intermedio (teoría + práctica) R$ 1.497–2.497; Avanzado Premium (teoría + práctica + resolución de problema específico online/presencial) R$ 4.500–9.000.", qLive: "E) ¿Dónde vives?", qRegion: "F) Estado / región / país",
+      qBackground: "G) Perfil", qUpdates: "H) ¿Deseas recibir novedades sobre futuros cursos o herramientas?",
+      qEmail: "I) Correo electrónico (opcional)", qPhone: "J) WhatsApp / teléfono (opcional)",
+      qOpportunities: "K) ¿Te interesaría contacto para otras oportunidades?",
       submit: "Enviar respuesta", success: "¡Gracias! Tu respuesta fue recibida con éxito.",
       footer: "Sin visualización pública de respuestas.",
       interest: ["Muy interesado(a)", "Tal vez interesado(a)", "Solo curioso(a)"],
       topics: ["IA para descubrimiento de enzimas","Anotación de genomas","Análisis de metabarcoding","Análisis de metagenómica","Minería de biosíntesis de productos naturales","Machine learning para biología","Bioinformática para biotecnología industrial","Agente de IA para bioinformática","Chatbot de bioinformática","Otro(s)"],
       formats: ["Online en vivo", "Online grabado", "Híbrido", "Presencial"],
+      pricing: ["Básico (solo teoría) · R$ 497–897", "Intermedio (teoría + práctica) · R$ 1.497–2.497", "Avanzado Premium (teoría + práctica + resolución de problema específico online/presencial) · R$ 4.500–9.000"],
       live: ["Brasil", "Fuera de Brasil"],
       background: ["Estudiante de grado", "Estudiante de posgrado", "Investigador(a)", "Profesional de la industria", "Otro"],
       updates: ["Sí", "No"],
@@ -821,6 +832,7 @@ layout: landing
     renderChoiceGroup("interestOptions", "interest_level", t.interest, "radio");
     renderChoiceGroup("topicOptions", "topics_interest", t.topics, "checkbox");
     renderChoiceGroup("formatOptions", "preferred_format", t.formats, "radio");
+    renderChoiceGroup("pricingOptions", "price_willing_to_pay", t.pricing, "radio");
     renderChoiceGroup("liveOptions", "where_live", t.live, "radio");
     renderChoiceGroup("backgroundOptions", "background", t.background, "radio");
     renderChoiceGroup("updatesOptions", "receive_updates", t.updates, "radio");
