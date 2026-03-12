@@ -13,7 +13,7 @@ layout: landing
   <a href="#programas">Programas</a>
   <a href="{{ '/articles' | relative_url }}">News/Articles</a>
   <a href="#contato">Contato</a>
-  <a href="#interesse">Interesse</a>
+  <a href="#interesse">CursosDisponiveis/Interesse</a>
 </nav>
 
 <section class="hero" aria-labelledby="hero-title">
@@ -368,7 +368,7 @@ layout: landing
   .survey-helper{ margin:4px 0 8px; color:#4a5d73; font-size:.9rem;}
   .survey-row{ display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px; }
   .survey-row label{ display:grid; gap:6px; font-weight:600; }
-  .survey-row input{ border:1px solid #d7e2ef; border-radius:10px; padding:10px 12px; }
+  .survey-row input, .survey-form textarea{ border:1px solid #d7e2ef; border-radius:10px; padding:10px 12px; font: inherit; }
   .survey-submit{ width:100%; }
   .survey-success{ display:none; margin-top:10px; border:1px solid #c8ecd5; background:#eaf9ef; color:#155e35; border-radius:10px; padding:12px; font-weight:700; text-align:center;}
   .survey-footer{ margin-top:10px; font-size:.85rem; color:#5a6f86; text-align:center;}
@@ -405,6 +405,10 @@ layout: landing
         <legend data-i18n="qTopics"></legend>
         <p class="survey-helper" data-i18n="qTopicsHelp"></p>
         <div class="survey-options" id="topicOptions"></div>
+        <label for="topicsOtherInput">
+          <span data-i18n="qTopicsOther"></span>
+          <textarea id="topicsOtherInput" name="topics_other" rows="2" data-i18n-placeholder="qTopicsOtherPlaceholder"></textarea>
+        </label>
       </fieldset>
 
       <fieldset>
@@ -661,6 +665,157 @@ layout: landing
     document.querySelectorAll("#interesse [data-i18n]").forEach((el) => {
       const key = el.getAttribute("data-i18n");
       if (t[key]) el.textContent = t[key];
+    });
+
+    renderChoiceGroup("interestOptions", "interest_level", t.interest, "radio");
+    renderChoiceGroup("topicOptions", "topics_interest", t.topics, "checkbox");
+    renderChoiceGroup("formatOptions", "preferred_format", t.formats, "radio");
+    renderChoiceGroup("liveOptions", "where_live", t.live, "radio");
+    renderChoiceGroup("backgroundOptions", "background", t.background, "radio");
+    renderChoiceGroup("updatesOptions", "receive_updates", t.updates, "radio");
+    renderChoiceGroup("opportunityOptions", "other_opportunities", t.opportunities, "checkbox");
+
+    if (surveySuccessMessage) surveySuccessMessage.textContent = t.success;
+  }
+
+  document.querySelectorAll(".survey-lang-btn").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      currentLang = btn.dataset.lang;
+      document.querySelectorAll(".survey-lang-btn").forEach((b) => b.classList.remove("active"));
+      btn.classList.add("active");
+      setSurveyLanguage();
+    });
+  });
+
+  if (surveyForm) {
+    surveyForm.addEventListener("submit", async (event) => {
+      event.preventDefault();
+      const data = new FormData(surveyForm);
+      try {
+        const response = await fetch(surveyForm.action, { method: "POST", body: data, headers: { Accept: "application/json" } });
+        if (response.ok) {
+          surveyForm.style.display = "none";
+          surveySuccessMessage.style.display = "block";
+        } else {
+          alert("Error sending response. Please try again.");
+        }
+      } catch {
+        alert("Connection error. Please try again.");
+      }
+    });
+
+
+  const i18n = {
+    pt: {
+      headline: "Ajude a orientar os próximos cursos, ferramentas e serviços",
+      subtitle: "Estamos avaliando demanda com foco científico e aplicação prática.",
+      under30: "⏱️ Esta pesquisa leva menos de 30 segundos.",
+      privacy: "🔒 Respostas privadas: apenas o proprietário do site poderá acessá-las via Formspree.",
+      qInterest: "A) Nível de interesse",
+      qTopics: "B) Tópicos de interesse",
+      qTopicsHelp: "Selecione um ou mais tópicos.",
+      qTopicsOther: "Outro(s): escreva um ou mais tópicos de interesse (opcional)",
+      qTopicsOtherPlaceholder: "Ex.: biologia sintética, proteômica, automação de pipelines" ,
+      qFormat: "C) Formato preferido",
+      qLive: "D) Onde você mora?",
+      qRegion: "E) Estado / região / país",
+      qBackground: "F) Perfil",
+      qUpdates: "G) Deseja receber atualizações sobre futuros cursos ou ferramentas?",
+      qEmail: "H) E-mail (opcional)",
+      qPhone: "I) WhatsApp / telefone (opcional)",
+      qOpportunities: "J) Também teria interesse em contato para outras oportunidades?",
+      submit: "Enviar resposta",
+      success: "Obrigado! Sua resposta foi recebida com sucesso.",
+      footer: "Sem exibição pública de respostas.",
+      interest: ["Muito interessado(a)", "Talvez interessado(a)", "Apenas curioso(a)"],
+      topics: ["IA para descoberta de enzimas","Anotação de genomas","Análise de metabarcoding","Análise de metagenômica","Mineração de biossíntese de produtos naturais","Machine learning para biologia","Bioinformática para biotecnologia industrial","Agente de IA para bioinformática","Chatbot de bioinformática","Outro(s)"],
+      formats: ["Online ao vivo", "Online gravado", "Híbrido", "Presencial"],
+      live: ["Brasil", "Fora do Brasil"],
+      background: ["Estudante de graduação", "Estudante de pós-graduação", "Pesquisador(a)", "Profissional da indústria", "Outro"],
+      updates: ["Sim", "Não"],
+      opportunities: ["Serviços", "Colaboração", "Consultoria", "Não, apenas cursos/ferramentas"]
+    },
+    en: {
+      headline: "Help shape upcoming courses, tools, and services",
+      subtitle: "We are validating demand with a scientific and practical focus.",
+      under30: "⏱️ This survey takes less than 30 seconds.",
+      privacy: "🔒 Private responses: only the site owner can access them through Formspree.",
+      qInterest: "A) Interest level", qTopics: "B) Topics of interest", qTopicsHelp: "Select one or more topics.", qTopicsOther: "Other(s): write one or more topics of interest (optional)", qTopicsOtherPlaceholder: "E.g., synthetic biology, proteomics, pipeline automation",
+      qFormat: "C) Preferred format", qLive: "D) Where do you live?", qRegion: "E) State / region / country",
+      qBackground: "F) Background", qUpdates: "G) Would you like updates about future courses or tools?",
+      qEmail: "H) Email (optional)", qPhone: "I) WhatsApp / phone (optional)",
+      qOpportunities: "J) Interested in being contacted for other opportunities?",
+      submit: "Submit response", success: "Thank you! Your response has been received successfully.",
+      footer: "No public display of responses.",
+      interest: ["Very interested", "Maybe interested", "Just curious"],
+      topics: ["AI for enzyme discovery","Genome annotation","Metabarcoding analysis","Metagenomics analysis","Natural product biosynthesis mining","Machine learning for biology","Industrial biotechnology bioinformatics","AI agent for bioinformatics","Bioinformatics chatbot","Other(s)"],
+      formats: ["Online live", "Online recorded", "Hybrid", "In person"],
+      live: ["Brazil", "Outside Brazil"],
+      background: ["Undergraduate student", "Graduate student", "Researcher", "Industry professional", "Other"],
+      updates: ["Yes", "No"],
+      opportunities: ["Services", "Collaboration", "Consulting", "No, only courses/tools"]
+    },
+    es: {
+      headline: "Ayuda a orientar los próximos cursos, herramientas y servicios",
+      subtitle: "Estamos validando demanda con enfoque científico y práctico.",
+      under30: "⏱️ Esta encuesta toma menos de 30 segundos.",
+      privacy: "🔒 Respuestas privadas: solo el propietario del sitio puede accederlas mediante Formspree.",
+      qInterest: "A) Nivel de interés", qTopics: "B) Temas de interés", qTopicsHelp: "Selecciona uno o más temas.", qTopicsOther: "Otro(s): escribe uno o más temas de interés (opcional)", qTopicsOtherPlaceholder: "Ej.: biología sintética, proteómica, automatización de pipelines",
+      qFormat: "C) Formato preferido", qLive: "D) ¿Dónde vives?", qRegion: "E) Estado / región / país",
+      qBackground: "F) Perfil", qUpdates: "G) ¿Deseas recibir novedades sobre futuros cursos o herramientas?",
+      qEmail: "H) Correo electrónico (opcional)", qPhone: "I) WhatsApp / teléfono (opcional)",
+      qOpportunities: "J) ¿Te interesaría contacto para otras oportunidades?",
+      submit: "Enviar respuesta", success: "¡Gracias! Tu respuesta fue recibida con éxito.",
+      footer: "Sin visualización pública de respuestas.",
+      interest: ["Muy interesado(a)", "Tal vez interesado(a)", "Solo curioso(a)"],
+      topics: ["IA para descubrimiento de enzimas","Anotación de genomas","Análisis de metabarcoding","Análisis de metagenómica","Minería de biosíntesis de productos naturales","Machine learning para biología","Bioinformática para biotecnología industrial","Agente de IA para bioinformática","Chatbot de bioinformática","Otro(s)"],
+      formats: ["Online en vivo", "Online grabado", "Híbrido", "Presencial"],
+      live: ["Brasil", "Fuera de Brasil"],
+      background: ["Estudiante de grado", "Estudiante de posgrado", "Investigador(a)", "Profesional de la industria", "Otro"],
+      updates: ["Sí", "No"],
+      opportunities: ["Servicios", "Colaboración", "Consultoría", "No, solo cursos/herramientas"]
+    }
+  };
+
+  let currentLang = "pt";
+  const surveyForm = document.getElementById("interestForm");
+  const surveySuccessMessage = document.getElementById("successMessage");
+
+  function renderChoiceGroup(containerId, name, options, type = "radio") {
+    const container = document.getElementById(containerId);
+    if (!container) return;
+    container.innerHTML = "";
+    options.forEach((labelText, index) => {
+      const id = `${name}_${index}`;
+      const item = document.createElement("label");
+      item.className = "survey-option";
+      item.setAttribute("for", id);
+
+      const input = document.createElement("input");
+      input.type = type;
+      input.id = id;
+      input.name = type === "checkbox" ? `${name}[]` : name;
+      input.value = labelText;
+      if (type === "radio") input.required = true;
+
+      const span = document.createElement("span");
+      span.textContent = labelText;
+
+      item.appendChild(input);
+      item.appendChild(span);
+      container.appendChild(item);
+    });
+  }
+
+  function setSurveyLanguage() {
+    const t = i18n[currentLang];
+    document.querySelectorAll("#interesse [data-i18n]").forEach((el) => {
+      const key = el.getAttribute("data-i18n");
+      if (t[key]) el.textContent = t[key];
+    });
+    document.querySelectorAll("#interesse [data-i18n-placeholder]").forEach((el) => {
+      const key = el.getAttribute("data-i18n-placeholder");
+      if (t[key]) el.setAttribute("placeholder", t[key]);
     });
 
     renderChoiceGroup("interestOptions", "interest_level", t.interest, "radio");
