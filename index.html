@@ -12,6 +12,7 @@ layout: landing
   <a href="#divulgacao-cursos">Divulgação</a>
   <a href="#programas">Programas</a>
   <a href="{{ '/articles' | relative_url }}">News/Articles</a>
+  <a href="#interest">Interesse</a>
   <a href="#contato">Contato</a>
 </nav>
 
@@ -296,6 +297,194 @@ layout: landing
       <p>Diagnóstico de necessidades, desenho de experimentos e planejamento de projetos.</p>
     </article>
   </div>
+</section>
+
+<section id="interest" class="section interest-section" aria-labelledby="interest-title">
+  <div class="interest-shell">
+    <div class="interest-top">
+      <div>
+        <h2 id="interest-title" data-i18n="title">Interesse em Novas Soluções de Bioinformática e IA</h2>
+        <p class="interest-subtitle" data-i18n="subtitle">Ajude a priorizar os próximos cursos, ferramentas e oportunidades de colaboração.</p>
+      </div>
+      <div class="language-switcher" role="group" aria-label="Language switcher">
+        <button type="button" class="lang-btn is-active" data-lang="pt">Português</button>
+        <button type="button" class="lang-btn" data-lang="en">English</button>
+        <button type="button" class="lang-btn" data-lang="es">Español</button>
+      </div>
+    </div>
+
+    <p class="interest-note" data-i18n="fastNote">Leva menos de 30 segundos.</p>
+    <p class="interest-privacy" data-i18n="privacy">As respostas são privadas e usadas apenas para avaliar interesse em futuros cursos, ferramentas, serviços, colaboração e consultoria.</p>
+
+    <form id="interest-form" class="interest-form" action="https://formspree.io/f/REPLACE_WITH_FORM_ID" method="post">
+      <fieldset>
+        <legend data-i18n="qA">A. Nível de interesse</legend>
+        <label><input type="radio" name="interest_level" value="Very interested" required> <span data-i18n="veryInterested">Muito interessado(a)</span></label>
+        <label><input type="radio" name="interest_level" value="Maybe interested"> <span data-i18n="maybeInterested">Talvez interessado(a)</span></label>
+        <label><input type="radio" name="interest_level" value="Just curious"> <span data-i18n="justCurious">Só curioso(a)</span></label>
+      </fieldset>
+
+      <fieldset>
+        <legend data-i18n="qB">B. Tópicos de interesse</legend>
+        <p class="helper" data-i18n="multiSelect">Selecione quantos quiser.</p>
+        <label><input type="checkbox" name="topics" value="AI for enzyme discovery"> <span data-i18n="topic1">IA para descoberta de enzimas</span></label>
+        <label><input type="checkbox" name="topics" value="Genome annotation"> <span data-i18n="topic2">Anotação de genomas</span></label>
+        <label><input type="checkbox" name="topics" value="Metabarcoding analysis"> <span data-i18n="topic3">Análise de metabarcoding</span></label>
+        <label><input type="checkbox" name="topics" value="Metagenomics analysis"> <span data-i18n="topic4">Análise de metagenômica</span></label>
+        <label><input type="checkbox" name="topics" value="Natural product biosynthesis mining"> <span data-i18n="topic5">Mineração de biossíntese de produtos naturais</span></label>
+        <label><input type="checkbox" name="topics" value="Machine learning for biology"> <span data-i18n="topic6">Machine learning para biologia</span></label>
+        <label><input type="checkbox" name="topics" value="Industrial biotechnology bioinformatics"> <span data-i18n="topic7">Bioinformática para biotecnologia industrial</span></label>
+        <label><input type="checkbox" name="topics" value="AI agent for bioinformatics"> <span data-i18n="topic8">Agente de IA para bioinformática</span></label>
+        <label><input type="checkbox" name="topics" value="Bioinformatics chatbot"> <span data-i18n="topic9">Chatbot de bioinformática</span></label>
+      </fieldset>
+
+      <fieldset>
+        <legend data-i18n="qC">C. Formato preferido</legend>
+        <label><input type="radio" name="preferred_format" value="Online live" required> <span data-i18n="format1">Online ao vivo</span></label>
+        <label><input type="radio" name="preferred_format" value="Online recorded"> <span data-i18n="format2">Online gravado</span></label>
+        <label><input type="radio" name="preferred_format" value="Hybrid"> <span data-i18n="format3">Híbrido</span></label>
+        <label><input type="radio" name="preferred_format" value="In person"> <span data-i18n="format4">Presencial</span></label>
+      </fieldset>
+
+      <fieldset>
+        <legend data-i18n="qD">D. Onde você mora?</legend>
+        <label><input type="radio" name="location" value="Brazil" required> <span data-i18n="location1">Brasil</span></label>
+        <label><input type="radio" name="location" value="Outside Brazil"> <span data-i18n="location2">Fora do Brasil</span></label>
+        <label for="interest-region" data-i18n="qE">E. Estado / região / país</label>
+        <input id="interest-region" name="region" type="text" autocomplete="address-level1">
+      </fieldset>
+
+      <fieldset>
+        <legend data-i18n="qF">F. Perfil</legend>
+        <label><input type="radio" name="background" value="Undergraduate student" required> <span data-i18n="background1">Estudante de graduação</span></label>
+        <label><input type="radio" name="background" value="Graduate student"> <span data-i18n="background2">Estudante de pós-graduação</span></label>
+        <label><input type="radio" name="background" value="Researcher"> <span data-i18n="background3">Pesquisador(a)</span></label>
+        <label><input type="radio" name="background" value="Industry professional"> <span data-i18n="background4">Profissional da indústria</span></label>
+        <label><input type="radio" name="background" value="Other"> <span data-i18n="background5">Outro</span></label>
+      </fieldset>
+
+      <fieldset>
+        <legend data-i18n="qG">G. Gostaria de receber atualizações sobre futuros cursos ou ferramentas?</legend>
+        <label><input type="radio" name="updates" value="Yes" required> <span data-i18n="yes">Sim</span></label>
+        <label><input type="radio" name="updates" value="No"> <span data-i18n="no">Não</span></label>
+      </fieldset>
+
+      <fieldset>
+        <legend data-i18n="contactLegend">Contato (opcional)</legend>
+        <label for="interest-email" data-i18n="qH">H. E-mail (opcional)</label>
+        <input id="interest-email" name="email" type="email" inputmode="email" autocomplete="email">
+        <label for="interest-phone" data-i18n="qI">I. WhatsApp / telefone (opcional)</label>
+        <input id="interest-phone" name="phone" type="text" autocomplete="tel">
+      </fieldset>
+
+      <fieldset>
+        <legend data-i18n="qJ">J. Também teria interesse em ser contatado para outras oportunidades?</legend>
+        <label><input type="checkbox" name="other_opportunities" value="Services"> <span data-i18n="opp1">Serviços</span></label>
+        <label><input type="checkbox" name="other_opportunities" value="Collaboration"> <span data-i18n="opp2">Colaboração</span></label>
+        <label><input type="checkbox" name="other_opportunities" value="Consulting"> <span data-i18n="opp3">Consultoria</span></label>
+        <label><input type="checkbox" name="other_opportunities" value="No, only courses/tools"> <span data-i18n="opp4">Não, apenas cursos/ferramentas</span></label>
+      </fieldset>
+
+      <button type="submit" class="button primary" data-i18n="submit">Enviar interesse</button>
+      <p id="interest-status" class="interest-status" role="status" aria-live="polite"></p>
+    </form>
+
+    <p class="interest-footnote" data-i18n="footerNote">Obrigado por contribuir com a definição das próximas iniciativas.</p>
+  </div>
+
+  <script>
+    (function () {
+      const translations = {
+        pt: {
+          title: "Interesse em Novas Soluções de Bioinformática e IA", subtitle: "Ajude a priorizar os próximos cursos, ferramentas e oportunidades de colaboração.",
+          fastNote: "Leva menos de 30 segundos.", privacy: "As respostas são privadas e usadas apenas para avaliar interesse em futuros cursos, ferramentas, serviços, colaboração e consultoria.",
+          qA: "A. Nível de interesse", veryInterested: "Muito interessado(a)", maybeInterested: "Talvez interessado(a)", justCurious: "Só curioso(a)",
+          qB: "B. Tópicos de interesse", multiSelect: "Selecione quantos quiser.", topic1: "IA para descoberta de enzimas", topic2: "Anotação de genomas", topic3: "Análise de metabarcoding", topic4: "Análise de metagenômica", topic5: "Mineração de biossíntese de produtos naturais", topic6: "Machine learning para biologia", topic7: "Bioinformática para biotecnologia industrial", topic8: "Agente de IA para bioinformática", topic9: "Chatbot de bioinformática",
+          qC: "C. Formato preferido", format1: "Online ao vivo", format2: "Online gravado", format3: "Híbrido", format4: "Presencial",
+          qD: "D. Onde você mora?", location1: "Brasil", location2: "Fora do Brasil", qE: "E. Estado / região / país",
+          qF: "F. Perfil", background1: "Estudante de graduação", background2: "Estudante de pós-graduação", background3: "Pesquisador(a)", background4: "Profissional da indústria", background5: "Outro",
+          qG: "G. Gostaria de receber atualizações sobre futuros cursos ou ferramentas?", yes: "Sim", no: "Não",
+          contactLegend: "Contato (opcional)", qH: "H. E-mail (opcional)", qI: "I. WhatsApp / telefone (opcional)",
+          qJ: "J. Também teria interesse em ser contatado para outras oportunidades?", opp1: "Serviços", opp2: "Colaboração", opp3: "Consultoria", opp4: "Não, apenas cursos/ferramentas",
+          submit: "Enviar interesse", success: "Obrigado! Sua resposta foi recebida com sucesso.",
+          error: "Não foi possível enviar agora. Tente novamente em instantes.", footerNote: "Obrigado por contribuir com a definição das próximas iniciativas."
+        },
+        en: {
+          title: "Interest in New Bioinformatics & AI Solutions", subtitle: "Help prioritize upcoming courses, tools, and collaboration opportunities.",
+          fastNote: "Takes less than 30 seconds.", privacy: "Responses are private and used only to evaluate interest in future courses, tools, services, collaboration, and consulting opportunities.",
+          qA: "A. Interest level", veryInterested: "Very interested", maybeInterested: "Maybe interested", justCurious: "Just curious",
+          qB: "B. Topics of interest", multiSelect: "Select all that apply.", topic1: "AI for enzyme discovery", topic2: "Genome annotation", topic3: "Metabarcoding analysis", topic4: "Metagenomics analysis", topic5: "Natural product biosynthesis mining", topic6: "Machine learning for biology", topic7: "Industrial biotechnology bioinformatics", topic8: "AI agent for bioinformatics", topic9: "Bioinformatics chatbot",
+          qC: "C. Preferred format", format1: "Online live", format2: "Online recorded", format3: "Hybrid", format4: "In person",
+          qD: "D. Where do you live?", location1: "Brazil", location2: "Outside Brazil", qE: "E. State / region / country",
+          qF: "F. Background", background1: "Undergraduate student", background2: "Graduate student", background3: "Researcher", background4: "Industry professional", background5: "Other",
+          qG: "G. Would you like to receive updates about future courses or tools?", yes: "Yes", no: "No",
+          contactLegend: "Contact (optional)", qH: "H. Email (optional)", qI: "I. WhatsApp / phone (optional)",
+          qJ: "J. Would you also be interested in being contacted for other opportunities?", opp1: "Services", opp2: "Collaboration", opp3: "Consulting", opp4: "No, only courses/tools",
+          submit: "Submit interest", success: "Thank you! Your response has been received successfully.",
+          error: "Could not submit right now. Please try again shortly.", footerNote: "Thank you for helping define our next initiatives."
+        },
+        es: {
+          title: "Interés en Nuevas Soluciones de Bioinformática e IA", subtitle: "Ayuda a priorizar próximos cursos, herramientas y oportunidades de colaboración.",
+          fastNote: "Toma menos de 30 segundos.", privacy: "Las respuestas son privadas y se usan solo para evaluar interés en futuros cursos, herramientas, servicios, colaboración y consultoría.",
+          qA: "A. Nivel de interés", veryInterested: "Muy interesado(a)", maybeInterested: "Tal vez interesado(a)", justCurious: "Solo curiosidad",
+          qB: "B. Temas de interés", multiSelect: "Selecciona todas las opciones que correspondan.", topic1: "IA para descubrimiento de enzimas", topic2: "Anotación de genomas", topic3: "Análisis de metabarcoding", topic4: "Análisis de metagenómica", topic5: "Minería de biosíntesis de productos naturales", topic6: "Machine learning para biología", topic7: "Bioinformática para biotecnología industrial", topic8: "Agente de IA para bioinformática", topic9: "Chatbot de bioinformática",
+          qC: "C. Formato preferido", format1: "Online en vivo", format2: "Online grabado", format3: "Híbrido", format4: "Presencial",
+          qD: "D. ¿Dónde vives?", location1: "Brasil", location2: "Fuera de Brasil", qE: "E. Estado / región / país",
+          qF: "F. Perfil", background1: "Estudiante de pregrado", background2: "Estudiante de posgrado", background3: "Investigador(a)", background4: "Profesional de la industria", background5: "Otro",
+          qG: "G. ¿Te gustaría recibir novedades sobre futuros cursos o herramientas?", yes: "Sí", no: "No",
+          contactLegend: "Contacto (opcional)", qH: "H. Correo electrónico (opcional)", qI: "I. WhatsApp / teléfono (opcional)",
+          qJ: "J. ¿También te interesaría ser contactado para otras oportunidades?", opp1: "Servicios", opp2: "Colaboración", opp3: "Consultoría", opp4: "No, solo cursos/herramientas",
+          submit: "Enviar interés", success: "¡Gracias! Tu respuesta fue recibida con éxito.",
+          error: "No se pudo enviar ahora. Inténtalo nuevamente en unos momentos.", footerNote: "Gracias por ayudar a definir las próximas iniciativas."
+        }
+      };
+
+      let currentLang = "pt";
+      const form = document.getElementById("interest-form");
+      const status = document.getElementById("interest-status");
+
+      function applyLanguage(lang) {
+        currentLang = lang;
+        document.querySelectorAll("[data-i18n]").forEach((node) => {
+          const key = node.getAttribute("data-i18n");
+          if (translations[lang][key]) node.textContent = translations[lang][key];
+        });
+
+        document.querySelectorAll(".lang-btn").forEach((btn) => {
+          btn.classList.toggle("is-active", btn.dataset.lang === lang);
+        });
+      }
+
+      document.querySelectorAll(".lang-btn").forEach((btn) => {
+        btn.addEventListener("click", () => applyLanguage(btn.dataset.lang));
+      });
+
+      form.addEventListener("submit", async (event) => {
+        event.preventDefault();
+        status.textContent = "";
+        const data = new FormData(form);
+
+        try {
+          const response = await fetch(form.action, {
+            method: "POST",
+            body: data,
+            headers: { Accept: "application/json" }
+          });
+
+          if (response.ok) {
+            form.style.display = "none";
+            status.textContent = translations[currentLang].success;
+          } else {
+            status.textContent = translations[currentLang].error;
+          }
+        } catch (error) {
+          status.textContent = translations[currentLang].error;
+        }
+      });
+
+      applyLanguage(currentLang);
+    })();
+  </script>
 </section>
 
 <section id="contato" class="section contact">

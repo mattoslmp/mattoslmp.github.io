@@ -524,6 +524,109 @@ footer  {
   }
 }
 
+
+.interest-section {
+  display: flex;
+  justify-content: center;
+}
+
+.interest-shell {
+  width: 100%;
+  max-width: 820px;
+  background: var(--bg-secondary);
+  border: 1px solid rgba(148, 163, 184, 0.22);
+  border-radius: 22px;
+  box-shadow: 0 16px 40px rgba(15, 23, 42, 0.1);
+  padding: 2rem;
+}
+
+.interest-top {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.interest-subtitle,
+.interest-note,
+.interest-privacy,
+.interest-footnote {
+  margin: 0.5rem 0 0;
+}
+
+.interest-note {
+  font-weight: 700;
+}
+
+.interest-privacy,
+.interest-footnote,
+.helper {
+  font-size: 0.92rem;
+  opacity: 0.9;
+}
+
+.language-switcher {
+  display: inline-flex;
+  gap: 0.4rem;
+  background: var(--bg);
+  border-radius: 999px;
+  padding: 0.3rem;
+}
+
+.lang-btn {
+  border: 0;
+  border-radius: 999px;
+  padding: 0.45rem 0.8rem;
+  font-weight: 600;
+  background: transparent;
+  color: var(--text);
+  cursor: pointer;
+}
+
+.lang-btn.is-active {
+  background: #60a5fa;
+  color: #0f172a;
+}
+
+.interest-form {
+  margin-top: 1rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.interest-form fieldset {
+  border: 1px solid rgba(148, 163, 184, 0.28);
+  border-radius: 14px;
+  padding: 0.8rem 1rem;
+}
+
+.interest-form legend {
+  font-weight: 700;
+  padding: 0 0.2rem;
+}
+
+.interest-form label {
+  display: block;
+  margin-top: 0.45rem;
+}
+
+.interest-form input[type="text"],
+.interest-form input[type="email"] {
+  width: 100%;
+  border: 1px solid rgba(15, 23, 42, 0.2);
+  border-radius: 10px;
+  padding: 0.6rem 0.8rem;
+  background: var(--bg);
+  color: var(--text);
+  margin-top: 0.4rem;
+}
+
+.interest-status {
+  margin-top: 0.8rem;
+  font-weight: 700;
+}
+
 @media (max-width: 700px) {
   .hero {
     padding: 2.5rem 1.5rem;
@@ -540,6 +643,9 @@ footer  {
   }
   .video-selector {
     grid-template-columns: 1fr;
+  }
+  .interest-shell {
+    padding: 1.4rem;
   }
 }
 
