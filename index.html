@@ -13,7 +13,7 @@ layout: landing
   <a href="#programas">Programas</a>
   <a href="{{ '/articles' | relative_url }}">News/Articles</a>
   <a href="#contato">Contato</a>
-  <a href="{{ '/#interesse' | relative_url }}">CursosDisponiveis/Interesse</a>
+  <a href="{{ '/CursosDisponiveis/Interesse/' | relative_url }}">CursosDisponiveis/Interesse</a>
 </nav>
 
 <section class="hero" aria-labelledby="hero-title">
@@ -49,52 +49,52 @@ layout: landing
           <div class="options" id="formatOptions"></div>
         </fieldset>
 
-        <div class="row">
-          <fieldset>
-            <legend data-i18n="qLive"></legend>
-            <div class="options" id="liveOptions"></div>
-          </fieldset>
-
-          <label for="regionInput">
-            <span data-i18n="qRegion"></span>
-            <input id="regionInput" name="state_region_country" type="text" autocomplete="address-level1" required />
-          </label>
-        </div>
-
-        <fieldset>
-          <legend data-i18n="qBackground"></legend>
-          <div class="options" id="backgroundOptions"></div>
-        </fieldset>
-
-        <fieldset>
-          <legend data-i18n="qUpdates"></legend>
-          <div class="options" id="updatesOptions"></div>
-        </fieldset>
-
-        <div class="row">
-          <label for="emailInput">
-            <span data-i18n="qEmail"></span>
-            <input id="emailInput" name="email" type="email" autocomplete="email" />
-          </label>
-          <label for="phoneInput">
-            <span data-i18n="qPhone"></span>
-            <input id="phoneInput" name="whatsapp_phone" type="text" autocomplete="tel" />
-          </label>
-        </div>
-
-        <fieldset>
-          <legend data-i18n="qOpportunities"></legend>
-          <div class="options" id="opportunityOptions"></div>
-        </fieldset>
-
-        <button class="cta" type="submit" data-i18n="submit"></button>
-      </form>
-
-      <div class="success" id="successMessage" role="status" aria-live="polite"></div>
-
-      <footer data-i18n="footer"></footer>
-    </section>
-  </main>
+<section id="cursos" class="section">
+  <div class="section-heading">
+    <h2>Cursos, Palestras &amp; Treinamentos</h2>
+    <p>Programas modulares para equipes acadêmicas e corporativas com conteúdo prático e aplicado.</p>
+  </div>
+  <div class="course-grid">
+    <div class="course-video">
+      <div class="video-embed">
+        <iframe src="https://www.youtube.com/embed/VIDEO_ID" title="Vídeo do curso" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    <div class="course-content">
+      <h3>Conteúdo programático sugerido para avançar sua empresa ou projeto</h3>
+      <ul class="icon-list">
+        <li>Fundamentos de bioinformática e biologia computacional</li>
+        <li>Processamento de dados de sequenciamento genético e controle de qualidade</li>
+        <li>Machine learning aplicado à predição de funções e biomarcadores moleculares</li>
+        <li>Transformers, modelos de linguagem e aplicações em biologia</li>
+        <li>Boas práticas de reprodutibilidade, versionamento e documentação</li>
+      </ul>
+      <div class="course-tags">
+        <span>Bioinformática</span>
+        <span>Genômica</span>
+        <span>IA aplicada</span>
+        <span>Data Science</span>
+      </div>
+    </div>
+  </div>
+  <div class="card-grid compact">
+    <article class="info-card">
+      <h3>Curso Intensivo de Bioinformática</h3>
+      <p>Para profissionais que desejam dominar análise de sequências, montagem e anotação funcional.</p>
+    </article>
+    <article class="info-card">
+      <h3>IA para Biologia &amp; Saúde</h3>
+      <p>Aplicações de deep learning, NLP e modelos generativos em dados biológicos.</p>
+    </article>
+    <article class="info-card">
+      <h3>Análise de proteínas com modelos de linguagem e Machine Learning</h3>
+      <p>Curso focado em análise de proteínas usando modelos de linguagem de proteínas e abordagens de machine learning supervisionado e não supervisionado.</p>
+    </article>
+    <article class="info-card">
+      <h3>Palestras Personalizadas</h3>
+      <p>Conteúdo sob demanda para cursos, universidades e empresas.</p>
+    </article>
+  </div>
+</section>
 
   <script>
     const i18n = {
