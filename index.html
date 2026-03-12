@@ -13,6 +13,7 @@ layout: landing
   <a href="#programas">Programas</a>
   <a href="{{ '/articles' | relative_url }}">News/Articles</a>
   <a href="#contato">Contato</a>
+  <a href="{{ '/#interesse' | relative_url }}">CursosDisponiveis/Interesse</a>
 </nav>
 
 <section class="hero" aria-labelledby="hero-title">
@@ -294,6 +295,122 @@ layout: landing
   </div>
 </section>
 
+<style>
+  .survey-card { background:#fff; border:1px solid #d9e3ef; border-radius:16px; box-shadow:0 10px 26px rgba(14,34,60,.08); padding:20px; max-width:980px; margin:0 auto; }
+  .survey-topbar { display:flex; justify-content:space-between; gap:10px; flex-wrap:wrap; align-items:center; }
+  .survey-eyebrow { margin:0; font-weight:700; color:#16365c; }
+  .survey-lang-switcher { display:flex; gap:8px; flex-wrap:wrap; }
+  .survey-lang-btn { border:1px solid #c9d7e7; background:#fff; border-radius:999px; padding:6px 10px; cursor:pointer; font-weight:600; }
+  .survey-lang-btn.active { background:#0b6fd8; color:#fff; border-color:#0b6fd8; }
+  .survey-subtitle { margin:8px 0; color:#3f536a; }
+  .survey-quick-note,.survey-privacy-note{ margin:8px 0; padding:10px 12px; border-radius:10px; background:#f3f8ff; border:1px solid #d5e2f1; }
+  .survey-form{ display:grid; gap:12px; margin-top:12px; }
+  .survey-form fieldset{ border:1px solid #d7e2ef; border-radius:12px; padding:12px; margin:0;}
+  .survey-options{ display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:8px 10px; }
+  .survey-option{ display:flex; gap:8px; align-items:flex-start; }
+  .survey-helper{ margin:4px 0 8px; color:#4a5d73; font-size:.9rem;}
+  .survey-row{ display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px; }
+  .survey-row label{ display:grid; gap:6px; font-weight:600; }
+  .survey-row input, .survey-form textarea{ border:1px solid #d7e2ef; border-radius:10px; padding:10px 12px; font: inherit; }
+  .survey-submit{ width:100%; }
+  .survey-success{ display:none; margin-top:10px; border:1px solid #c8ecd5; background:#eaf9ef; color:#155e35; border-radius:10px; padding:12px; font-weight:700; text-align:center;}
+  .survey-footer{ margin-top:10px; font-size:.85rem; color:#5a6f86; text-align:center;}
+  @media (max-width: 760px){ .survey-options,.survey-row{ grid-template-columns:1fr; } }
+</style>
+
+<section id="interesse" class="section alt">
+  <div class="section-heading">
+    <h2>Interesse em Cursos, Ferramentas e Consultoria</h2>
+    <p>Pesquisa rápida para validar demanda em Bioinformática, IA, descoberta de enzimas, produtos naturais e assistentes de IA.</p>
+  </div>
+
+  <div class="survey-card" aria-labelledby="survey-title">
+    <div class="survey-topbar">
+      <p id="survey-title" class="survey-eyebrow" data-i18n="headline"></p>
+      <div class="survey-lang-switcher" role="group" aria-label="Language selector">
+        <button class="survey-lang-btn active" type="button" data-lang="pt">Português</button>
+        <button class="survey-lang-btn" type="button" data-lang="en">English</button>
+        <button class="survey-lang-btn" type="button" data-lang="es">Español</button>
+      </div>
+    </div>
+
+    <p class="survey-subtitle" data-i18n="subtitle"></p>
+    <p class="survey-quick-note" data-i18n="under30"></p>
+    <p class="survey-privacy-note" data-i18n="privacy"></p>
+
+    <form id="interestForm" class="survey-form" action="https://formspree.io/f/REPLACE_WITH_FORM_ID" method="POST">
+      <fieldset>
+        <legend data-i18n="qInterest"></legend>
+        <div class="survey-options" id="interestOptions"></div>
+      </fieldset>
+
+      <fieldset>
+        <legend data-i18n="qTopics"></legend>
+        <p class="survey-helper" data-i18n="qTopicsHelp"></p>
+        <div class="survey-options" id="topicOptions"></div>
+        <label for="topicsOtherInput">
+          <span data-i18n="qTopicsOther"></span>
+          <textarea id="topicsOtherInput" name="topics_other" rows="2" data-i18n-placeholder="qTopicsOtherPlaceholder"></textarea>
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend data-i18n="qFormat"></legend>
+        <div class="survey-options" id="formatOptions"></div>
+      </fieldset>
+
+      <fieldset>
+        <legend data-i18n="qPricing"></legend>
+        <p class="survey-helper" data-i18n="qPricingHelp"></p>
+        <div class="survey-options" id="pricingOptions"></div>
+      </fieldset>
+
+      <div class="survey-row">
+        <fieldset>
+          <legend data-i18n="qLive"></legend>
+          <div class="survey-options" id="liveOptions"></div>
+        </fieldset>
+
+        <label for="regionInput">
+          <span data-i18n="qRegion"></span>
+          <input id="regionInput" name="state_region_country" type="text" autocomplete="address-level1" required>
+        </label>
+      </div>
+
+      <fieldset>
+        <legend data-i18n="qBackground"></legend>
+        <div class="survey-options" id="backgroundOptions"></div>
+      </fieldset>
+
+      <fieldset>
+        <legend data-i18n="qUpdates"></legend>
+        <div class="survey-options" id="updatesOptions"></div>
+      </fieldset>
+
+      <div class="survey-row">
+        <label for="emailInput">
+          <span data-i18n="qEmail"></span>
+          <input id="emailInput" name="email" type="email" autocomplete="email">
+        </label>
+        <label for="phoneInput">
+          <span data-i18n="qPhone"></span>
+          <input id="phoneInput" name="whatsapp_phone" type="text" autocomplete="tel">
+        </label>
+      </div>
+
+      <fieldset>
+        <legend data-i18n="qOpportunities"></legend>
+        <div class="survey-options" id="opportunityOptions"></div>
+      </fieldset>
+
+      <button class="button primary survey-submit" type="submit" data-i18n="submit"></button>
+    </form>
+
+    <div class="survey-success" id="successMessage" role="status" aria-live="polite"></div>
+    <p class="survey-footer" data-i18n="footer"></p>
+  </div>
+</section>
+
 <section id="contato" class="section contact">
   <div class="section-heading">
     <h2>Need Support? We’ve Got Your Back Anytime!</h2>
@@ -380,4 +497,165 @@ layout: landing
         countryLabel.textContent = "Não foi possível identificar o país do visitante.";
       }
     });
+
+
+  const i18n = {
+    pt: {
+      headline: "Ajude a orientar os próximos cursos, ferramentas e serviços",
+      subtitle: "Estamos avaliando demanda com foco científico e aplicação prática.",
+      under30: "⏱️ Esta pesquisa leva menos de 30 segundos.",
+      privacy: "🔒 Respostas privadas: apenas o proprietário do site poderá acessá-las via Formspree.",
+      qInterest: "A) Nível de interesse",
+      qTopics: "B) Tópicos de interesse",
+      qTopicsHelp: "Selecione um ou mais tópicos.",
+      qTopicsOther: "Outro(s): escreva um ou mais tópicos de interesse (opcional)",
+      qTopicsOtherPlaceholder: "Ex.: biologia sintética, proteômica, automação de pipelines" ,
+      qFormat: "C) Formato preferido",
+      qPricing: "D) Qual valor você estaria disposto(a) a pagar?",
+      qPricingHelp: "Referência de mercado (BRL): Básico (teoria) R$ 497–897; Intermediário (teoria + prática) R$ 1.497–2.497; Avançado Premium (teoria + prática + resolução de problema específico online/presencial) R$ 4.500–9.000.",
+      qLive: "E) Onde você mora?",
+      qRegion: "F) Estado / região / país",
+      qBackground: "G) Perfil",
+      qUpdates: "H) Deseja receber atualizações sobre futuros cursos ou ferramentas?",
+      qEmail: "I) E-mail (opcional)",
+      qPhone: "J) WhatsApp / telefone (opcional)",
+      qOpportunities: "K) Também teria interesse em contato para outras oportunidades?",
+      submit: "Enviar resposta",
+      success: "Obrigado! Sua resposta foi recebida com sucesso.",
+      footer: "Sem exibição pública de respostas.",
+      interest: ["Muito interessado(a)", "Talvez interessado(a)", "Apenas curioso(a)"],
+      topics: ["IA para descoberta de enzimas","Anotação de genomas","Análise de metabarcoding","Análise de metagenômica","Mineração de biossíntese de produtos naturais","Machine learning para biologia","Bioinformática para biotecnologia industrial","Agente de IA para bioinformática","Chatbot de bioinformática","Outro(s)"],
+      formats: ["Online ao vivo", "Online gravado", "Híbrido", "Presencial"],
+      pricing: ["Básico (somente teoria) · R$ 497–897", "Intermediário (teoria + prática) · R$ 1.497–2.497", "Avançado Premium (teoria + prática + resolução de problema específico online/presencial) · R$ 4.500–9.000"],
+      live: ["Brasil", "Fora do Brasil"],
+      background: ["Estudante de graduação", "Estudante de pós-graduação", "Pesquisador(a)", "Profissional da indústria", "Outro"],
+      updates: ["Sim", "Não"],
+      opportunities: ["Serviços", "Colaboração", "Consultoria", "Não, apenas cursos/ferramentas"]
+    },
+    en: {
+      headline: "Help shape upcoming courses, tools, and services",
+      subtitle: "We are validating demand with a scientific and practical focus.",
+      under30: "⏱️ This survey takes less than 30 seconds.",
+      privacy: "🔒 Private responses: only the site owner can access them through Formspree.",
+      qInterest: "A) Interest level", qTopics: "B) Topics of interest", qTopicsHelp: "Select one or more topics.", qTopicsOther: "Other(s): write one or more topics of interest (optional)", qTopicsOtherPlaceholder: "E.g., synthetic biology, proteomics, pipeline automation",
+      qFormat: "C) Preferred format", qPricing: "D) What price would you be willing to pay?", qPricingHelp: "Market reference (BRL): Basic (theory) R$ 497–897; Intermediate (theory + practice) R$ 1,497–2,497; Advanced Premium (theory + practice + solving a specific problem online/on-site) R$ 4,500–9,000.", qLive: "E) Where do you live?", qRegion: "F) State / region / country",
+      qBackground: "G) Background", qUpdates: "H) Would you like updates about future courses or tools?",
+      qEmail: "I) Email (optional)", qPhone: "J) WhatsApp / phone (optional)",
+      qOpportunities: "K) Interested in being contacted for other opportunities?",
+      submit: "Submit response", success: "Thank you! Your response has been received successfully.",
+      footer: "No public display of responses.",
+      interest: ["Very interested", "Maybe interested", "Just curious"],
+      topics: ["AI for enzyme discovery","Genome annotation","Metabarcoding analysis","Metagenomics analysis","Natural product biosynthesis mining","Machine learning for biology","Industrial biotechnology bioinformatics","AI agent for bioinformatics","Bioinformatics chatbot","Other(s)"],
+      formats: ["Online live", "Online recorded", "Hybrid", "In person"],
+      pricing: ["Basic (theory only) · R$ 497–897", "Intermediate (theory + hands-on practice) · R$ 1,497–2,497", "Advanced Premium (theory + practice + solving a specific problem online/on-site) · R$ 4,500–9,000"],
+      live: ["Brazil", "Outside Brazil"],
+      background: ["Undergraduate student", "Graduate student", "Researcher", "Industry professional", "Other"],
+      updates: ["Yes", "No"],
+      opportunities: ["Services", "Collaboration", "Consulting", "No, only courses/tools"]
+    },
+    es: {
+      headline: "Ayuda a orientar los próximos cursos, herramientas y servicios",
+      subtitle: "Estamos validando demanda con enfoque científico y práctico.",
+      under30: "⏱️ Esta encuesta toma menos de 30 segundos.",
+      privacy: "🔒 Respuestas privadas: solo el propietario del sitio puede accederlas mediante Formspree.",
+      qInterest: "A) Nivel de interés", qTopics: "B) Temas de interés", qTopicsHelp: "Selecciona uno o más temas.", qTopicsOther: "Otro(s): escribe uno o más temas de interés (opcional)", qTopicsOtherPlaceholder: "Ej.: biología sintética, proteómica, automatización de pipelines",
+      qFormat: "C) Formato preferido", qPricing: "D) ¿Qué valor estarías dispuesto(a) a pagar?", qPricingHelp: "Referencia de mercado (BRL): Básico (teoría) R$ 497–897; Intermedio (teoría + práctica) R$ 1.497–2.497; Avanzado Premium (teoría + práctica + resolución de problema específico online/presencial) R$ 4.500–9.000.", qLive: "E) ¿Dónde vives?", qRegion: "F) Estado / región / país",
+      qBackground: "G) Perfil", qUpdates: "H) ¿Deseas recibir novedades sobre futuros cursos o herramientas?",
+      qEmail: "I) Correo electrónico (opcional)", qPhone: "J) WhatsApp / teléfono (opcional)",
+      qOpportunities: "K) ¿Te interesaría contacto para otras oportunidades?",
+      submit: "Enviar respuesta", success: "¡Gracias! Tu respuesta fue recibida con éxito.",
+      footer: "Sin visualización pública de respuestas.",
+      interest: ["Muy interesado(a)", "Tal vez interesado(a)", "Solo curioso(a)"],
+      topics: ["IA para descubrimiento de enzimas","Anotación de genomas","Análisis de metabarcoding","Análisis de metagenómica","Minería de biosíntesis de productos naturales","Machine learning para biología","Bioinformática para biotecnología industrial","Agente de IA para bioinformática","Chatbot de bioinformática","Otro(s)"],
+      formats: ["Online en vivo", "Online grabado", "Híbrido", "Presencial"],
+      pricing: ["Básico (solo teoría) · R$ 497–897", "Intermedio (teoría + práctica) · R$ 1.497–2.497", "Avanzado Premium (teoría + práctica + resolución de problema específico online/presencial) · R$ 4.500–9.000"],
+      live: ["Brasil", "Fuera de Brasil"],
+      background: ["Estudiante de grado", "Estudiante de posgrado", "Investigador(a)", "Profesional de la industria", "Otro"],
+      updates: ["Sí", "No"],
+      opportunities: ["Servicios", "Colaboración", "Consultoría", "No, solo cursos/herramientas"]
+    }
+  };
+
+  let currentLang = "pt";
+  const surveyForm = document.getElementById("interestForm");
+  const surveySuccessMessage = document.getElementById("successMessage");
+
+  function renderChoiceGroup(containerId, name, options, type = "radio") {
+    const container = document.getElementById(containerId);
+    if (!container) return;
+    container.innerHTML = "";
+    options.forEach((labelText, index) => {
+      const id = `${name}_${index}`;
+      const item = document.createElement("label");
+      item.className = "survey-option";
+      item.setAttribute("for", id);
+
+      const input = document.createElement("input");
+      input.type = type;
+      input.id = id;
+      input.name = type === "checkbox" ? `${name}[]` : name;
+      input.value = labelText;
+      if (type === "radio") input.required = true;
+
+      const span = document.createElement("span");
+      span.textContent = labelText;
+
+      item.appendChild(input);
+      item.appendChild(span);
+      container.appendChild(item);
+    });
+  }
+
+  function setSurveyLanguage() {
+    const t = i18n[currentLang];
+    document.querySelectorAll("#interesse [data-i18n]").forEach((el) => {
+      const key = el.getAttribute("data-i18n");
+      if (t[key]) el.textContent = t[key];
+    });
+    document.querySelectorAll("#interesse [data-i18n-placeholder]").forEach((el) => {
+      const key = el.getAttribute("data-i18n-placeholder");
+      if (t[key]) el.setAttribute("placeholder", t[key]);
+    });
+
+    renderChoiceGroup("interestOptions", "interest_level", t.interest, "radio");
+    renderChoiceGroup("topicOptions", "topics_interest", t.topics, "checkbox");
+    renderChoiceGroup("formatOptions", "preferred_format", t.formats, "radio");
+    renderChoiceGroup("pricingOptions", "price_willing_to_pay", t.pricing, "radio");
+    renderChoiceGroup("liveOptions", "where_live", t.live, "radio");
+    renderChoiceGroup("backgroundOptions", "background", t.background, "radio");
+    renderChoiceGroup("updatesOptions", "receive_updates", t.updates, "radio");
+    renderChoiceGroup("opportunityOptions", "other_opportunities", t.opportunities, "checkbox");
+
+    if (surveySuccessMessage) surveySuccessMessage.textContent = t.success;
+  }
+
+  document.querySelectorAll(".survey-lang-btn").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      currentLang = btn.dataset.lang;
+      document.querySelectorAll(".survey-lang-btn").forEach((b) => b.classList.remove("active"));
+      btn.classList.add("active");
+      setSurveyLanguage();
+    });
+  });
+
+  if (surveyForm) {
+    surveyForm.addEventListener("submit", async (event) => {
+      event.preventDefault();
+      const data = new FormData(surveyForm);
+      try {
+        const response = await fetch(surveyForm.action, { method: "POST", body: data, headers: { Accept: "application/json" } });
+        if (response.ok) {
+          surveyForm.style.display = "none";
+          surveySuccessMessage.style.display = "block";
+        } else {
+          alert("Error sending response. Please try again.");
+        }
+      } catch {
+        alert("Connection error. Please try again.");
+      }
+    });
+  }
+
+  setSurveyLanguage();
+
 </script>
