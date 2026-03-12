@@ -1,0 +1,73 @@
+navbar_entries:
+
+  - title: Experiência profissional
+    url: professional
+
+  - title: Publicações
+    url: Publications
+  
+  - title: Experiência de ensino
+    url: Teaching
+
+  - title: Formação adicional - Cursos
+    url: Courses
+    
+  - title: Databiomics
+    url: Databiomics
+    
+
+project_entries:
+
+  - title: FAALPred
+    url: https://faalpred.ciimar.up.pt/
+    desc: Aplicativo web para predição da especificidade de substrato (comprimento da cadeia de ácidos graxos) de fatty acyl-AMP ligases (FAALs) – CIIMAR/BB4F.
+  
+
+old_project_entries:
+
+  - title: Transcriptome of Angiostrongylus cantonensis
+    url: https://angiostrongylus.lad.pucrs.br/admin/
+    desc: Trancriptome results from Angiostrongylus cantonensis
+  
+
+footer_entries:
+
+  - title: GitHub
+    url: https://github.com/mattoslmp
+    
+  - title: LinkedIn
+    url: https://www.linkedin.com/in/leandrodemattos/
+  
+  - title: CV (Lattes)
+    url: http://lattes.cnpq.br/0378658543221383
+
+
+misc_entries:
+  - title: this is an example vertical list
+    url: true
+
+  - title: you can show or hide using a boolean flag in _config.yml
+    url: false
+
+  - title: and you can add data in _data/home.yml
+    url: false
+
+#  - title: Blog posts
+#    post_list: true
+#    url: false
+
+  - title: moonwalk on the Internet
+    url: false
+    entries:
+      - title: on Github
+        url: https://github.com/abhinavs/moonwalk
+
+      - title: this list is scalable and can be nested
+        url: false
+        entries:
+          - title: this is nested inside a nested list
+            url: false
+
+          - title: it is easy to use, see _data/home.yml to see how to configure it.
+            url: false
+
