@@ -26,219 +26,276 @@ layout: landing
         <a class="button primary" href="#contato">Agendar conversa</a>
         <a class="button ghost" href="http://lattes.cnpq.br/0378658543221383" target="_blank" rel="noreferrer">Ver CV Lattes</a>
       </div>
-      <ul class="hero-highlights">
-        <li>Genômica, transcriptômica, proteômica e metagenômica</li>
-        <li>Machine learning, NLP, deep learning e pipelines reprodutíveis</li>
-        <li>Treinamentos, consultorias e projetos de P&amp;D</li>
-      </ul>
-    </div>
-    <div class="hero-card">
-      <h2>Unlock Your AI &amp; ML Potential</h2>
-      <p class="card-intro">Solicite orientação personalizada para seus projetos e equipes.</p>
-      <form class="lead-form" action="https://formsubmit.co/databiomics@gmail.com" method="post">
-        <label>
-          Full Name
-          <input type="text" name="name" placeholder="Seu nome completo" required>
-        </label>
-        <label>
-          Phone Number
-          <input type="tel" name="phone" placeholder="Seu telefone / WhatsApp">
-        </label>
-        <label>
-          Email Id
-          <input type="email" name="email" placeholder="seuemail@dominio.com" required>
-        </label>
-        <label class="checkbox">
-          <input type="checkbox" name="terms" required>
-          I Agree to the Terms &amp; Conditions
-        </label>
-        <label class="checkbox">
-          <input type="checkbox" name="whatsapp">
-          Send WhatsApp Updates
-        </label>
-        <input type="hidden" name="_subject" value="Novo contato via site - Lead Form">
-        <input type="hidden" name="_captcha" value="false">
-        <button class="button primary" type="submit">Get Expert Guidance</button>
+
+      <h1 id="headline" data-i18n="headline"></h1>
+      <p class="subtitle" data-i18n="subtitle"></p>
+      <p class="quick-note" data-i18n="under30"></p>
+      <p class="privacy-note" data-i18n="privacy"></p>
+
+      <form id="interestForm" action="https://formspree.io/f/REPLACE_WITH_FORM_ID" method="POST">
+        <fieldset>
+          <legend data-i18n="qInterest"></legend>
+          <div class="options" id="interestOptions"></div>
+        </fieldset>
+
+        <fieldset>
+          <legend data-i18n="qTopics"></legend>
+          <p class="helper" data-i18n="qTopicsHelp"></p>
+          <div class="options" id="topicOptions"></div>
+        </fieldset>
+
+        <fieldset>
+          <legend data-i18n="qFormat"></legend>
+          <div class="options" id="formatOptions"></div>
+        </fieldset>
+
+        <div class="row">
+          <fieldset>
+            <legend data-i18n="qLive"></legend>
+            <div class="options" id="liveOptions"></div>
+          </fieldset>
+
+          <label for="regionInput">
+            <span data-i18n="qRegion"></span>
+            <input id="regionInput" name="state_region_country" type="text" autocomplete="address-level1" required />
+          </label>
+        </div>
+
+        <fieldset>
+          <legend data-i18n="qBackground"></legend>
+          <div class="options" id="backgroundOptions"></div>
+        </fieldset>
+
+        <fieldset>
+          <legend data-i18n="qUpdates"></legend>
+          <div class="options" id="updatesOptions"></div>
+        </fieldset>
+
+        <div class="row">
+          <label for="emailInput">
+            <span data-i18n="qEmail"></span>
+            <input id="emailInput" name="email" type="email" autocomplete="email" />
+          </label>
+          <label for="phoneInput">
+            <span data-i18n="qPhone"></span>
+            <input id="phoneInput" name="whatsapp_phone" type="text" autocomplete="tel" />
+          </label>
+        </div>
+
+        <fieldset>
+          <legend data-i18n="qOpportunities"></legend>
+          <div class="options" id="opportunityOptions"></div>
+        </fieldset>
+
+        <button class="cta" type="submit" data-i18n="submit"></button>
       </form>
-      <p class="card-footnote">You'll hear back in 24 hours.</p>
-    </div>
-  </div>
-</section>
 
-<section class="section stats">
-  <div class="section-heading">
-    <h2>Impacto e diferenciais</h2>
-    <p>Foco em resultados aplicados, eficiência de análise e capacitação de equipes multidisciplinares.</p>
-  </div>
-  <div class="stats-grid">
-    <div class="stat-card">
-      <h3>+15 anos</h3>
-      <p>de experiência combinada em bioinformática e análise de dados ômicos.</p>
-    </div>
-    <div class="stat-card">
-      <h3>Projetos internacionais</h3>
-      <p>colaborações com universidades, centros de pesquisa e empresas.</p>
-    </div>
-    <div class="stat-card">
-      <h3>IA aplicada</h3>
-      <p>modelos preditivos e NLP para acelerar descoberta científica.</p>
-    </div>
-    <div class="stat-card">
-      <h3>Treinamentos customizados</h3>
-      <p>do básico ao avançado, com foco em prática e reprodutibilidade.</p>
-    </div>
-  </div>
-</section>
+      <div class="success" id="successMessage" role="status" aria-live="polite"></div>
 
-<section id="sobre" class="section">
-  <div class="section-heading">
-    <h2>Sobre</h2>
-    <p>Pesquisador e consultor com trajetória em bioinformática, biologia computacional e ciência de dados aplicada à saúde, biodiversidade e biotecnologia.</p>
-  </div>
-  <div class="two-column">
-    <div>
-      <h3>Experiência</h3>
-      <p>Atuação em projetos nacionais e internacionais, com foco em genômica comparativa, filogenômica e aplicações de IA para descoberta de enzimas e anotação funcional.</p>
-      <ul class="icon-list">
-        <li>Ciência de dados ômicos e pipelines reprodutíveis</li>
-        <li>Modelagem preditiva e aprendizagem supervisionada/não supervisionada</li>
-        <li>Desenvolvimento de aplicações com Python, R, PostgreSQL, Flask e Streamlit</li>
-      </ul>
-    </div>
-    <div class="profile-card">
-      <img src="{{ '/leandro.jpeg' | relative_url }}" alt="Leandro de Mattos Pereira">
-      <h3>Leandro de Mattos Pereira</h3>
-      <p>Pesquisador e Biólogo (MSc, PhD) - CRBIO2: 143240 com formação interdisciplinar em Biotecnologia, Biologia Computacional e Ciência de Dados. Atuo em bioinformática e análise de dados ômicos (genômica, transcriptômica, proteômica e metagenômica), com experiência em anotação funcional, descoberta de enzimas, reconstrução de vias metabólicas, genômica comparativa e filogenômica, mineração de clusters de genes biossintéticos (BGCs) e análises de metabarcoding/ecologia. Trabalho principalmente com Python e R, aplicando metodologias de ciência de dados e aprendizado de máquina — desde métodos clássicos (Random Forest, SVM e redes neurais profundas) até LLMs (como GPT-J e BLOOM), incluindo fine-tuning e RAG.</p>
-      <p>Desenvolvo pipelines de ponta a ponta — desde a aquisição e curadoria de dados, passando pelo processamento e modelagem, até a disponibilização de resultados em soluções do tipo Software as a Service (SaaS), incluindo configuração de ambientes, infraestrutura e implantação em produção. Esses pipelines integram machine learning clássico com modelos baseados em transformers (por exemplo, BERT e ESM2) e abordagens baseadas em embeddings (como word2vec) para prever a especificidade de substrato de enzimas. Tenho interesse em integrar Bioinformática e IA para gerar conhecimento aplicável, com impacto em biotecnologia, preservação ambiental e desenvolvimento sustentável.</p>
-      <a class="button ghost" href="https://www.linkedin.com/in/leandrodemattos/" target="_blank" rel="noreferrer">LinkedIn</a>
-    </div>
-  </div>
-</section>
+      <footer data-i18n="footer"></footer>
+    </section>
+  </main>
 
-<section id="servicos" class="section alt">
-  <div class="section-heading">
-    <h2>Serviços &amp; Consultoria</h2>
-    <p>Projetos sob medida para instituições de pesquisa, estudantes, empresas e laboratórios.</p>
-  </div>
-  <div class="card-grid">
-    <article class="info-card">
-      <h3>Análises Ômicas Avançadas</h3>
-      <p>Integração de dados genômicos, transcriptômicos e metabarcoding/metagenômicos com relatórios claros e acionáveis.</p>
-    </article>
-    <article class="info-card">
-      <h3>IA &amp; IA: Machine Learning e Redes neurais profundas</h3>
-      <p>Modelos preditivos utilizando machine learning tradicional, redes neurais e NLP aplicados a dados biomoleculares e clínicas.</p>
-    </article>
-    <article class="info-card">
-      <h3>Análises Genômicas comparativa</h3>
-      <p>Automatização de acesso a base de dados públicas e obtenção de dados em larga escala (genomas, proteomas), comparação de genomas utilizando pipelines customizados e análises filogenômicas com relatórios.</p>
-    </article>
-    <article class="info-card">
-      <h3>Desenvolvimento de Soluções</h3>
-      <p>Dashboards, APIs e aplicativos científicos para automatizar fluxos e acelerar decisões.</p>
-    </article>
-    <article class="info-card">
-      <h3>Mentoria Estratégica</h3>
-      <p>Planejamento de pesquisa, revisão de pipelines e capacitação de equipes técnicas.</p>
-    </article>
-  </div>
-</section>
-
-<section class="section testimonials">
-  <div class="section-heading">
-    <h2>Como posso ajudar sua organização?</h2>
-    <p>Transformo dados complexos em decisões claras, com entregas estruturadas e comunicação objetiva.</p>
-  </div>
-  <div class="testimonial-grid">
-    <article class="testimonial-card">
-      <h3>Diagnóstico de dados</h3>
-      <p>Mapeio o fluxo atual, identifico gargalos e proponho melhorias com ganho de produtividade.</p>
-    </article>
-    <article class="testimonial-card">
-      <h3>Pipeline reprodutível</h3>
-      <p>Desenvolvo soluções de bioinformática com documentação, versionamento e automação para equipes técnicas.</p>
-    </article>
-    <article class="testimonial-card">
-      <h3>Entrega estratégica</h3>
-      <p>Relatórios e dashboards claros para gestores, cientistas e decisores.</p>
-    </article>
-  </div>
-</section>
-
-<section id="cursos" class="section">
-  <div class="section-heading">
-    <h2>Cursos, Palestras &amp; Treinamentos</h2>
-    <p>Programas modulares para equipes acadêmicas e corporativas com conteúdo prático e aplicado.</p>
-  </div>
-  <div class="course-grid">
-    <div class="course-video">
-      <div class="video-embed">
-        <iframe src="https://www.youtube.com/embed/VIDEO_ID" title="Vídeo do curso" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-    <div class="course-content">
-      <h3>Conteúdo programático sugerido para avançar sua empresa ou projeto</h3>
-      <ul class="icon-list">
-        <li>Fundamentos de bioinformática e biologia computacional</li>
-        <li>Processamento de dados de sequenciamento genético e controle de qualidade</li>
-        <li>Machine learning aplicado à predição de funções e biomarcadores moleculares</li>
-        <li>Transformers, modelos de linguagem e aplicações em biologia</li>
-        <li>Boas práticas de reprodutibilidade, versionamento e documentação</li>
-      </ul>
-      <div class="course-tags">
-        <span>Bioinformática</span>
-        <span>Genômica</span>
-        <span>IA aplicada</span>
-        <span>Data Science</span>
-      </div>
-    </div>
-  </div>
-  <div class="card-grid compact">
-    <article class="info-card">
-      <h3>Curso Intensivo de Bioinformática</h3>
-      <p>Para profissionais que desejam dominar análise de sequências, montagem e anotação funcional.</p>
-    </article>
-    <article class="info-card">
-      <h3>IA para Biologia &amp; Saúde</h3>
-      <p>Aplicações de deep learning, NLP e modelos generativos em dados biológicos.</p>
-    </article>
-    <article class="info-card">
-      <h3>Palestras Personalizadas</h3>
-      <p>Conteúdo sob demanda para cursos, universidades e empresas.</p>
-    </article>
-  </div>
-</section>
-
-<section id="videos" class="section alt">
-  <div class="section-heading">
-    <h2>Galeria de vídeos · Databiomics</h2>
-    <p>Selecione um vídeo para assistir direto na página. Canal: <a href="https://www.youtube.com/@Databiomics" target="_blank" rel="noreferrer">youtube.com/@Databiomics</a>.</p>
-  </div>
-  <div class="video-selector">
-    <div class="video-window">
-      <iframe name="videoPlayer" src="https://www.youtube.com/embed/VIDEO_ID_1" title="Vídeo selecionado do canal Databiomics" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-    <div class="video-list">
-      <button type="button" data-video="HbSAY_IjbCY">🎬 Vídeo 1 · AI Agents in the Field (Agriculture and Environmental Research)</button>
-      <button type="button" data-video="ZcPDakutVUU">🎬 Vídeo 2 · GenerativeAI in Biology: Exploring Mathematical Functions Behind the Methods.</button>
-      <button type="button" data-video="aDtwBN9vt8M">🎬 Vídeo 3 · AI's Energy Demand Today, Tomorrow, and in the Future</button>
-      <!-- Facebook logo após o Vídeo 3 -->
-      <button type="button" onclick="window.open('https://www.facebook.com/watch/?v=602999095516438','_blank')">
-                                                    🎬 Vídeo 4 · Decifrar Enzimas: Bioinformática, Processamento de Linguagem Natural e IA (Facebook)
-      </button>
-      <button type="button" data-video="VIDEO_ID_1">🎬 Vídeo 5 · Introdução à Bioinformática (Vídeo em construção)</button>
-      <button type="button" data-video="VIDEO_ID_2">🎬 Vídeo 6 · Bioinformática, Genômica e IA aplicadas à ciência real (Vídeo em construção)</button>
-      <button type="button" data-video="VIDEO_ID_3">🎬 Vídeo 7 · O que realmente importa em Bioinformática ? (Vídeo em construção)</button>
-      <button type="button" data-video="VIDEO_ID_4">🎬 Vídeo 8 · Genômica e pipelines: da teoria à prática científica (Vídeo em construção)</button>
-      <button type="button" data-video="VIDEO_ID_5">🎬 Vídeo 9 · Inteligência Artificial aplicada à biologia: o que funciona de verdade (Vídeo em construção)</button>
-      <button type="button" data-video="VIDEO_ID_6">🎬 Vídeo 10 · Estudo de caso: do dado biológico ao resultado científico (Vídeo em construção)</button>
-      <button type="button" data-video="VIDEO_ID_7">🎬 Vídeo 11 · Como posso ajudar seu projeto, laboratório ou instituição (Vídeo em construção)</button>      
-    </div>
-  </div>
   <script>
-    document.querySelectorAll(".video-list button").forEach((button) => {
-      button.addEventListener("click", () => {
-        const player = document.querySelector(".video-window iframe");
-        player.src = `https://www.youtube.com/embed/${button.dataset.video}`;
+    const i18n = {
+      pt: {
+        htmlLang: "pt-BR",
+        title: "Interesse em Cursos e Soluções em Bioinformática e IA",
+        metaDescription: "Pesquisa rápida para validar interesse em cursos, ferramentas, serviços, colaboração e consultoria em Bioinformática, IA, descoberta de enzimas e produtos naturais.",
+        ogTitle: "Interesse em Cursos e Soluções em Bioinformática e IA",
+        ogDescription: "Leva menos de 30 segundos. Respostas privadas para avaliar interesse em cursos, ferramentas, serviços, colaboração e consultoria.",
+        tabContact: "Contato",
+        tabInterest: "Interesse",
+        headline: "Ajude a orientar os próximos cursos, ferramentas e serviços",
+        subtitle: "Estamos avaliando demanda em Bioinformática, IA, descoberta de enzimas, produtos naturais e assistentes de IA.",
+        under30: "⏱️ Esta pesquisa leva menos de 30 segundos.",
+        privacy: "🔒 Suas respostas são privadas e visíveis apenas ao proprietário do site via Formspree. Elas serão usadas somente para avaliar interesse em cursos, ferramentas, serviços, colaboração e consultoria.",
+        qInterest: "A) Nível de interesse",
+        qTopics: "B) Tópicos de interesse",
+        qTopicsHelp: "Selecione um ou mais tópicos.",
+        qFormat: "C) Formato preferido",
+        qLive: "D) Onde você mora?",
+        qRegion: "E) Estado / região / país",
+        qBackground: "F) Perfil",
+        qUpdates: "G) Deseja receber atualizações sobre futuros cursos ou ferramentas?",
+        qEmail: "H) E-mail (opcional)",
+        qPhone: "I) WhatsApp / telefone (opcional)",
+        qOpportunities: "J) Também teria interesse em contato para outras oportunidades?",
+        submit: "Enviar resposta",
+        success: "Obrigado! Sua resposta foi recebida com sucesso.",
+        footer: "Pesquisa privada para validação de mercado. Sem exibição pública de respostas.",
+        interest: ["Muito interessado(a)", "Talvez interessado(a)", "Apenas curioso(a)"],
+        topics: [
+          "IA para descoberta de enzimas",
+          "Anotação de genomas",
+          "Análise de metabarcoding",
+          "Análise de metagenômica",
+          "Mineração de biossíntese de produtos naturais",
+          "Machine learning para biologia",
+          "Bioinformática para biotecnologia industrial",
+          "Agente de IA para bioinformática",
+          "Chatbot de bioinformática"
+        ],
+        formats: ["Online ao vivo", "Online gravado", "Híbrido", "Presencial"],
+        live: ["Brasil", "Fora do Brasil"],
+        background: ["Estudante de graduação", "Estudante de pós-graduação", "Pesquisador(a)", "Profissional da indústria", "Outro"],
+        updates: ["Sim", "Não"],
+        opportunities: ["Serviços", "Colaboração", "Consultoria", "Não, apenas cursos/ferramentas"]
+      },
+      en: {
+        htmlLang: "en",
+        title: "Interest in Bioinformatics and AI Courses & Solutions",
+        metaDescription: "Quick survey to validate interest in courses, tools, services, collaboration, and consulting in Bioinformatics, AI, enzyme discovery, and natural products.",
+        ogTitle: "Interest in Bioinformatics and AI Courses & Solutions",
+        ogDescription: "Takes less than 30 seconds. Private responses to evaluate interest in future courses, tools, services, collaboration, and consulting.",
+        tabContact: "Contact",
+        tabInterest: "Interest",
+        headline: "Help shape upcoming courses, tools, and services",
+        subtitle: "We are validating demand in Bioinformatics, AI, enzyme discovery, natural products, and AI assistants.",
+        under30: "⏱️ This survey takes less than 30 seconds.",
+        privacy: "🔒 Your responses are private and visible only to the site owner through Formspree. They will be used only to evaluate interest in future courses, tools, services, collaboration, and consulting.",
+        qInterest: "A) Interest level",
+        qTopics: "B) Topics of interest",
+        qTopicsHelp: "Select one or more topics.",
+        qFormat: "C) Preferred format",
+        qLive: "D) Where do you live?",
+        qRegion: "E) State / region / country",
+        qBackground: "F) Background",
+        qUpdates: "G) Would you like to receive updates about future courses or tools?",
+        qEmail: "H) Email (optional)",
+        qPhone: "I) WhatsApp / phone (optional)",
+        qOpportunities: "J) Would you also be interested in being contacted for other opportunities?",
+        submit: "Submit response",
+        success: "Thank you! Your response has been received successfully.",
+        footer: "Private market-validation survey. No public display of responses.",
+        interest: ["Very interested", "Maybe interested", "Just curious"],
+        topics: [
+          "AI for enzyme discovery",
+          "Genome annotation",
+          "Metabarcoding analysis",
+          "Metagenomics analysis",
+          "Natural product biosynthesis mining",
+          "Machine learning for biology",
+          "Industrial biotechnology bioinformatics",
+          "AI agent for bioinformatics",
+          "Bioinformatics chatbot"
+        ],
+        formats: ["Online live", "Online recorded", "Hybrid", "In person"],
+        live: ["Brazil", "Outside Brazil"],
+        background: ["Undergraduate student", "Graduate student", "Researcher", "Industry professional", "Other"],
+        updates: ["Yes", "No"],
+        opportunities: ["Services", "Collaboration", "Consulting", "No, only courses/tools"]
+      },
+      es: {
+        htmlLang: "es",
+        title: "Interés en Cursos y Soluciones de Bioinformática e IA",
+        metaDescription: "Encuesta rápida para validar interés en cursos, herramientas, servicios, colaboración y consultoría en Bioinformática, IA, descubrimiento de enzimas y productos naturales.",
+        ogTitle: "Interés en Cursos y Soluciones de Bioinformática e IA",
+        ogDescription: "Toma menos de 30 segundos. Respuestas privadas para evaluar interés en cursos, herramientas, servicios, colaboración y consultoría.",
+        tabContact: "Contacto",
+        tabInterest: "Interés",
+        headline: "Ayuda a orientar los próximos cursos, herramientas y servicios",
+        subtitle: "Estamos validando demanda en Bioinformática, IA, descubrimiento de enzimas, productos naturales y asistentes de IA.",
+        under30: "⏱️ Esta encuesta toma menos de 30 segundos.",
+        privacy: "🔒 Tus respuestas son privadas y solo visibles para el propietario del sitio a través de Formspree. Se usarán únicamente para evaluar interés en futuros cursos, herramientas, servicios, colaboración y consultoría.",
+        qInterest: "A) Nivel de interés",
+        qTopics: "B) Temas de interés",
+        qTopicsHelp: "Selecciona uno o más temas.",
+        qFormat: "C) Formato preferido",
+        qLive: "D) ¿Dónde vives?",
+        qRegion: "E) Estado / región / país",
+        qBackground: "F) Perfil",
+        qUpdates: "G) ¿Te gustaría recibir novedades sobre futuros cursos o herramientas?",
+        qEmail: "H) Correo electrónico (opcional)",
+        qPhone: "I) WhatsApp / teléfono (opcional)",
+        qOpportunities: "J) ¿También te interesaría ser contactado para otras oportunidades?",
+        submit: "Enviar respuesta",
+        success: "¡Gracias! Tu respuesta fue recibida con éxito.",
+        footer: "Encuesta privada de validación de mercado. Sin visualización pública de respuestas.",
+        interest: ["Muy interesado(a)", "Tal vez interesado(a)", "Solo curioso(a)"],
+        topics: [
+          "IA para descubrimiento de enzimas",
+          "Anotación de genomas",
+          "Análisis de metabarcoding",
+          "Análisis de metagenómica",
+          "Minería de biosíntesis de productos naturales",
+          "Machine learning para biología",
+          "Bioinformática para biotecnología industrial",
+          "Agente de IA para bioinformática",
+          "Chatbot de bioinformática"
+        ],
+        formats: ["Online en vivo", "Online grabado", "Híbrido", "Presencial"],
+        live: ["Brasil", "Fuera de Brasil"],
+        background: ["Estudiante de grado", "Estudiante de posgrado", "Investigador(a)", "Profesional de la industria", "Otro"],
+        updates: ["Sí", "No"],
+        opportunities: ["Servicios", "Colaboración", "Consultoría", "No, solo cursos/herramientas"]
+      }
+    };
+
+    let currentLang = "pt";
+
+    const metaDescription = document.querySelector('meta[name="description"]');
+    const ogTitle = document.querySelector('meta[property="og:title"]');
+    const ogDescription = document.querySelector('meta[property="og:description"]');
+    const form = document.getElementById("interestForm");
+    const successMessage = document.getElementById("successMessage");
+
+    function renderChoiceGroup(containerId, name, options, type = "radio") {
+      const container = document.getElementById(containerId);
+      container.innerHTML = "";
+      options.forEach((labelText, index) => {
+        const id = `${name}_${index}`;
+        const item = document.createElement("label");
+        item.className = "option";
+        item.setAttribute("for", id);
+
+        const input = document.createElement("input");
+        input.type = type;
+        input.id = id;
+        input.name = type === "checkbox" ? `${name}[]` : name;
+        input.value = labelText;
+        if (type === "radio") input.required = true;
+
+        const span = document.createElement("span");
+        span.textContent = labelText;
+
+        item.appendChild(input);
+        item.appendChild(span);
+        container.appendChild(item);
+      });
+    }
+
+    function setText() {
+      const t = i18n[currentLang];
+      document.documentElement.lang = t.htmlLang;
+
+      document.title = t.title;
+      metaDescription.setAttribute("content", t.metaDescription);
+      ogTitle.setAttribute("content", t.ogTitle);
+      ogDescription.setAttribute("content", t.ogDescription);
+
+      document.querySelectorAll("[data-i18n]").forEach((el) => {
+        const key = el.getAttribute("data-i18n");
+        if (t[key]) el.textContent = t[key];
+      });
+
+      renderChoiceGroup("interestOptions", "interest_level", t.interest, "radio");
+      renderChoiceGroup("topicOptions", "topics_interest", t.topics, "checkbox");
+      renderChoiceGroup("formatOptions", "preferred_format", t.formats, "radio");
+      renderChoiceGroup("liveOptions", "where_live", t.live, "radio");
+      renderChoiceGroup("backgroundOptions", "background", t.background, "radio");
+      renderChoiceGroup("updatesOptions", "receive_updates", t.updates, "radio");
+      renderChoiceGroup("opportunityOptions", "other_opportunities", t.opportunities, "checkbox");
+
+      successMessage.textContent = t.success;
+    }
+
+    document.querySelectorAll(".lang-btn").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        currentLang = btn.dataset.lang;
+        document.querySelectorAll(".lang-btn").forEach((b) => b.classList.remove("active"));
+        btn.classList.add("active");
+        setText();
       });
     });
   </script>
@@ -480,15 +537,170 @@ layout: landing
         countryLabel.textContent = `País do visitante: ${countryName}`;
       }
 
-      if (flagImage && countryCode) {
-        flagImage.src = `https://flagcdn.com/${countryCode}.svg`;
-        flagImage.hidden = false;
+    form.addEventListener("submit", async (event) => {
+      event.preventDefault();
+      const data = new FormData(form);
+
+      try {
+        const response = await fetch(form.action, {
+          method: "POST",
+          body: data,
+          headers: { Accept: "application/json" }
+        });
+
+        if (response.ok) {
+          form.style.display = "none";
+          successMessage.style.display = "block";
+        } else {
+          alert("Error sending response. Please try again.");
+        }
+      } catch {
+        alert("Connection error. Please try again.");
       }
-    })
-    .catch(() => {
-      const countryLabel = document.getElementById("visitor-country");
-      if (countryLabel) {
-        countryLabel.textContent = "Não foi possível identificar o país do visitante.";
+    });
+
+
+  const i18n = {
+    pt: {
+      headline: "Ajude a orientar os próximos cursos, ferramentas e serviços",
+      subtitle: "Estamos avaliando demanda com foco científico e aplicação prática.",
+      under30: "⏱️ Esta pesquisa leva menos de 30 segundos.",
+      privacy: "🔒 Respostas privadas: apenas o proprietário do site poderá acessá-las via Formspree.",
+      qInterest: "A) Nível de interesse",
+      qTopics: "B) Tópicos de interesse",
+      qTopicsHelp: "Selecione um ou mais tópicos.",
+      qFormat: "C) Formato preferido",
+      qLive: "D) Onde você mora?",
+      qRegion: "E) Estado / região / país",
+      qBackground: "F) Perfil",
+      qUpdates: "G) Deseja receber atualizações sobre futuros cursos ou ferramentas?",
+      qEmail: "H) E-mail (opcional)",
+      qPhone: "I) WhatsApp / telefone (opcional)",
+      qOpportunities: "J) Também teria interesse em contato para outras oportunidades?",
+      submit: "Enviar resposta",
+      success: "Obrigado! Sua resposta foi recebida com sucesso.",
+      footer: "Sem exibição pública de respostas.",
+      interest: ["Muito interessado(a)", "Talvez interessado(a)", "Apenas curioso(a)"],
+      topics: ["IA para descoberta de enzimas","Anotação de genomas","Análise de metabarcoding","Análise de metagenômica","Mineração de biossíntese de produtos naturais","Machine learning para biologia","Bioinformática para biotecnologia industrial","Agente de IA para bioinformática","Chatbot de bioinformática"],
+      formats: ["Online ao vivo", "Online gravado", "Híbrido", "Presencial"],
+      live: ["Brasil", "Fora do Brasil"],
+      background: ["Estudante de graduação", "Estudante de pós-graduação", "Pesquisador(a)", "Profissional da indústria", "Outro"],
+      updates: ["Sim", "Não"],
+      opportunities: ["Serviços", "Colaboração", "Consultoria", "Não, apenas cursos/ferramentas"]
+    },
+    en: {
+      headline: "Help shape upcoming courses, tools, and services",
+      subtitle: "We are validating demand with a scientific and practical focus.",
+      under30: "⏱️ This survey takes less than 30 seconds.",
+      privacy: "🔒 Private responses: only the site owner can access them through Formspree.",
+      qInterest: "A) Interest level", qTopics: "B) Topics of interest", qTopicsHelp: "Select one or more topics.",
+      qFormat: "C) Preferred format", qLive: "D) Where do you live?", qRegion: "E) State / region / country",
+      qBackground: "F) Background", qUpdates: "G) Would you like updates about future courses or tools?",
+      qEmail: "H) Email (optional)", qPhone: "I) WhatsApp / phone (optional)",
+      qOpportunities: "J) Interested in being contacted for other opportunities?",
+      submit: "Submit response", success: "Thank you! Your response has been received successfully.",
+      footer: "No public display of responses.",
+      interest: ["Very interested", "Maybe interested", "Just curious"],
+      topics: ["AI for enzyme discovery","Genome annotation","Metabarcoding analysis","Metagenomics analysis","Natural product biosynthesis mining","Machine learning for biology","Industrial biotechnology bioinformatics","AI agent for bioinformatics","Bioinformatics chatbot"],
+      formats: ["Online live", "Online recorded", "Hybrid", "In person"],
+      live: ["Brazil", "Outside Brazil"],
+      background: ["Undergraduate student", "Graduate student", "Researcher", "Industry professional", "Other"],
+      updates: ["Yes", "No"],
+      opportunities: ["Services", "Collaboration", "Consulting", "No, only courses/tools"]
+    },
+    es: {
+      headline: "Ayuda a orientar los próximos cursos, herramientas y servicios",
+      subtitle: "Estamos validando demanda con enfoque científico y práctico.",
+      under30: "⏱️ Esta encuesta toma menos de 30 segundos.",
+      privacy: "🔒 Respuestas privadas: solo el propietario del sitio puede accederlas mediante Formspree.",
+      qInterest: "A) Nivel de interés", qTopics: "B) Temas de interés", qTopicsHelp: "Selecciona uno o más temas.",
+      qFormat: "C) Formato preferido", qLive: "D) ¿Dónde vives?", qRegion: "E) Estado / región / país",
+      qBackground: "F) Perfil", qUpdates: "G) ¿Deseas recibir novedades sobre futuros cursos o herramientas?",
+      qEmail: "H) Correo electrónico (opcional)", qPhone: "I) WhatsApp / teléfono (opcional)",
+      qOpportunities: "J) ¿Te interesaría contacto para otras oportunidades?",
+      submit: "Enviar respuesta", success: "¡Gracias! Tu respuesta fue recibida con éxito.",
+      footer: "Sin visualización pública de respuestas.",
+      interest: ["Muy interesado(a)", "Tal vez interesado(a)", "Solo curioso(a)"],
+      topics: ["IA para descubrimiento de enzimas","Anotación de genomas","Análisis de metabarcoding","Análisis de metagenómica","Minería de biosíntesis de productos naturales","Machine learning para biología","Bioinformática para biotecnología industrial","Agente de IA para bioinformática","Chatbot de bioinformática"],
+      formats: ["Online en vivo", "Online grabado", "Híbrido", "Presencial"],
+      live: ["Brasil", "Fuera de Brasil"],
+      background: ["Estudiante de grado", "Estudiante de posgrado", "Investigador(a)", "Profesional de la industria", "Otro"],
+      updates: ["Sí", "No"],
+      opportunities: ["Servicios", "Colaboración", "Consultoría", "No, solo cursos/herramientas"]
+    }
+  };
+
+  let currentLang = "pt";
+  const surveyForm = document.getElementById("interestForm");
+  const surveySuccessMessage = document.getElementById("successMessage");
+
+  function renderChoiceGroup(containerId, name, options, type = "radio") {
+    const container = document.getElementById(containerId);
+    if (!container) return;
+    container.innerHTML = "";
+    options.forEach((labelText, index) => {
+      const id = `${name}_${index}`;
+      const item = document.createElement("label");
+      item.className = "survey-option";
+      item.setAttribute("for", id);
+
+      const input = document.createElement("input");
+      input.type = type;
+      input.id = id;
+      input.name = type === "checkbox" ? `${name}[]` : name;
+      input.value = labelText;
+      if (type === "radio") input.required = true;
+
+      const span = document.createElement("span");
+      span.textContent = labelText;
+
+      item.appendChild(input);
+      item.appendChild(span);
+      container.appendChild(item);
+    });
+  }
+
+  function setSurveyLanguage() {
+    const t = i18n[currentLang];
+    document.querySelectorAll("#interesse [data-i18n]").forEach((el) => {
+      const key = el.getAttribute("data-i18n");
+      if (t[key]) el.textContent = t[key];
+    });
+
+    renderChoiceGroup("interestOptions", "interest_level", t.interest, "radio");
+    renderChoiceGroup("topicOptions", "topics_interest", t.topics, "checkbox");
+    renderChoiceGroup("formatOptions", "preferred_format", t.formats, "radio");
+    renderChoiceGroup("liveOptions", "where_live", t.live, "radio");
+    renderChoiceGroup("backgroundOptions", "background", t.background, "radio");
+    renderChoiceGroup("updatesOptions", "receive_updates", t.updates, "radio");
+    renderChoiceGroup("opportunityOptions", "other_opportunities", t.opportunities, "checkbox");
+
+    if (surveySuccessMessage) surveySuccessMessage.textContent = t.success;
+  }
+
+  document.querySelectorAll(".survey-lang-btn").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      currentLang = btn.dataset.lang;
+      document.querySelectorAll(".survey-lang-btn").forEach((b) => b.classList.remove("active"));
+      btn.classList.add("active");
+      setSurveyLanguage();
+    });
+  });
+
+  if (surveyForm) {
+    surveyForm.addEventListener("submit", async (event) => {
+      event.preventDefault();
+      const data = new FormData(surveyForm);
+      try {
+        const response = await fetch(surveyForm.action, { method: "POST", body: data, headers: { Accept: "application/json" } });
+        if (response.ok) {
+          surveyForm.style.display = "none";
+          surveySuccessMessage.style.display = "block";
+        } else {
+          alert("Error sending response. Please try again.");
+        }
+      } catch {
+        alert("Connection error. Please try again.");
       }
     });
 
