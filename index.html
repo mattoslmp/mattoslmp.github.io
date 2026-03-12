@@ -13,7 +13,7 @@ layout: landing
   <a href="#programas">Programas</a>
   <a href="{{ '/articles' | relative_url }}">News/Articles</a>
   <a href="#contato">Contato</a>
-  <a href="{{ '/CursosDisponiveis/Interesse/' | relative_url }}">CursosDisponiveis/Interesse</a>
+  <a href="#interesse">CursosDisponiveis/Interesses</a>
 </nav>
 
 <section class="hero" aria-labelledby="hero-title">
@@ -96,6 +96,32 @@ layout: landing
   </div>
 </section>
 
+<section id="videos" class="section alt">
+  <div class="section-heading">
+    <h2>Galeria de vídeos · Databiomics</h2>
+    <p>Selecione um vídeo para assistir direto na página. Canal: <a href="https://www.youtube.com/@Databiomics" target="_blank" rel="noreferrer">youtube.com/@Databiomics</a>.</p>
+  </div>
+  <div class="video-selector">
+    <div class="video-window">
+      <iframe name="videoPlayer" src="https://www.youtube.com/embed/VIDEO_ID_1" title="Vídeo selecionado do canal Databiomics" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="video-list">
+      <button type="button" data-video="HbSAY_IjbCY">🎬 Vídeo 1 · AI Agents in the Field (Agriculture and Environmental Research)</button>
+      <button type="button" data-video="ZcPDakutVUU">🎬 Vídeo 2 · GenerativeAI in Biology: Exploring Mathematical Functions Behind the Methods.</button>
+      <button type="button" data-video="aDtwBN9vt8M">🎬 Vídeo 3 · AI's Energy Demand Today, Tomorrow, and in the Future</button>
+      <!-- Facebook logo após o Vídeo 3 -->
+      <button type="button" onclick="window.open('https://www.facebook.com/watch/?v=602999095516438','_blank')">
+                                                    🎬 Vídeo 4 · Decifrar Enzimas: Bioinformática, Processamento de Linguagem Natural e IA (Facebook)
+      </button>
+      <button type="button" data-video="VIDEO_ID_1">🎬 Vídeo 5 · Introdução à Bioinformática (Vídeo em construção)</button>
+      <button type="button" data-video="VIDEO_ID_2">🎬 Vídeo 6 · Bioinformática, Genômica e IA aplicadas à ciência real (Vídeo em construção)</button>
+      <button type="button" data-video="VIDEO_ID_3">🎬 Vídeo 7 · O que realmente importa em Bioinformática ? (Vídeo em construção)</button>
+      <button type="button" data-video="VIDEO_ID_4">🎬 Vídeo 8 · Genômica e pipelines: da teoria à prática científica (Vídeo em construção)</button>
+      <button type="button" data-video="VIDEO_ID_5">🎬 Vídeo 9 · Inteligência Artificial aplicada à biologia: o que funciona de verdade (Vídeo em construção)</button>
+      <button type="button" data-video="VIDEO_ID_6">🎬 Vídeo 10 · Estudo de caso: do dado biológico ao resultado científico (Vídeo em construção)</button>
+      <button type="button" data-video="VIDEO_ID_7">🎬 Vídeo 11 · Como posso ajudar seu projeto, laboratório ou instituição (Vídeo em construção)</button>
+    </div>
+  </div>
   <script>
     const i18n = {
       pt: {
@@ -298,7 +324,8 @@ layout: landing
         setText();
       });
     });
-  </script>
+
+</script>
 </section>
 
 <section id="newsletter" class="section">
@@ -375,6 +402,8 @@ layout: landing
   @media (max-width: 760px){ .survey-options,.survey-row{ grid-template-columns:1fr; } }
 </style>
 
+<span id="Interesses" aria-hidden="true"></span>
+<span id="interesses" aria-hidden="true"></span>
 <section id="interesse" class="section alt">
   <div class="section-heading">
     <h2>Interesse em Cursos, Ferramentas e Consultoria</h2>
@@ -867,6 +896,18 @@ layout: landing
       }
     });
   }
+
+  // Compatibilidade com hashes antigos/plurais da aba de interesse
+  (function normalizeLegacyInterestHash() {
+    const map = { '#Interesses': '#interesse', '#interesses': '#interesse', '#Interesse': '#interesse' };
+    const target = map[window.location.hash];
+    if (!target) return;
+    history.replaceState(null, '', target);
+    window.addEventListener('load', () => {
+      const section = document.querySelector(target);
+      if (section) section.scrollIntoView({ behavior: 'auto', block: 'start' });
+    }, { once: true });
+  })();
 
   setSurveyLanguage();
 
