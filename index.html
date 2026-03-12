@@ -384,25 +384,31 @@ layout: landing
   #cursos .info-card,
   #cursos .info-card h3,
   #cursos .info-card p { color:#0f172a; }
-  .section,
-  .section h1,
-  .section h2,
-  .section h3,
-  .section p,
-  .section li,
-  .section label,
-  .section legend { color:#0f172a; }
-
   .info-card,
   .course-content,
   .testimonial-card,
   .profile-card,
   .promo-card,
   .survey-card,
-  .survey-form fieldset { background:#fff; color:#0f172a; }
+  .survey-form fieldset,
+  #sobre,
+  #cursos,
+  #newsletter,
+  #divulgacao-cursos,
+  #CursosDisponibilidade {
+    background:#fff;
+    color:#0f172a !important;
+  }
 
-  #CursosDisponibilidade { display:none; }
-  #CursosDisponibilidade:target { display:block; }
+  #sobre h1, #sobre h2, #sobre h3, #sobre p, #sobre li,
+  #cursos h1, #cursos h2, #cursos h3, #cursos p, #cursos li,
+  #newsletter h1, #newsletter h2, #newsletter h3, #newsletter p, #newsletter li,
+  #divulgacao-cursos h1, #divulgacao-cursos h2, #divulgacao-cursos h3, #divulgacao-cursos p, #divulgacao-cursos li,
+  #CursosDisponibilidade h1, #CursosDisponibilidade h2, #CursosDisponibilidade h3, #CursosDisponibilidade p, #CursosDisponibilidade li, #CursosDisponibilidade label, #CursosDisponibilidade legend {
+    color:#0f172a !important;
+  }
+
+  #CursosDisponibilidade[hidden] { display:none !important; }
   #CursosDisponibilidade,
   #CursosDisponibilidade h2,
   #CursosDisponibilidade p,
@@ -434,7 +440,7 @@ layout: landing
 
 <span id="interesse" aria-hidden="true"></span>
 <span id="interesses" aria-hidden="true"></span>
-<section id="CursosDisponibilidade" class="section">
+<section id="CursosDisponibilidade" class="section" hidden>
   <div class="section-heading">
     <h2>Interesse em Cursos, Ferramentas e Consultoria</h2>
     <p>Pesquisa rápida para validar demanda em Bioinformática, IA, descoberta de enzimas, produtos naturais e assistentes de IA.</p>
@@ -907,7 +913,8 @@ layout: landing
       currentLang = btn.dataset.lang;
       document.querySelectorAll(".survey-lang-btn").forEach((b) => b.classList.remove("active"));
       btn.classList.add("active");
-      setSurveyLanguage();
+      toggleAvailabilitySectionByHash();
+  setSurveyLanguage();
     });
   });
 
@@ -929,6 +936,18 @@ layout: landing
     });
   }
 
+  const availabilityHashes = new Set(["#CursosDisponibilidade", "#Interesses", "#interesse", "#interesses", "#Interesse"]);
+  function toggleAvailabilitySectionByHash() {
+    if (!surveyRoot) return;
+    if (availabilityHashes.has(window.location.hash)) {
+      surveyRoot.hidden = false;
+    } else {
+      surveyRoot.hidden = true;
+    }
+  }
+
+  window.addEventListener("hashchange", toggleAvailabilitySectionByHash);
+
   // Compatibilidade com hashes antigos/plurais da aba de interesse
   (function normalizeLegacyInterestHash() {
     const map = { '#CursosDisponibilidade': '#CursosDisponibilidade', '#Interesses': '#CursosDisponibilidade', '#interesse': '#CursosDisponibilidade', '#interesses': '#CursosDisponibilidade', '#Interesse': '#CursosDisponibilidade' };
@@ -941,6 +960,7 @@ layout: landing
     }, { once: true });
   })();
 
+  toggleAvailabilitySectionByHash();
   setSurveyLanguage();
 
 </script>
