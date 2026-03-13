@@ -13,6 +13,7 @@ layout: landing
   <a href="#programas">Programas</a>
   <a href="{{ '/articles' | relative_url }}">News/Articles</a>
   <a href="#contato">Contato</a>
+  <a href="#interest">Interesse</a>
 </nav>
 
 <section class="hero" aria-labelledby="hero-title">
@@ -193,15 +194,27 @@ layout: landing
   </div>
   <div class="card-grid compact">
     <article class="info-card">
-      <h3>Curso Intensivo de Bioinformática</h3>
-      <p>Para profissionais que desejam dominar análise de sequências, montagem e anotação funcional.</p>
+      <h3>Básico · Introdução à Bioinformática · R$ 297–597</h3>
+      <p>Fundamentos, bases de dados biológicos e primeiros fluxos de análise para iniciar com segurança.</p>
     </article>
     <article class="info-card">
-      <h3>IA para Biologia &amp; Saúde</h3>
-      <p>Aplicações de deep learning, NLP e modelos generativos em dados biológicos.</p>
+      <h3>Básico · Linux para Bioinformática · R$ 247–497</h3>
+      <p>Linha de comando, organização de projetos e automação inicial para rotina científica.</p>
     </article>
     <article class="info-card">
-      <h3>Palestras Personalizadas</h3>
+      <h3>Básico · Programação em Python · R$ 397–797</h3>
+      <p>Python aplicado à análise de dados biológicos, manipulação de arquivos e scripts reprodutíveis.</p>
+    </article>
+    <article class="info-card">
+      <h3>Intermediário · IA para Biologia &amp; Saúde · R$ 897–1.800</h3>
+      <p>Aplicações práticas de machine learning, NLP e modelos generativos em dados biológicos.</p>
+    </article>
+    <article class="info-card">
+      <h3>Avançado · Engenharia de Prompt para Ciência e Bioinformática · R$ 1.500–3.500</h3>
+      <p>Estratégias avançadas de prompt para LLMs e agentes de IA em fluxos científicos e técnicos.</p>
+    </article>
+    <article class="info-card">
+      <h3>Palestras Personalizadas · Sob proposta</h3>
       <p>Conteúdo sob demanda para cursos, universidades e empresas.</p>
     </article>
   </div>
@@ -294,6 +307,229 @@ layout: landing
   </div>
 </section>
 
+<section id="interest" class="section interest-section" aria-labelledby="interest-title">
+  <div class="interest-card">
+    <div class="interest-topbar">
+      <p class="interest-badge" data-i18n="badge"></p>
+      <div class="interest-lang-switch" role="group" aria-label="Language switcher">
+        <button type="button" data-lang="pt" class="active">Português</button>
+        <button type="button" data-lang="en">English</button>
+        <button type="button" data-lang="es">Español</button>
+      </div>
+    </div>
+
+    <h2 id="interest-title" data-i18n="title"></h2>
+    <p class="interest-subtitle" data-i18n="subtitle"></p>
+    <p class="interest-fast" data-i18n="under30"></p>
+    <p class="interest-privacy" data-i18n="privacy"></p>
+
+    <form id="interestForm" class="interest-form" action="https://formspree.io/f/REPLACE_WITH_FORM_ID" method="POST">
+      <fieldset>
+        <legend data-i18n="qInterest"></legend>
+        <div id="interestLevelOptions" class="interest-options"></div>
+      </fieldset>
+
+      <fieldset>
+        <legend data-i18n="qTopics"></legend>
+        <p class="interest-helper" data-i18n="qTopicsHelp"></p>
+        <div id="interestTopicOptions" class="interest-options"></div>
+      </fieldset>
+
+      <fieldset>
+        <legend data-i18n="qFormat"></legend>
+        <div id="interestFormatOptions" class="interest-options"></div>
+      </fieldset>
+
+      <fieldset>
+        <legend data-i18n="qPrice"></legend>
+        <p class="interest-helper" data-i18n="qPriceHelp"></p>
+        <div id="interestPriceOptions" class="interest-options"></div>
+      </fieldset>
+
+      <div class="interest-row">
+        <fieldset>
+          <legend data-i18n="qLive"></legend>
+          <div id="interestLiveOptions" class="interest-options"></div>
+        </fieldset>
+
+        <label for="interestRegion">
+          <span data-i18n="qRegion"></span>
+          <input id="interestRegion" name="state_region_country" type="text" autocomplete="address-level1" required>
+        </label>
+      </div>
+
+      <fieldset>
+        <legend data-i18n="qBackground"></legend>
+        <div id="interestBackgroundOptions" class="interest-options"></div>
+      </fieldset>
+
+      <fieldset>
+        <legend data-i18n="qUpdates"></legend>
+        <div id="interestUpdatesOptions" class="interest-options"></div>
+      </fieldset>
+
+      <div class="interest-row">
+        <label for="interestEmail">
+          <span data-i18n="qEmail"></span>
+          <input id="interestEmail" name="email" type="email" autocomplete="email">
+        </label>
+        <label for="interestPhone">
+          <span data-i18n="qPhone"></span>
+          <input id="interestPhone" name="whatsapp_phone" type="text" autocomplete="tel">
+        </label>
+      </div>
+
+      <fieldset>
+        <legend data-i18n="qOpportunities"></legend>
+        <div id="interestOpportunityOptions" class="interest-options"></div>
+      </fieldset>
+
+      <button type="submit" class="button primary interest-submit" data-i18n="submit"></button>
+    </form>
+
+    <div id="interestSuccess" class="interest-success" role="status" aria-live="polite"></div>
+    <p class="interest-footer" data-i18n="footer"></p>
+  </div>
+</section>
+
+<style>
+  .interest-section {
+    background: #f4f7fb;
+  }
+
+  .interest-card {
+    max-width: 920px;
+    margin: 0 auto;
+    background: #ffffff;
+    color: #0f172a;
+    border-radius: 18px;
+    box-shadow: 0 20px 40px rgba(15, 23, 42, 0.12);
+    padding: clamp(1rem, 2.4vw, 2rem);
+  }
+
+  .interest-card h2,
+  .interest-card h3,
+  .interest-card p,
+  .interest-card legend,
+  .interest-card label,
+  .interest-card span {
+    color: #0f172a;
+  }
+
+  .interest-topbar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .interest-badge {
+    margin: 0;
+    font-weight: 700;
+    color: #2563eb;
+  }
+
+  .interest-lang-switch {
+    display: inline-flex;
+    gap: 0.5rem;
+  }
+
+  .interest-lang-switch button {
+    border: 1px solid #cbd5e1;
+    background: #fff;
+    color: #0f172a;
+    border-radius: 999px;
+    padding: 0.4rem 0.8rem;
+    font-size: 0.85rem;
+    cursor: pointer;
+  }
+
+  .interest-lang-switch button.active {
+    background: #1d4ed8;
+    border-color: #1d4ed8;
+    color: #fff;
+  }
+
+  .interest-subtitle,
+  .interest-fast,
+  .interest-privacy,
+  .interest-helper,
+  .interest-footer {
+    margin: 0.35rem 0 0.75rem;
+  }
+
+  .interest-fast { font-weight: 600; }
+  .interest-privacy { font-size: 0.95rem; }
+
+  .interest-form {
+    display: grid;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+
+  .interest-form fieldset {
+    margin: 0;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 0.75rem;
+  }
+
+  .interest-form legend {
+    font-weight: 700;
+    padding: 0 0.25rem;
+  }
+
+  .interest-options {
+    display: grid;
+    gap: 0.5rem;
+  }
+
+  .interest-options label {
+    display: flex;
+    gap: 0.6rem;
+    align-items: flex-start;
+    font-size: 0.95rem;
+  }
+
+  .interest-row {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  }
+
+  .interest-form input[type="text"],
+  .interest-form input[type="email"] {
+    width: 100%;
+    margin-top: 0.35rem;
+    border: 1px solid #cbd5e1;
+    border-radius: 10px;
+    padding: 0.6rem 0.75rem;
+    color: #0f172a;
+    background: #fff;
+  }
+
+  .interest-submit {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .interest-success {
+    display: none;
+    margin-top: 1rem;
+    padding: 0.85rem 1rem;
+    border-radius: 10px;
+    background: #dcfce7;
+    color: #14532d;
+    font-weight: 600;
+  }
+
+  @media (max-width: 640px) {
+    .interest-lang-switch { width: 100%; }
+    .interest-lang-switch button { flex: 1; }
+  }
+</style>
+
 <section id="contato" class="section contact">
   <div class="section-heading">
     <h2>Need Support? We’ve Got Your Back Anytime!</h2>
@@ -380,4 +616,206 @@ layout: landing
         countryLabel.textContent = "Não foi possível identificar o país do visitante.";
       }
     });
+
+  const interestI18n = {
+    pt: {
+      badge: "Pesquisa rápida de interesse",
+      title: "Interesse em futuros cursos, ferramentas e consultorias",
+      subtitle: "Ajude a priorizar novos treinamentos e soluções em Bioinformática, IA, descoberta de enzimas, produtos naturais e assistentes de IA.",
+      under30: "Leva menos de 30 segundos.",
+      privacy: "Privacidade: as respostas são privadas e visíveis apenas ao responsável do site via Formspree, usadas somente para avaliar interesse em cursos, ferramentas, serviços, colaboração e consultoria.",
+      qInterest: "A) Qual seu nível de interesse?",
+      qTopics: "B) Selecione um ou mais tópicos de interesse",
+      qTopicsHelp: "Marque as opções mais relevantes para você.",
+      qFormat: "C) Formato preferido",
+      qPrice: "D) Qual faixa de valor você estaria disposto(a) a pagar por curso?",
+      qPriceHelp: "Faixas competitivas para o mercado brasileiro de cursos técnicos e científicos.",
+      qLive: "E) Onde você mora?",
+      qRegion: "F) Estado / região / país",
+      qBackground: "G) Seu perfil",
+      qUpdates: "H) Deseja receber atualizações sobre cursos/ferramentas?",
+      qEmail: "I) Email (opcional)",
+      qPhone: "J) WhatsApp / telefone (opcional)",
+      qOpportunities: "K) Também posso entrar em contato para outras oportunidades?",
+      submit: "Enviar resposta",
+      success: "Obrigado! Sua resposta foi recebida com sucesso.",
+      footer: "Seu feedback orienta a criação de cursos e soluções de alto impacto.",
+      interestOptions: ["Muito interessado(a)", "Talvez interessado(a)", "Só curioso(a)"],
+      topicOptions: [
+        "IA para descoberta de enzimas",
+        "Anotação de genomas",
+        "Análise de metabarcoding",
+        "Análise de metagenômica",
+        "Mineração de biossíntese de produtos naturais",
+        "Machine learning para biologia",
+        "Bioinformática para biotecnologia industrial",
+        "Agente de IA para bioinformática",
+        "Chatbot para bioinformática"
+      ],
+      formatOptions: ["Online ao vivo", "Online gravado", "Híbrido", "Presencial"],
+      priceOptions: ["Até R$ 500", "R$ 500–1.000", "R$ 1.000–2.000", "R$ 2.000–3.500", "Acima de R$ 3.500"],
+      liveOptions: ["Brasil", "Fora do Brasil"],
+      backgroundOptions: ["Estudante de graduação", "Estudante de pós-graduação", "Pesquisador(a)", "Profissional da indústria", "Outro"],
+      updatesOptions: ["Sim", "Não"],
+      opportunityOptions: ["Serviços", "Colaboração", "Consultoria", "Não, apenas cursos/ferramentas"]
+    },
+    en: {
+      badge: "Quick interest survey",
+      title: "Interest in future courses, tools, and consulting",
+      subtitle: "Help prioritize upcoming offerings in Bioinformatics, AI, enzyme discovery, natural products, and AI assistants.",
+      under30: "Takes less than 30 seconds.",
+      privacy: "Privacy: responses are private and only visible to the site owner through Formspree, used only to evaluate interest in future courses, tools, services, collaboration, and consulting.",
+      qInterest: "A) What is your interest level?",
+      qTopics: "B) Select one or more topics of interest",
+      qTopicsHelp: "Choose the options most relevant to you.",
+      qFormat: "C) Preferred format",
+      qPrice: "D) What price range would you be willing to pay per course?",
+      qPriceHelp: "Competitive ranges for the Brazilian technical/scientific training market.",
+      qLive: "E) Where do you live?",
+      qRegion: "F) State / region / country",
+      qBackground: "G) Background",
+      qUpdates: "H) Would you like updates about future courses/tools?",
+      qEmail: "I) Email (optional)",
+      qPhone: "J) WhatsApp / phone (optional)",
+      qOpportunities: "K) Would you also like to be contacted for other opportunities?",
+      submit: "Submit response",
+      success: "Thank you! Your response has been received successfully.",
+      footer: "Your feedback helps prioritize high-impact educational and technical offerings.",
+      interestOptions: ["Very interested", "Maybe interested", "Just curious"],
+      topicOptions: [
+        "AI for enzyme discovery",
+        "Genome annotation",
+        "Metabarcoding analysis",
+        "Metagenomics analysis",
+        "Natural product biosynthesis mining",
+        "Machine learning for biology",
+        "Industrial biotechnology bioinformatics",
+        "AI agent for bioinformatics",
+        "Bioinformatics chatbot"
+      ],
+      formatOptions: ["Online live", "Online recorded", "Hybrid", "In person"],
+      priceOptions: ["Up to BRL 500", "BRL 500–1,000", "BRL 1,000–2,000", "BRL 2,000–3,500", "Above BRL 3,500"],
+      liveOptions: ["Brazil", "Outside Brazil"],
+      backgroundOptions: ["Undergraduate student", "Graduate student", "Researcher", "Industry professional", "Other"],
+      updatesOptions: ["Yes", "No"],
+      opportunityOptions: ["Services", "Collaboration", "Consulting", "No, only courses/tools"]
+    },
+    es: {
+      badge: "Encuesta rápida de interés",
+      title: "Interés en futuros cursos, herramientas y consultoría",
+      subtitle: "Ayuda a priorizar nuevas ofertas en Bioinformática, IA, descubrimiento de enzimas, productos naturales y asistentes de IA.",
+      under30: "Toma menos de 30 segundos.",
+      privacy: "Privacidad: las respuestas son privadas y solo visibles para el propietario del sitio a través de Formspree, y se usan únicamente para evaluar interés en cursos, herramientas, servicios, colaboración y consultoría.",
+      qInterest: "A) ¿Cuál es tu nivel de interés?",
+      qTopics: "B) Selecciona uno o más temas de interés",
+      qTopicsHelp: "Marca las opciones más relevantes para ti.",
+      qFormat: "C) Formato preferido",
+      qPrice: "D) ¿Qué rango de precio pagarías por curso?",
+      qPriceHelp: "Rangos competitivos para el mercado brasileño de cursos técnicos y científicos.",
+      qLive: "E) ¿Dónde vives?",
+      qRegion: "F) Estado / región / país",
+      qBackground: "G) Perfil",
+      qUpdates: "H) ¿Deseas recibir actualizaciones sobre futuros cursos/herramientas?",
+      qEmail: "I) Email (opcional)",
+      qPhone: "J) WhatsApp / teléfono (opcional)",
+      qOpportunities: "K) ¿También te gustaría que te contacten por otras oportunidades?",
+      submit: "Enviar respuesta",
+      success: "¡Gracias! Tu respuesta fue recibida con éxito.",
+      footer: "Tu respuesta ayuda a priorizar cursos y soluciones de alto impacto.",
+      interestOptions: ["Muy interesado(a)", "Tal vez interesado(a)", "Solo curiosidad"],
+      topicOptions: [
+        "IA para descubrimiento de enzimas",
+        "Anotación de genomas",
+        "Análisis de metabarcoding",
+        "Análisis de metagenómica",
+        "Minería de biosíntesis de productos naturales",
+        "Aprendizaje automático para biología",
+        "Bioinformática para biotecnología industrial",
+        "Agente de IA para bioinformática",
+        "Chatbot de bioinformática"
+      ],
+      formatOptions: ["Online en vivo", "Online grabado", "Híbrido", "Presencial"],
+      priceOptions: ["Hasta R$ 500", "R$ 500–1.000", "R$ 1.000–2.000", "R$ 2.000–3.500", "Más de R$ 3.500"],
+      liveOptions: ["Brasil", "Fuera de Brasil"],
+      backgroundOptions: ["Estudiante de grado", "Estudiante de posgrado", "Investigador(a)", "Profesional de la industria", "Otro"],
+      updatesOptions: ["Sí", "No"],
+      opportunityOptions: ["Servicios", "Colaboración", "Consultoría", "No, solo cursos/herramientas"]
+    }
+  };
+
+  const interestForm = document.getElementById("interestForm");
+  const interestSuccess = document.getElementById("interestSuccess");
+  const interestLangButtons = document.querySelectorAll(".interest-lang-switch button");
+  let currentInterestLang = "pt";
+
+  function renderChoiceGroup(containerId, name, options, type) {
+    const container = document.getElementById(containerId);
+    if (!container) return;
+    container.innerHTML = options.map((opt, idx) => {
+      const inputId = `${name}_${idx}`;
+      const isRequired = (name === "interest_level" || name === "preferred_format" || name === "price_range" || name === "where_live" || name === "background" || name === "updates") && idx === 0;
+      return `<label for="${inputId}"><input id="${inputId}" type="${type}" name="${name}${type === "checkbox" ? "[]" : ""}" value="${opt}" ${isRequired ? "required" : ""}> <span>${opt}</span></label>`;
+    }).join("");
+  }
+
+  function applyInterestLanguage(lang) {
+    const dict = interestI18n[lang] || interestI18n.pt;
+    document.querySelectorAll("#interest [data-i18n]").forEach((el) => {
+      const key = el.dataset.i18n;
+      if (dict[key]) el.textContent = dict[key];
+    });
+
+    renderChoiceGroup("interestLevelOptions", "interest_level", dict.interestOptions, "radio");
+    renderChoiceGroup("interestTopicOptions", "topics", dict.topicOptions, "checkbox");
+    renderChoiceGroup("interestFormatOptions", "preferred_format", dict.formatOptions, "radio");
+    renderChoiceGroup("interestPriceOptions", "price_range", dict.priceOptions, "radio");
+    renderChoiceGroup("interestLiveOptions", "where_live", dict.liveOptions, "radio");
+    renderChoiceGroup("interestBackgroundOptions", "background", dict.backgroundOptions, "radio");
+    renderChoiceGroup("interestUpdatesOptions", "updates", dict.updatesOptions, "radio");
+    renderChoiceGroup("interestOpportunityOptions", "other_opportunities", dict.opportunityOptions, "checkbox");
+
+    interestLangButtons.forEach((btn) => {
+      btn.classList.toggle("active", btn.dataset.lang === lang);
+    });
+
+    if (interestSuccess.style.display === "block") {
+      interestSuccess.textContent = dict.success;
+    }
+  }
+
+  interestLangButtons.forEach((btn) => {
+    btn.addEventListener("click", () => {
+      currentInterestLang = btn.dataset.lang;
+      applyInterestLanguage(currentInterestLang);
+    });
+  });
+
+  if (interestForm) {
+    interestForm.addEventListener("submit", async (event) => {
+      event.preventDefault();
+      const formData = new FormData(interestForm);
+      try {
+        const response = await fetch(interestForm.action, {
+          method: "POST",
+          body: formData,
+          headers: { Accept: "application/json" }
+        });
+
+        if (response.ok) {
+          interestForm.style.display = "none";
+          interestSuccess.style.display = "block";
+          interestSuccess.textContent = interestI18n[currentInterestLang].success;
+        } else {
+          interestSuccess.style.display = "block";
+          interestSuccess.textContent = "Não foi possível enviar agora. Tente novamente em instantes.";
+        }
+      } catch (error) {
+        interestSuccess.style.display = "block";
+        interestSuccess.textContent = "Falha de conexão. Tente novamente.";
+      }
+    });
+  }
+
+  applyInterestLanguage(currentInterestLang);
+
 </script>
