@@ -32,7 +32,7 @@ lang: pt-BR
     <p class="interest-note" data-i18n="fastNote">Leva menos de 30 segundos.</p>
     <p class="interest-privacy" data-i18n="privacy">As respostas são privadas e usadas apenas para avaliar interesse em futuros cursos, ferramentas, serviços, colaboração e consultoria.</p>
 
-    <form id="interest-form" class="interest-form" action="https://formspree.io/f/REPLACE_WITH_FORM_ID" method="post">
+    <form id="interest-form" class="interest-form" action="https://formsubmit.co/databiomics@gmail.com" method="post">
       <fieldset>
         <legend data-i18n="qA">A. Nível de interesse</legend>
         <label><input type="radio" name="interest_level" value="Very interested" required> <span data-i18n="veryInterested">Muito interessado(a)</span></label>
@@ -43,21 +43,51 @@ lang: pt-BR
       <fieldset>
         <legend data-i18n="qB">B. Tópicos de interesse</legend>
         <p class="interest-helper" data-i18n="multiSelect">Selecione quantos quiser.</p>
-        <label><input type="checkbox" name="topics[]" value="AI for enzyme discovery"> <span data-i18n="topic1">IA para descoberta de enzimas</span></label>
-        <label><input type="checkbox" name="topics[]" value="Genome annotation"> <span data-i18n="topic2">Anotação de genomas</span></label>
-        <label><input type="checkbox" name="topics[]" value="Metabarcoding analysis"> <span data-i18n="topic3">Análise de metabarcoding</span></label>
-        <label><input type="checkbox" name="topics[]" value="Metagenomics analysis"> <span data-i18n="topic4">Análise de metagenômica</span></label>
-        <label><input type="checkbox" name="topics[]" value="Natural product biosynthesis mining"> <span data-i18n="topic5">Mineração de biossíntese de produtos naturais</span></label>
-        <label><input type="checkbox" name="topics[]" value="Machine learning for biology"> <span data-i18n="topic6">Machine learning para biologia</span></label>
-        <label><input type="checkbox" name="topics[]" value="Industrial biotechnology bioinformatics"> <span data-i18n="topic7">Bioinformática para biotecnologia industrial</span></label>
-        <label><input type="checkbox" name="topics[]" value="AI agent for bioinformatics"> <span data-i18n="topic8">Agente de IA para bioinformática</span></label>
-        <label><input type="checkbox" name="topics[]" value="Bioinformatics chatbot"> <span data-i18n="topic9">Chatbot de bioinformática</span></label>
+        <label><input type="checkbox" name="topics[]" value="Intro to Bioinformatics (Basic)"> <span data-i18n="topic1">Introdução à Bioinformática (Básico)</span></label>
+        <label><input type="checkbox" name="topics[]" value="Linux for Bioinformatics (Basic)"> <span data-i18n="topic2">Linux (Básico)</span></label>
+        <label><input type="checkbox" name="topics[]" value="Python Programming for Bioinformatics (Intermediate)"> <span data-i18n="topic3">Programação em Python (Intermediário)</span></label>
+        <label><input type="checkbox" name="topics[]" value="Prompt Engineering for Bioinformatics (Advanced)"> <span data-i18n="topic4">Engenharia de Prompt (Avançado)</span></label>
+        <label><input type="checkbox" name="topics[]" value="Protein Modeling (Advanced)"> <span data-i18n="topic5">Modelagem de Proteínas (Avançado)</span></label>
+        <label><input type="checkbox" name="topics[]" value="Molecular Docking (Advanced)"> <span data-i18n="topic6">Docking Molecular (Avançado)</span></label>
+        <label><input type="checkbox" name="topics[]" value="Molecular Dynamics (Advanced)"> <span data-i18n="topic7">Dinâmica Molecular (Avançado)</span></label>
+        <label><input type="checkbox" name="topics[]" value="Systems Biology (Intermediate)"> <span data-i18n="topic8">Biologia de Sistemas (Intermediário)</span></label>
         <label for="interest-topic-custom" data-i18n="qBOther">Outro curso de interesse (digite abaixo)</label>
         <input id="interest-topic-custom" name="topic_custom" type="text" data-i18n-placeholder="qBOtherPlaceholder" placeholder="Ex.: Curso de análise de transcriptômica" autocomplete="off">
       </fieldset>
 
       <fieldset>
-        <legend data-i18n="qC">C. Formato preferido</legend>
+        <legend data-i18n="qC">C. Faixa de investimento por nível de curso</legend>
+        <p class="interest-helper" data-i18n="qCHelper">Básico: somente aula teórica. Intermediário: teoria e prática. Avançado: curso individual ou para no máximo 4 pessoas, com valores maiores.</p>
+        <label for="budget-basic" data-i18n="qCBasic">Básico (somente teoria): quanto você pagaria?</label>
+        <select id="budget-basic" name="budget_basic" required>
+          <option value="" data-i18n="selectRange">Selecione uma faixa</option>
+          <option value="up to BRL 149" data-i18n="basicBudget1">Até R$149</option>
+          <option value="BRL 150 to 249" data-i18n="basicBudget2">R$150 a R$249</option>
+          <option value="BRL 250 to 349" data-i18n="basicBudget3">R$250 a R$349</option>
+          <option value="BRL 350+" data-i18n="basicBudget4">R$350 ou mais</option>
+        </select>
+
+        <label for="budget-intermediate" data-i18n="qCIntermediate">Intermediário (teoria + prática): quanto você pagaria?</label>
+        <select id="budget-intermediate" name="budget_intermediate" required>
+          <option value="" data-i18n="selectRange">Selecione uma faixa</option>
+          <option value="up to BRL 299" data-i18n="interBudget1">Até R$299</option>
+          <option value="BRL 300 to 499" data-i18n="interBudget2">R$300 a R$499</option>
+          <option value="BRL 500 to 699" data-i18n="interBudget3">R$500 a R$699</option>
+          <option value="BRL 700+" data-i18n="interBudget4">R$700 ou mais</option>
+        </select>
+
+        <label for="budget-advanced" data-i18n="qCAdvanced">Avançado (individual ou até 4 pessoas): quanto você pagaria?</label>
+        <select id="budget-advanced" name="budget_advanced" required>
+          <option value="" data-i18n="selectRange">Selecione uma faixa</option>
+          <option value="BRL 800 to 1190" data-i18n="advBudget1">R$800 a R$1.190</option>
+          <option value="BRL 1200 to 1690" data-i18n="advBudget2">R$1.200 a R$1.690</option>
+          <option value="BRL 1700 to 2490" data-i18n="advBudget3">R$1.700 a R$2.490</option>
+          <option value="BRL 2500+" data-i18n="advBudget4">R$2.500 ou mais</option>
+        </select>
+      </fieldset>
+
+      <fieldset>
+        <legend data-i18n="qD">D. Formato preferido</legend>
         <label><input type="radio" name="format" value="Online live" required> <span data-i18n="format1">Online ao vivo</span></label>
         <label><input type="radio" name="format" value="Online recorded"> <span data-i18n="format2">Online gravado</span></label>
         <label><input type="radio" name="format" value="Hybrid"> <span data-i18n="format3">Híbrido</span></label>
@@ -65,15 +95,15 @@ lang: pt-BR
       </fieldset>
 
       <fieldset>
-        <legend data-i18n="qD">D. Onde você mora?</legend>
+        <legend data-i18n="qE">E. Onde você mora?</legend>
         <label><input type="radio" name="location" value="Brazil" required> <span data-i18n="location1">Brasil</span></label>
         <label><input type="radio" name="location" value="Outside Brazil"> <span data-i18n="location2">Fora do Brasil</span></label>
-        <label for="interest-region" data-i18n="qE">E. Estado / região / país</label>
+        <label for="interest-region" data-i18n="qF">F. Estado / região / país</label>
         <input id="interest-region" name="region" type="text" autocomplete="address-level1">
       </fieldset>
 
       <fieldset>
-        <legend data-i18n="qF">F. Perfil</legend>
+        <legend data-i18n="qG">G. Perfil</legend>
         <label><input type="radio" name="background" value="Undergraduate student" required> <span data-i18n="background1">Estudante de graduação</span></label>
         <label><input type="radio" name="background" value="Graduate student"> <span data-i18n="background2">Estudante de pós-graduação</span></label>
         <label><input type="radio" name="background" value="Researcher"> <span data-i18n="background3">Pesquisador(a)</span></label>
@@ -82,32 +112,35 @@ lang: pt-BR
       </fieldset>
 
       <fieldset>
-        <legend data-i18n="qG">G. Gostaria de receber atualizações sobre futuros cursos ou ferramentas?</legend>
+        <legend data-i18n="qH">H. Gostaria de receber atualizações sobre futuros cursos ou ferramentas?</legend>
         <label><input type="radio" name="updates" value="Yes" required> <span data-i18n="yes">Sim</span></label>
         <label><input type="radio" name="updates" value="No"> <span data-i18n="no">Não</span></label>
       </fieldset>
 
       <fieldset>
         <legend data-i18n="contactLegend">Contato (opcional)</legend>
-        <label for="interest-email" data-i18n="qH">H. E-mail (opcional)</label>
+        <label for="interest-email" data-i18n="qI">I. E-mail (opcional)</label>
         <input id="interest-email" name="email" type="email" inputmode="email" autocomplete="email">
-        <label for="interest-phone" data-i18n="qI">I. WhatsApp / telefone (opcional)</label>
+        <label for="interest-phone" data-i18n="qJ">J. WhatsApp / telefone (opcional)</label>
         <input id="interest-phone" name="phone" type="text" autocomplete="tel">
       </fieldset>
 
       <fieldset>
-        <legend data-i18n="qJ">J. Também teria interesse em ser contatado para outras oportunidades?</legend>
+        <legend data-i18n="qK">K. Também teria interesse em ser contatado para outras oportunidades?</legend>
         <label><input type="checkbox" name="opportunities[]" value="Services"> <span data-i18n="opp1">Serviços</span></label>
         <label><input type="checkbox" name="opportunities[]" value="Collaboration"> <span data-i18n="opp2">Colaboração</span></label>
         <label><input type="checkbox" name="opportunities[]" value="Consulting"> <span data-i18n="opp3">Consultoria</span></label>
         <label><input type="checkbox" name="opportunities[]" value="No, only courses/tools"> <span data-i18n="opp4">Não, apenas cursos/ferramentas</span></label>
       </fieldset>
 
+      <input type="hidden" name="_subject" value="Novo contato via site - PlanoCursos">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_template" value="table">
       <button type="submit" class="button primary" data-i18n="submit">Enviar interesse</button>
-      <p id="interest-status" class="interest-status" role="status" aria-live="polite"></p>
     </form>
 
     <p class="interest-footnote" data-i18n="footerNote">Obrigado por contribuir com a definição das próximas iniciativas.</p>
+    <p class="interest-note" data-i18n="seniorNote"><strong>Os cursos serão ministrados por profissional sênior ou profissionais sêniores em Bioinformática, especialistas nas respectivas áreas do curso.</strong></p>
   </div>
 
   <script>
@@ -117,49 +150,51 @@ lang: pt-BR
           title: "PlanoCursos: Novas Soluções de Bioinformática e IA", subtitle: "Ajude a priorizar os próximos cursos, ferramentas e oportunidades de colaboração.",
           fastNote: "Leva menos de 30 segundos.", privacy: "As respostas são privadas e usadas apenas para avaliar interesse em futuros cursos, ferramentas, serviços, colaboração e consultoria.",
           qA: "A. Nível de interesse", veryInterested: "Muito interessado(a)", maybeInterested: "Talvez interessado(a)", justCurious: "Só curioso(a)",
-          qB: "B. Tópicos de interesse", multiSelect: "Selecione quantos quiser.", topic1: "IA para descoberta de enzimas", topic2: "Anotação de genomas", topic3: "Análise de metabarcoding", topic4: "Análise de metagenômica", topic5: "Mineração de biossíntese de produtos naturais", topic6: "Machine learning para biologia", topic7: "Bioinformática para biotecnologia industrial", topic8: "Agente de IA para bioinformática", topic9: "Chatbot de bioinformática", qBOther: "Outro curso de interesse (digite abaixo)", qBOtherPlaceholder: "Ex.: Curso de análise de transcriptômica",
-          qC: "C. Formato preferido", format1: "Online ao vivo", format2: "Online gravado", format3: "Híbrido", format4: "Presencial",
-          qD: "D. Onde você mora?", location1: "Brasil", location2: "Fora do Brasil", qE: "E. Estado / região / país",
-          qF: "F. Perfil", background1: "Estudante de graduação", background2: "Estudante de pós-graduação", background3: "Pesquisador(a)", background4: "Profissional da indústria", background5: "Outro",
-          qG: "G. Gostaria de receber atualizações sobre futuros cursos ou ferramentas?", yes: "Sim", no: "Não",
-          contactLegend: "Contato (opcional)", qH: "H. E-mail (opcional)", qI: "I. WhatsApp / telefone (opcional)",
-          qJ: "J. Também teria interesse em ser contatado para outras oportunidades?", opp1: "Serviços", opp2: "Colaboração", opp3: "Consultoria", opp4: "Não, apenas cursos/ferramentas",
+          qB: "B. Tópicos de interesse", multiSelect: "Selecione quantos quiser.", topic1: "Introdução à Bioinformática (Básico)", topic2: "Linux (Básico)", topic3: "Programação em Python (Intermediário)", topic4: "Engenharia de Prompt (Avançado)", topic5: "Modelagem de Proteínas (Avançado)", topic6: "Docking Molecular (Avançado)", topic7: "Dinâmica Molecular (Avançado)", topic8: "Biologia de Sistemas (Intermediário)", qBOther: "Outro curso de interesse (digite abaixo)", qBOtherPlaceholder: "Ex.: Curso de análise de transcriptômica",
+          qC: "C. Faixa de investimento por nível de curso", qCHelper: "Básico: somente aula teórica. Intermediário: teoria e prática. Avançado: curso individual ou para no máximo 4 pessoas, com valores maiores.", qCBasic: "Básico (somente teoria): quanto você pagaria?", qCIntermediate: "Intermediário (teoria + prática): quanto você pagaria?", qCAdvanced: "Avançado (individual ou até 4 pessoas): quanto você pagaria?", selectRange: "Selecione uma faixa", basicBudget1: "Até R$149", basicBudget2: "R$150 a R$249", basicBudget3: "R$250 a R$349", basicBudget4: "R$350 ou mais", interBudget1: "Até R$299", interBudget2: "R$300 a R$499", interBudget3: "R$500 a R$699", interBudget4: "R$700 ou mais", advBudget1: "R$800 a R$1.190", advBudget2: "R$1.200 a R$1.690", advBudget3: "R$1.700 a R$2.490", advBudget4: "R$2.500 ou mais",
+          qD: "D. Formato preferido", format1: "Online ao vivo", format2: "Online gravado", format3: "Híbrido", format4: "Presencial",
+          qE: "E. Onde você mora?", location1: "Brasil", location2: "Fora do Brasil", qF: "F. Estado / região / país",
+          qG: "G. Perfil", background1: "Estudante de graduação", background2: "Estudante de pós-graduação", background3: "Pesquisador(a)", background4: "Profissional da indústria", background5: "Outro",
+          qH: "H. Gostaria de receber atualizações sobre futuros cursos ou ferramentas?", yes: "Sim", no: "Não",
+          contactLegend: "Contato (opcional)", qI: "I. E-mail (opcional)", qJ: "J. WhatsApp / telefone (opcional)",
+          qK: "K. Também teria interesse em ser contatado para outras oportunidades?", opp1: "Serviços", opp2: "Colaboração", opp3: "Consultoria", opp4: "Não, apenas cursos/ferramentas",
           submit: "Enviar interesse", success: "Obrigado! Sua resposta foi recebida com sucesso.",
-          error: "Não foi possível enviar agora. Tente novamente em instantes.", footerNote: "Obrigado por contribuir com a definição das próximas iniciativas."
+          error: "Não foi possível enviar agora. Tente novamente em instantes.", footerNote: "Obrigado por contribuir com a definição das próximas iniciativas.", seniorNote: "Os cursos serão ministrados por profissional sênior ou profissionais sêniores em Bioinformática, especialistas nas respectivas áreas do curso."
         },
         en: {
           title: "PlanoCursos: New Bioinformatics & AI Solutions", subtitle: "Help prioritize upcoming courses, tools, and collaboration opportunities.",
           fastNote: "Takes less than 30 seconds.", privacy: "Responses are private and used only to evaluate interest in future courses, tools, services, collaboration, and consulting opportunities.",
           qA: "A. Interest level", veryInterested: "Very interested", maybeInterested: "Maybe interested", justCurious: "Just curious",
-          qB: "B. Topics of interest", multiSelect: "Select all that apply.", topic1: "AI for enzyme discovery", topic2: "Genome annotation", topic3: "Metabarcoding analysis", topic4: "Metagenomics analysis", topic5: "Natural product biosynthesis mining", topic6: "Machine learning for biology", topic7: "Industrial biotechnology bioinformatics", topic8: "AI agent for bioinformatics", topic9: "Bioinformatics chatbot", qBOther: "Other course of interest (type below)", qBOtherPlaceholder: "Example: Transcriptomics analysis course",
-          qC: "C. Preferred format", format1: "Online live", format2: "Online recorded", format3: "Hybrid", format4: "In person",
-          qD: "D. Where do you live?", location1: "Brazil", location2: "Outside Brazil", qE: "E. State / region / country",
-          qF: "F. Background", background1: "Undergraduate student", background2: "Graduate student", background3: "Researcher", background4: "Industry professional", background5: "Other",
-          qG: "G. Would you like to receive updates about future courses or tools?", yes: "Yes", no: "No",
-          contactLegend: "Contact (optional)", qH: "H. Email (optional)", qI: "I. WhatsApp / phone (optional)",
-          qJ: "J. Would you also be interested in being contacted for other opportunities?", opp1: "Services", opp2: "Collaboration", opp3: "Consulting", opp4: "No, only courses/tools",
+          qB: "B. Topics of interest", multiSelect: "Select all that apply.", topic1: "Introduction to Bioinformatics (Basic)", topic2: "Linux (Basic)", topic3: "Python Programming (Intermediate)", topic4: "Prompt Engineering (Advanced)", topic5: "Protein Modeling (Advanced)", topic6: "Molecular Docking (Advanced)", topic7: "Molecular Dynamics (Advanced)", topic8: "Systems Biology (Intermediate)", qBOther: "Other course of interest (type below)", qBOtherPlaceholder: "Example: Transcriptomics analysis course",
+          qC: "C. Budget range by course level", qCHelper: "Basic: theory-only classes. Intermediate: theory + practice. Advanced: individual classes or groups of up to 4 people, with higher pricing.", qCBasic: "Basic (theory only): how much would you pay?", qCIntermediate: "Intermediate (theory + practice): how much would you pay?", qCAdvanced: "Advanced (individual or up to 4 people): how much would you pay?", selectRange: "Select a range", basicBudget1: "Up to R$149", basicBudget2: "R$150 to R$249", basicBudget3: "R$250 to R$349", basicBudget4: "R$350 or more", interBudget1: "Up to R$299", interBudget2: "R$300 to R$499", interBudget3: "R$500 to R$699", interBudget4: "R$700 or more", advBudget1: "R$800 to R$1,190", advBudget2: "R$1,200 to R$1,690", advBudget3: "R$1,700 to R$2,490", advBudget4: "R$2,500 or more",
+          qD: "D. Preferred format", format1: "Online live", format2: "Online recorded", format3: "Hybrid", format4: "In person",
+          qE: "E. Where do you live?", location1: "Brazil", location2: "Outside Brazil", qF: "F. State / region / country",
+          qG: "G. Background", background1: "Undergraduate student", background2: "Graduate student", background3: "Researcher", background4: "Industry professional", background5: "Other",
+          qH: "H. Would you like to receive updates about future courses or tools?", yes: "Yes", no: "No",
+          contactLegend: "Contact (optional)", qI: "I. Email (optional)", qJ: "J. WhatsApp / phone (optional)",
+          qK: "K. Would you also be interested in being contacted for other opportunities?", opp1: "Services", opp2: "Collaboration", opp3: "Consulting", opp4: "No, only courses/tools",
           submit: "Submit interest", success: "Thank you! Your response has been received successfully.",
-          error: "Could not submit right now. Please try again shortly.", footerNote: "Thank you for helping define our next initiatives."
+          error: "Could not submit right now. Please try again shortly.", footerNote: "Thank you for helping define our next initiatives.", seniorNote: "Courses will be taught by a senior Bioinformatics professional or senior Bioinformatics professionals, specialists in each course area."
         },
         es: {
           title: "PlanoCursos: Nuevas Soluciones de Bioinformática e IA", subtitle: "Ayuda a priorizar próximos cursos, herramientas y oportunidades de colaboración.",
           fastNote: "Toma menos de 30 segundos.", privacy: "Las respuestas son privadas y se usan solo para evaluar interés en futuros cursos, herramientas, servicios, colaboración y consultoría.",
           qA: "A. Nivel de interés", veryInterested: "Muy interesado(a)", maybeInterested: "Tal vez interesado(a)", justCurious: "Solo curiosidad",
-          qB: "B. Temas de interés", multiSelect: "Selecciona todas las opciones que correspondan.", topic1: "IA para descubrimiento de enzimas", topic2: "Anotación de genomas", topic3: "Análisis de metabarcoding", topic4: "Análisis de metagenómica", topic5: "Minería de biosíntesis de productos naturales", topic6: "Machine learning para biología", topic7: "Bioinformática para biotecnología industrial", topic8: "Agente de IA para bioinformática", topic9: "Chatbot de bioinformática", qBOther: "Otro curso de interés (escribe abajo)", qBOtherPlaceholder: "Ejemplo: Curso de análisis de transcriptómica",
-          qC: "C. Formato preferido", format1: "Online en vivo", format2: "Online grabado", format3: "Híbrido", format4: "Presencial",
-          qD: "D. ¿Dónde vives?", location1: "Brasil", location2: "Fuera de Brasil", qE: "E. Estado / región / país",
-          qF: "F. Perfil", background1: "Estudiante de pregrado", background2: "Estudiante de posgrado", background3: "Investigador(a)", background4: "Profesional de la industria", background5: "Otro",
-          qG: "G. ¿Te gustaría recibir novedades sobre futuros cursos o herramientas?", yes: "Sí", no: "No",
-          contactLegend: "Contacto (opcional)", qH: "H. Correo electrónico (opcional)", qI: "I. WhatsApp / teléfono (opcional)",
-          qJ: "J. ¿También te interesaría ser contactado para otras oportunidades?", opp1: "Servicios", opp2: "Colaboración", opp3: "Consultoría", opp4: "No, solo cursos/herramientas",
+          qB: "B. Temas de interés", multiSelect: "Selecciona todas las opciones que correspondan.", topic1: "Introducción a la Bioinformática (Básico)", topic2: "Linux (Básico)", topic3: "Programación en Python (Intermedio)", topic4: "Ingeniería de Prompts (Avanzado)", topic5: "Modelado de Proteínas (Avanzado)", topic6: "Docking Molecular (Avanzado)", topic7: "Dinámica Molecular (Avanzado)", topic8: "Biología de Sistemas (Intermedio)", qBOther: "Otro curso de interés (escribe abajo)", qBOtherPlaceholder: "Ejemplo: Curso de análisis de transcriptómica",
+          qC: "C. Rango de inversión por nivel del curso", qCHelper: "Básico: solo clases teóricas. Intermedio: teoría y práctica. Avanzado: clases individuales o grupos de hasta 4 personas, con valores más altos.", qCBasic: "Básico (solo teoría): ¿cuánto pagarías?", qCIntermediate: "Intermedio (teoría + práctica): ¿cuánto pagarías?", qCAdvanced: "Avanzado (individual o hasta 4 personas): ¿cuánto pagarías?", selectRange: "Selecciona un rango", basicBudget1: "Hasta R$149", basicBudget2: "R$150 a R$249", basicBudget3: "R$250 a R$349", basicBudget4: "R$350 o más", interBudget1: "Hasta R$299", interBudget2: "R$300 a R$499", interBudget3: "R$500 a R$699", interBudget4: "R$700 o más", advBudget1: "R$800 a R$1.190", advBudget2: "R$1.200 a R$1.690", advBudget3: "R$1.700 a R$2.490", advBudget4: "R$2.500 o más",
+          qD: "D. Formato preferido", format1: "Online en vivo", format2: "Online grabado", format3: "Híbrido", format4: "Presencial",
+          qE: "E. ¿Dónde vives?", location1: "Brasil", location2: "Fuera de Brasil", qF: "F. Estado / región / país",
+          qG: "G. Perfil", background1: "Estudiante de pregrado", background2: "Estudiante de posgrado", background3: "Investigador(a)", background4: "Profesional de la industria", background5: "Otro",
+          qH: "H. ¿Te gustaría recibir novedades sobre futuros cursos o herramientas?", yes: "Sí", no: "No",
+          contactLegend: "Contacto (opcional)", qI: "I. Correo electrónico (opcional)", qJ: "J. WhatsApp / teléfono (opcional)",
+          qK: "K. ¿También te interesaría ser contactado para otras oportunidades?", opp1: "Servicios", opp2: "Colaboración", opp3: "Consultoría", opp4: "No, solo cursos/herramientas",
           submit: "Enviar interés", success: "¡Gracias! Tu respuesta fue recibida con éxito.",
-          error: "No se pudo enviar ahora. Inténtalo nuevamente en unos momentos.", footerNote: "Gracias por ayudar a definir las próximas iniciativas."
+          error: "No se pudo enviar ahora. Inténtalo nuevamente en unos momentos.", footerNote: "Gracias por ayudar a definir las próximas iniciativas.", seniorNote: "Los cursos serán impartidos por un profesional sénior o profesionales sénior en Bioinformática, especialistas en las respectivas áreas del curso."
         }
       };
 
       let currentLang = "pt";
       const form = document.getElementById("interest-form");
-      const status = document.getElementById("interest-status");
 
       function applyLanguage(lang) {
         currentLang = lang;
@@ -180,29 +215,6 @@ lang: pt-BR
 
       document.querySelectorAll(".lang-btn").forEach((btn) => {
         btn.addEventListener("click", () => applyLanguage(btn.dataset.lang));
-      });
-
-      form.addEventListener("submit", async (event) => {
-        event.preventDefault();
-        status.textContent = "";
-        const data = new FormData(form);
-
-        try {
-          const response = await fetch(form.action, {
-            method: "POST",
-            body: data,
-            headers: { Accept: "application/json" }
-          });
-
-          if (response.ok) {
-            form.style.display = "none";
-            status.textContent = translations[currentLang].success;
-          } else {
-            status.textContent = translations[currentLang].error;
-          }
-        } catch (error) {
-          status.textContent = translations[currentLang].error;
-        }
       });
 
       applyLanguage(currentLang);
