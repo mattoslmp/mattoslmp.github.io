@@ -8,15 +8,14 @@ This theme's original base is [no style please!](https://github.com/riggraz/no-s
 ## License
 The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
 
-## Migração para `databiomics.github.io` (quando disponível)
+## Acesso atual (estável)
 
-Não é possível "renomear" diretamente um site de usuário do GitHub Pages (`<usuario>.github.io`) sem trocar o nome de usuário/organização no GitHub.
+Use este endereço para evitar erro de acesso:
 
-Configuração recomendada para não quebrar acesso:
+- https://mattoslmp.github.io/
 
-1. **Endereço atual em produção:** `https://mattoslmp.github.io`.
-2. **`https://databiomics.github.io` só funciona** quando o repositório estiver publicado sob o usuário/organização `databiomics`.
-3. Após ativar `databiomics`, configure redirecionamento do endereço antigo e então atualize os links públicos gradualmente.
+## Sobre `databiomics.github.io`
 
-> Se preferir um domínio próprio (ex.: `databiomics.com`), use arquivo `CNAME` + configuração de DNS no provedor de domínio.
+O endereço `databiomics.github.io` **não deve ser usado neste momento**.
+Ele só ficará disponível quando o repositório for publicado sob o usuário/organização `databiomics` no GitHub Pages.
 
