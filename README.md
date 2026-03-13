@@ -1,5 +1,7 @@
 
-## Repository code for my website https://databiomics.github.io/
+## Repository code for my websites:
+- https://databiomics.github.io/
+- https://mattoslmp.github.io/
 
 ## moonwalk - a fast and minimalistic blog theme with clean dark mode
 
@@ -8,15 +10,15 @@ This theme's original base is [no style please!](https://github.com/riggraz/no-s
 ## License
 The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
 
-## Migração para `databiomics.github.io`
+## Acesso pelos dois endereços
 
 Não é possível "renomear" diretamente um site de usuário do GitHub Pages (`<usuario>.github.io`) sem trocar o nome de usuário/organização no GitHub.
 
-Opções seguras para não quebrar o site atual:
+Configuração recomendada para manter os dois sem quebra:
 
-1. **Publicar este repositório no contexto `databiomics`** (usuário/organização) para ativar `https://databiomics.github.io`.
-2. **Manter redirecionamento no endereço antigo** durante a transição para evitar quebra de acesso.
-3. **Atualizar os links públicos** para o novo endereço apenas após validar tudo.
+1. **Endereço principal:** `https://databiomics.github.io`.
+2. **Endereço secundário/legado:** `https://mattoslmp.github.io` com redirecionamento para o principal.
+3. **Atualizar links públicos gradualmente**, mantendo compatibilidade durante a transição.
 
 > Se preferir um domínio próprio (ex.: `databiomics.com`), use arquivo `CNAME` + configuração de DNS no provedor de domínio.
 
