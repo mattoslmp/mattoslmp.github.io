@@ -1,5 +1,7 @@
 title: Sobre Leandro de Mattos Pereira
 author: Leandro de Mattos Pereira
+url: "https://databiomics.github.io"
+secondary_url: "https://mattoslmp.github.io"
 description: > # description of the site (multiple lines allowed) 
   Graduado em Ciências Biológicas pela Universidade Estadual do Norte Fluminense Darcy Ribeiro (UENF), com mestrado em Biociências e Biotecnologia e doutorado em Biologia Computacional e Biologia de Sistemas pela Fundação Oswaldo Cruz (Fiocruz).
   
@@ -55,4 +57,3 @@ sass:
 plugins:
   - jekyll-feed
   - jekyll-soopr-seo-tag
-
