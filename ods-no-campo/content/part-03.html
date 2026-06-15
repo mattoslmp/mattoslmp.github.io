@@ -1,0 +1,48 @@
+      <section id="etapa-3" class="stage-panel" role="tabpanel">
+        <div class="stage-panel-head"><div class="stage-title-wrap"><span class="stage-number">3</span><div><h3>Construção da página e dos materiais</h3><p>Desenvolvimento tecnológico realizado com apoio do Laboratório de Tecnologia Databiomics.</p></div></div><span class="stage-status">Em andamento</span></div>
+        <div class="grid-2">
+          <article class="card"><h3>Arquitetura digital</h3><ul><li>Site estático responsivo em HTML, CSS e JavaScript;</li><li>publicação no GitHub Pages;</li><li>acessibilidade por teclado e dispositivos móveis;</li><li>cartazes vetoriais para leitura e compartilhamento;</li><li>formulários opcionais e aviso de privacidade.</li></ul></article>
+          <article class="card"><h3>Controle de qualidade</h3><ul><li>Revisão do conteúdo e das metas dos ODS;</li><li>teste de formulários e links;</li><li>verificação em telas pequenas;</li><li>linguagem não discriminatória;</li><li>redução de coleta de dados pessoais.</li></ul></article>
+        </div>
+      </section>
+
+      <section id="etapa-4" class="stage-panel" role="tabpanel">
+        <div class="stage-panel-head"><div class="stage-title-wrap"><span class="stage-number">4</span><div><h3>Publicação e divulgação</h3><p>Acesso gratuito por endereço público, link compartilhável e QR Code.</p></div></div><span class="stage-status">Em andamento</span></div>
+        <div class="qr-card card">
+          <img src="assets/img/qr-ods-no-campo.svg" alt="QR Code para acessar o site ODS no Campo">
+          <div><h3>Compartilhe a ação</h3><p>O QR Code poderá ser exibido na WBPereira, em materiais digitais e em grupos comunitários. A divulgação deve explicar que a participação é voluntária.</p>
+            <div class="resources"><button id="copy-link" class="resource" type="button">Copiar endereço</button><a class="resource" href="assets/img/qr-ods-no-campo.svg" download>Baixar QR Code</a><button id="print-project" class="resource" type="button">Imprimir / salvar em PDF</button></div>
+          </div>
+        </div>
+        <div class="timeline" style="margin-top:24px">
+          <div class="timeline-item"><strong>15 de junho:</strong> publicação inicial e início da escuta.</div>
+          <div class="timeline-item"><strong>15 a 23 de junho:</strong> divulgação, acesso aos materiais e participação voluntária.</div>
+          <div class="timeline-item"><strong>23 de junho:</strong> encerramento dos formulários, consolidação e registro da ação.</div>
+        </div>
+      </section>
+
+      <section id="etapa-5" class="stage-panel" role="tabpanel">
+        <div class="stage-panel-head"><div class="stage-title-wrap"><span class="stage-number">5</span><div><h3>Participação e aprendizagem</h3><p>Avaliação voluntária do conteúdo e registro de possíveis mudanças de percepção.</p></div></div><span class="stage-status">Em andamento</span></div>
+        <form id="participe" class="form-card" data-extension-form>
+          <input type="hidden" name="_subject" value="ODS no Campo — Avaliação da aprendizagem">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="tipo_registro" value="avaliacao">
+          <input class="visually-hidden" type="text" name="_honey" tabindex="-1" autocomplete="off">
+          <h4>Avaliação rápida do conteúdo</h4>
+          <div class="form-grid">
+            <label class="field">Qual ODS foi mais útil?
+              <select name="ods_mais_util" required><option value="">Selecione</option><option>ODS 2</option><option>ODS 6</option><option>ODS 12</option><option>ODS 13</option></select>
+            </label>
+            <label class="field">Como avalia a clareza da página?
+              <select name="clareza" required><option value="">Selecione</option><option>1 — muito difícil</option><option>2</option><option>3</option><option>4</option><option>5 — muito clara</option></select>
+            </label>
+            <label class="field full">Qual prática pretende considerar após acessar o conteúdo?
+              <select name="pratica" required><option value="">Selecione</option><option>Verificar vazamentos ou desperdícios de água</option><option>Rever a manutenção de bombas e equipamentos</option><option>Melhorar o descarte de resíduos</option><option>Registrar condições climáticas e produtivas</option><option>Buscar informação sobre conservação do solo</option><option>Compartilhar o conteúdo com outras pessoas</option><option>Ainda não sei</option></select>
+            </label>
+            <label class="field full">Comentário ou sugestão (opcional)<textarea name="comentario"></textarea></label>
+            <label class="check field full"><input type="checkbox" name="consentimento" required> Concordo com o uso anonimizado e agregado desta avaliação para fins acadêmicos e educativos.</label>
+          </div>
+          <div class="form-actions"><button class="btn btn-primary" type="submit">Enviar avaliação</button><span class="form-status" aria-live="polite"></span></div>
+        </form>
+      </section>
+
