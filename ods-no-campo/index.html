@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>ODS no Campo | WBPereira e Databiomics</title>
+  <meta name="description" content="Ação extensionista informativa sobre os ODS 2, 6, 12 e 13 aplicados à agricultura do Noroeste Fluminense.">
+  <meta name="theme-color" content="#0f3d24">
+  <meta property="og:title" content="ODS no Campo — Agricultura e Sustentabilidade">
+  <meta property="og:description" content="Informação, escuta comunitária e participação voluntária sobre sustentabilidade rural no Noroeste Fluminense.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://mattoslmp.github.io/ods-no-campo/">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <div id="app" style="font-family:system-ui;max-width:760px;margin:80px auto;padding:24px">
+    <h1>ODS no Campo</h1><p>Carregando a ação extensionista...</p>
+  </div>
+  <noscript><p style="max-width:760px;margin:80px auto;font-family:system-ui">Ative o JavaScript para visualizar esta página.</p></noscript>
+
+<script>
+window.ODS_CONFIG = {
+  siteUrl: "https://mattoslmp.github.io/ods-no-campo/",
+  actionStart: "2026-06-15T00:00:00-03:00",
+  actionEnd: "2026-06-23T23:59:59-03:00",
+  formEmail: "databiomics@gmail.com",
+  appsScriptUrl: "",
+  publicResultsUrl: "data:application/json,%7B%22responses%22%3A0%2C%22municipalities%22%3A%7B%7D%2C%22odsPriorities%22%3A%7B%22ODS%202%22%3A0%2C%22ODS%206%22%3A0%2C%22ODS%2012%22%3A0%2C%22ODS%2013%22%3A0%7D%2C%22challenges%22%3A%7B%7D%7D",
+  gaMeasurementId: "",
+  publicCounterEndpoint: "https://countapi.mileshilliard.com/api/v1/hit/ods-no-campo-wbpereira-2026"
+};
+
+(async()=>{
+  const app=document.getElementById("app");
+  const parts=["content/part-01.html", "content/part-02.html", "content/part-03.html"];
+  const html=await Promise.all(parts.map(p=>fetch(p).then(r=>{if(!r.ok)throw new Error(p);return r.text();})));
+  app.outerHTML=html.join("\n");
+  window.ODS_MEDIA_PARTS=window.ODS_MEDIA_PARTS||{};
+  const scripts=["assets/media/bannerWBPereira-00.js", "assets/media/bannerWBPereira-01.js", "assets/media/bannerWBPereira-02.js", "assets/media/bannerWBPereira-03.js", "assets/media/logoDatabiomics-00.js", "assets/media/logoDatabiomics-01.js", "assets/media/logoWBPereira-00.js", "assets/media/logoWBPereira-01.js", "assets/media/logoWBPereira-02.js", "assets/media/logoWBPereira-03.js"];
+  for(const src of scripts){
+    await new Promise((resolve,reject)=>{const s=document.createElement("script");s.src=src;s.onload=resolve;s.onerror=reject;document.body.appendChild(s);});
+  }
+  window.ODS_MEDIA=window.ODS_MEDIA||{};
+  Object.entries(window.ODS_MEDIA_PARTS||{}).forEach(([k,v])=>window.ODS_MEDIA[k]=v.join(""));
+  delete window.ODS_MEDIA_PARTS;
+  const s=document.createElement("script");s.src="assets/app.js";document.body.appendChild(s);
+})().catch(err=>{
+  console.error(err);
+  const app=document.getElementById("app");
+  if(app)app.innerHTML="<main style='max-width:760px;margin:80px auto;padding:24px;font-family:system-ui'><h1>ODS no Campo</h1><p>Não foi possível carregar a página. Atualize o navegador ou tente novamente.</p></main>";
+});
+</script>
+</body>
+</html>
