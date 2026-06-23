@@ -1,1 +1,1 @@
-window.ODS_MEDIA_PARTS.logoWBPereira=[];
+window.ODS_MEDIA_PARTS.logoWBPereira=[window.ODS_INLINE_BRAND.logoWb];
