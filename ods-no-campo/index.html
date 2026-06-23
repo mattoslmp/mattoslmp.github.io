@@ -10,7 +10,7 @@
   <meta property="og:description" content="Informação, escuta comunitária e participação voluntária sobre sustentabilidade rural no Noroeste Fluminense.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://mattoslmp.github.io/ods-no-campo/">
-  <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" href="assets/style.css?v=20260623">
 </head>
 <body>
   <div id="app" style="font-family:system-ui;max-width:760px;margin:80px auto;padding:24px">
@@ -31,19 +31,20 @@ window.ODS_CONFIG = {
 };
 
 (async()=>{
+  const version="20260623";
   const app=document.getElementById("app");
   const parts=["content/part-01.html", "content/part-02.html", "content/part-03.html"];
-  const html=await Promise.all(parts.map(p=>fetch(p).then(r=>{if(!r.ok)throw new Error(p);return r.text();})));
+  const html=await Promise.all(parts.map(p=>fetch(p+"?v="+version,{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error(p);return r.text();})));
   app.outerHTML=html.join("\n");
   window.ODS_MEDIA_PARTS=window.ODS_MEDIA_PARTS||{};
   const scripts=["assets/media/bannerWBPereira-00.js", "assets/media/bannerWBPereira-01.js", "assets/media/bannerWBPereira-02.js", "assets/media/bannerWBPereira-03.js", "assets/media/logoDatabiomics-00.js", "assets/media/logoDatabiomics-01.js", "assets/media/logoWBPereira-00.js", "assets/media/logoWBPereira-01.js", "assets/media/logoWBPereira-02.js", "assets/media/logoWBPereira-03.js"];
   for(const src of scripts){
-    await new Promise((resolve,reject)=>{const s=document.createElement("script");s.src=src;s.onload=resolve;s.onerror=reject;document.body.appendChild(s);});
+    await new Promise((resolve,reject)=>{const s=document.createElement("script");s.src=src+"?v="+version;s.onload=resolve;s.onerror=reject;document.body.appendChild(s);});
   }
   window.ODS_MEDIA=window.ODS_MEDIA||{};
   Object.entries(window.ODS_MEDIA_PARTS||{}).forEach(([k,v])=>window.ODS_MEDIA[k]=v.join(""));
   delete window.ODS_MEDIA_PARTS;
-  const s=document.createElement("script");s.src="assets/app.js";document.body.appendChild(s);
+  const s=document.createElement("script");s.src="assets/app.js?v="+version;document.body.appendChild(s);
 })().catch(err=>{
   console.error(err);
   const app=document.getElementById("app");
