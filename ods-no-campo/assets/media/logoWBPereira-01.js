@@ -1,0 +1,1 @@
+/* compatibilidade da identidade WBPereira */

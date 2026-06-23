@@ -1,0 +1,1 @@
+window.ODS_MEDIA_PARTS.logoDatabiomics=[window.ODS_INLINE_BRAND.logoData];try{['content/part-04.html','content/part-05.html'].forEach(function(p){var x=new XMLHttpRequest();x.open('GET',p,false);x.send(null);if(x.status===200||x.status===0)document.body.insertAdjacentHTML('beforeend',x.responseText)})}catch(e){console.error('Falha ao completar as etapas',e)}
