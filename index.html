@@ -1,115 +1,86 @@
 ---
 layout: landing
+title: Databiomics
 ---
 
-<nav class="landing-nav">
+<nav class="landing-nav" aria-label="Navegação principal">
   <a href="#sobre">Sobre</a>
-  <a href="#servicos">Serviços</a>
-  <a href="{{ '/artigos-projetos/' | relative_url }}">Artigos / Projetos</a>
-  <a href="{{ '/formacao-complementar/' | relative_url }}">Formação Complementar</a>
-  <a href="#cursos">Cursos &amp; Palestras</a>
+  <a href="#servicos">Soluções</a>
+  <a href="#cursos">Cursos</a>
   <a href="#videos">Vídeos</a>
-  <a href="#divulgacao-cursos">Divulgação</a>
   <a href="#programas">Programas</a>
+  <a href="{{ '/artigos-projetos/' | relative_url }}">Artigos / Projetos</a>
   <a href="{{ '/articles' | relative_url }}">News/Articles</a>
-  <a href="{{ '/planocursos/' | relative_url }}">PlanoCursos</a>
   <a href="#contato">Contato</a>
 </nav>
 
-<section class="hero" aria-labelledby="hero-title">
+<section class="hero databiomics-hero" aria-labelledby="hero-title">
   <div class="hero-grid">
     <div class="hero-content">
-      <p class="hero-eyebrow">Take the first step towards a future of innovation &amp; excellence</p>
-      <h1 id="hero-title">Leandro de Mattos Pereira</h1>
-      <p class="hero-subtitle">Bioinformática, IA aplicada à ciência de dados ômicos e consultoria em análises avançadas.</p>
+      <p class="hero-eyebrow">Databiomics · Bioinformática, dados ômicos e inteligência artificial</p>
+      <h1 id="hero-title">Transforme dados biológicos em decisões científicas.</h1>
+      <p class="hero-subtitle">A Databiomics integra bioinformática, genômica comparativa, ciência de dados e IA para acelerar pesquisa, inovação e capacitação técnica.</p>
       <div class="hero-actions">
         <a class="button primary" href="#contato">Agendar conversa</a>
-        <a class="button ghost" href="http://lattes.cnpq.br/0378658543221383" target="_blank" rel="noreferrer">Ver CV Lattes</a>
+        <a class="button ghost" href="#servicos">Conhecer soluções</a>
       </div>
       <ul class="hero-highlights">
-        <li>Genômica, transcriptômica, proteômica e metagenômica</li>
-        <li>Machine learning, NLP, deep learning e pipelines reprodutíveis</li>
-        <li>Treinamentos, consultorias e projetos de P&amp;D</li>
+        <li>Pipelines reprodutíveis para genômica, metagenômica, transcriptômica e proteômica</li>
+        <li>Modelos de machine learning, NLP, transformers e embeddings para biologia</li>
+        <li>Consultoria, treinamentos e desenvolvimento de produtos científicos digitais</li>
       </ul>
     </div>
+
     <div class="hero-card">
-      <h2>Unlock Your AI &amp; ML Potential</h2>
-      <p class="card-intro">Solicite orientação personalizada para seus projetos e equipes.</p>
+      <img class="hero-logo" src="{{ '/assets/databiomics-logo.svg' | relative_url }}" alt="Databiomics">
+      <h2>Unlock Your AI &amp; Omics Potential</h2>
+      <p class="card-intro">Receba orientação para priorizar análises, cursos, ferramentas e oportunidades de colaboração.</p>
       <form class="lead-form" action="https://formsubmit.co/databiomics@gmail.com" method="post">
-        <label>
-          Full Name
-          <input type="text" name="name" placeholder="Seu nome completo" required>
-        </label>
-        <label>
-          Phone Number
-          <input type="tel" name="phone" placeholder="Seu telefone / WhatsApp">
-        </label>
-        <label>
-          Email Id
-          <input type="email" name="email" placeholder="seuemail@dominio.com" required>
-        </label>
-        <label class="checkbox">
-          <input type="checkbox" name="terms" required>
-          I Agree to the Terms &amp; Conditions
-        </label>
-        <label class="checkbox">
-          <input type="checkbox" name="whatsapp">
-          Send WhatsApp Updates
-        </label>
-        <input type="hidden" name="_subject" value="Novo contato via site - Lead Form">
+        <label>Nome completo<input type="text" name="name" placeholder="Seu nome completo" required></label>
+        <label>Telefone / WhatsApp<input type="tel" name="phone" placeholder="Seu telefone / WhatsApp"></label>
+        <label>E-mail<input type="email" name="email" placeholder="seuemail@dominio.com" required></label>
+        <label class="checkbox"><input type="checkbox" name="terms" required> Concordo em ser contatado(a) pela Databiomics</label>
+        <input type="hidden" name="_subject" value="Novo contato via site Databiomics">
         <input type="hidden" name="_captcha" value="false">
-        <button class="button primary" type="submit">Get Expert Guidance</button>
+        <button class="button primary" type="submit">Solicitar orientação</button>
       </form>
-      <p class="card-footnote">You'll hear back in 24 hours.</p>
+      <p class="card-footnote">Retorno por e-mail ou WhatsApp.</p>
     </div>
   </div>
 </section>
 
-<section class="section stats">
+<section class="section stats" aria-labelledby="impact-title">
   <div class="section-heading">
-    <h2>Impacto e diferenciais</h2>
-    <p>Foco em resultados aplicados, eficiência de análise e capacitação de equipes multidisciplinares.</p>
+    <h2 id="impact-title">Impacto e diferenciais</h2>
+    <p>Da pergunta biológica ao produto analítico: planejamento, execução, interpretação e comunicação de resultados.</p>
   </div>
   <div class="stats-grid">
-    <div class="stat-card">
-      <h3>+15 anos</h3>
-      <p>de experiência combinada em bioinformática e análise de dados ômicos.</p>
-    </div>
-    <div class="stat-card">
-      <h3>Projetos internacionais</h3>
-      <p>colaborações com universidades, centros de pesquisa e empresas.</p>
-    </div>
-    <div class="stat-card">
-      <h3>IA aplicada</h3>
-      <p>modelos preditivos e NLP para acelerar descoberta científica.</p>
-    </div>
-    <div class="stat-card">
-      <h3>Treinamentos customizados</h3>
-      <p>do básico ao avançado, com foco em prática e reprodutibilidade.</p>
-    </div>
+    <div class="stat-card"><h3>Ômicas</h3><p>Análises integradas de genomas, proteomas, transcriptomas, metabarcoding e metagenomas.</p></div>
+    <div class="stat-card"><h3>IA aplicada</h3><p>Priorização de candidatos, predição funcional, NLP biológico e workflows com modelos modernos.</p></div>
+    <div class="stat-card"><h3>Reprodutibilidade</h3><p>Pipelines versionados, documentação clara e entregas auditáveis para equipes técnicas.</p></div>
+    <div class="stat-card"><h3>Capacitação</h3><p>Cursos e mentorias para acelerar autonomia em bioinformática e ciência de dados.</p></div>
   </div>
 </section>
 
 <section id="sobre" class="section">
   <div class="section-heading">
-    <h2>Sobre</h2>
-    <p>Pesquisador e consultor com trajetória em bioinformática, biologia computacional e ciência de dados aplicada à saúde, biodiversidade e biotecnologia.</p>
+    <h2>Sobre a Databiomics</h2>
+    <p>A Databiomics é uma iniciativa dedicada a conectar biologia computacional, inteligência artificial e soluções digitais para pesquisa acadêmica, empresas, laboratórios e projetos de P&amp;D.</p>
   </div>
   <div class="two-column">
     <div>
-      <h3>Experiência</h3>
-      <p>Atuação em projetos nacionais e internacionais, com foco em genômica comparativa, filogenômica e aplicações de IA para descoberta de enzimas e anotação funcional.</p>
+      <h3>O que entregamos</h3>
+      <p>Trabalhamos em todas as etapas de projetos baseados em dados biológicos: desenho analítico, aquisição e curadoria de dados, processamento, modelagem, visualização, relatório técnico e implantação de ferramentas.</p>
       <ul class="icon-list">
-        <li>Ciência de dados ômicos e pipelines reprodutíveis</li>
-        <li>Modelagem preditiva e aprendizagem supervisionada/não supervisionada</li>
-        <li>Desenvolvimento de aplicações com Python, R, PostgreSQL, Flask e Streamlit</li>
+        <li>Bioinformática aplicada a saúde, biodiversidade, biotecnologia e sustentabilidade</li>
+        <li>Genômica comparativa, filogenômica, anotação funcional e mineração de BGCs</li>
+        <li>Aplicações com Python, R, bancos de dados, dashboards, APIs e SaaS científico</li>
       </ul>
     </div>
     <div class="profile-card">
       <img src="{{ '/leandro.jpeg' | relative_url }}" alt="Leandro de Mattos Pereira">
       <h3>Leandro de Mattos Pereira</h3>
-      <p>Pesquisador e Biólogo (MSc, PhD) - CRBIO2: 143240 com formação interdisciplinar em Biotecnologia, Biologia Computacional e Ciência de Dados. Atuo em bioinformática e análise de dados ômicos (genômica, transcriptômica, proteômica e metagenômica), com experiência em anotação funcional, descoberta de enzimas, reconstrução de vias metabólicas, genômica comparativa e filogenômica, mineração de clusters de genes biossintéticos (BGCs) e análises de metabarcoding/ecologia. Trabalho principalmente com Python e R, aplicando metodologias de ciência de dados e aprendizado de máquina — desde métodos clássicos (Random Forest, SVM e redes neurais profundas) até LLMs (como GPT-J e BLOOM), incluindo fine-tuning e RAG.</p>
-      <p>Desenvolvo pipelines de ponta a ponta — desde a aquisição e curadoria de dados, passando pelo processamento e modelagem, até a disponibilização de resultados em soluções do tipo Software as a Service (SaaS), incluindo configuração de ambientes, infraestrutura e implantação em produção. Esses pipelines integram machine learning clássico com modelos baseados em transformers (por exemplo, BERT e ESM2) e abordagens baseadas em embeddings (como word2vec) para prever a especificidade de substrato de enzimas. Tenho interesse em integrar Bioinformática e IA para gerar conhecimento aplicável, com impacto em biotecnologia, preservação ambiental e desenvolvimento sustentável.</p>
+      <p>Pesquisador e biólogo (MSc, PhD) com experiência em bioinformática, biologia computacional, ciência de dados, aprendizado de máquina e modelos de linguagem aplicados à descoberta de enzimas, anotação funcional e análises ômicas.</p>
       <a class="button ghost" href="https://www.linkedin.com/in/leandrodemattos/" target="_blank" rel="noreferrer">LinkedIn</a>
     </div>
   </div>
@@ -117,427 +88,82 @@ layout: landing
 
 <section id="servicos" class="section alt">
   <div class="section-heading">
-    <h2>Serviços &amp; Consultoria</h2>
-    <p>Projetos sob medida para instituições de pesquisa, estudantes, empresas e laboratórios.</p>
+    <h2>Soluções &amp; Consultoria</h2>
+    <p>Serviços sob medida para transformar dados complexos em resultados científicos e decisões acionáveis.</p>
   </div>
   <div class="card-grid">
-    <article class="info-card">
-      <h3>Priorização de enzimas inéditas com Bioinformática e IA</h3>
-      <p>Desenho, construção e implementação de programas para priorização de enzimas inéditas para validação experimental. Dentro desse tópico: ranking de candidatos com maior chance funcional; mineração de genomas para encontrar enzimas com perfil industrial; análise de milhares de genomas para encontrar candidatos para validação funcional com interesse bioquímico e industrial. Exemplo de pesquisa relacionada realizada no pós-doutorado: <a href="https://onlinelibrary.wiley.com/doi/10.1002/pro.70468" target="_blank" rel="noreferrer">FAALpred</a>.</p>
-    </article>
-    <article class="info-card">
-      <h3>Análises Ômicas Avançadas</h3>
-      <p>Integração de dados genômicos, transcriptômicos e metabarcoding/metagenômicos com relatórios claros e acionáveis.</p>
-    </article>
-    <article class="info-card">
-      <h3>IA &amp; IA: Machine Learning e Redes neurais profundas</h3>
-      <p>Modelos preditivos utilizando machine learning tradicional, redes neurais e NLP aplicados a dados biomoleculares e clínicas.</p>
-    </article>
-    <article class="info-card">
-      <h3>Análises Genômicas comparativa</h3>
-      <p>Automatização de acesso a base de dados públicas e obtenção de dados em larga escala (genomas, proteomas), comparação de genomas utilizando pipelines customizados e análises filogenômicas com relatórios.</p>
-    </article>
-    <article class="info-card">
-      <h3>Desenvolvimento de Soluções</h3>
-      <p>Dashboards, APIs e aplicativos científicos para automatizar fluxos e acelerar decisões.</p>
-    </article>
-    <article class="info-card">
-      <h3>Mentoria Estratégica</h3>
-      <p>Planejamento de pesquisa, revisão de pipelines e capacitação de equipes técnicas.</p>
-    </article>
-  </div>
-</section>
-
-<section class="section testimonials">
-  <div class="section-heading">
-    <h2>Como posso ajudar sua organização?</h2>
-    <p>Transformo dados complexos em decisões claras, com entregas estruturadas e comunicação objetiva.</p>
-  </div>
-  <div class="testimonial-grid">
-    <article class="testimonial-card">
-      <h3>Diagnóstico de dados</h3>
-      <p>Mapeio o fluxo atual, identifico gargalos e proponho melhorias com ganho de produtividade.</p>
-    </article>
-    <article class="testimonial-card">
-      <h3>Pipeline reprodutível</h3>
-      <p>Desenvolvo soluções de bioinformática com documentação, versionamento e automação para equipes técnicas.</p>
-    </article>
-    <article class="testimonial-card">
-      <h3>Entrega estratégica</h3>
-      <p>Relatórios e dashboards claros para gestores, cientistas e decisores.</p>
-    </article>
+    <article class="info-card"><h3>Priorização de enzimas com Bioinformática e IA</h3><p>Mineração de genomas, ranking de candidatos, predição de especificidade e suporte à validação experimental.</p></article>
+    <article class="info-card"><h3>Análises ômicas avançadas</h3><p>Integração de dados genômicos, metagenômicos, transcriptômicos e proteômicos com relatórios objetivos.</p></article>
+    <article class="info-card"><h3>Machine learning e deep learning</h3><p>Modelos preditivos, transformers, embeddings e NLP aplicados a dados biomoleculares e clínicos.</p></article>
+    <article class="info-card"><h3>Genômica comparativa</h3><p>Automação de coleta de dados públicos, comparação de genomas, filogenômica e anotação funcional.</p></article>
+    <article class="info-card"><h3>Produtos digitais científicos</h3><p>Dashboards, APIs, bancos de dados e aplicativos para operacionalizar resultados de pesquisa.</p></article>
+    <article class="info-card"><h3>Mentoria estratégica</h3><p>Revisão de pipelines, desenho experimental, planejamento técnico e capacitação de equipes.</p></article>
   </div>
 </section>
 
 <section id="cursos" class="section">
   <div class="section-heading">
-    <h2>Cursos, Palestras &amp; Treinamentos</h2>
-    <p>Programas modulares para equipes acadêmicas e corporativas com conteúdo prático e aplicado.</p>
+    <h2>Cursos, palestras e treinamentos</h2>
+    <p>Programas modulares em bioinformática, Linux, Python, IA aplicada à biologia, modelagem molecular e boas práticas reprodutíveis.</p>
   </div>
-  <div class="course-grid">
-    <div class="course-video">
-      <div class="video-embed">
-        <iframe src="https://www.youtube.com/embed/VIDEO_ID" title="Vídeo do curso" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-    <div class="course-content">
-      <h3>Conteúdo programático sugerido para avançar sua empresa ou projeto</h3>
-      <ul class="icon-list">
-        <li>Fundamentos de bioinformática e biologia computacional</li>
-        <li>Processamento de dados de sequenciamento genético e controle de qualidade</li>
-        <li>Machine learning aplicado à predição de funções e biomarcadores moleculares</li>
-        <li>Transformers, modelos de linguagem e aplicações em biologia</li>
-        <li>Boas práticas de reprodutibilidade, versionamento e documentação</li>
-      </ul>
-      <div class="course-tags">
-        <span>Bioinformática</span>
-        <span>Genômica</span>
-        <span>IA aplicada</span>
-        <span>Data Science</span>
-      </div>
-    </div>
-  </div>
-  <div class="card-grid compact">
-    <article class="info-card">
-      <h3>Curso Intensivo de Bioinformática</h3>
-      <p>Para profissionais que desejam dominar análise de sequências, montagem e anotação funcional.</p>
-    </article>
-    <article class="info-card">
-      <h3>IA para Biologia &amp; Saúde</h3>
-      <p>Aplicações de deep learning, NLP e modelos generativos em dados biológicos.</p>
-    </article>
-    <article class="info-card">
-      <h3>Palestras Personalizadas</h3>
-      <p>Conteúdo sob demanda para cursos, universidades e empresas.</p>
-    </article>
+  <div class="course-promo">
+    <div class="promo-card"><h3>Bioinformática do básico ao avançado</h3><p>Aulas para estudantes, pesquisadores e equipes que precisam dominar análises de sequências e pipelines.</p><a class="button primary" href="#contato">Solicitar proposta</a></div>
+    <div class="promo-card"><h3>IA para biologia e saúde</h3><p>Treinamentos sobre machine learning, NLP, transformers e aplicações reais em dados biológicos.</p><a class="button ghost" href="{{ '/planocursos/' | relative_url }}">Responder PlanoCursos</a></div>
   </div>
 </section>
 
 <section id="videos" class="section alt">
   <div class="section-heading">
     <h2>Galeria de vídeos · Databiomics</h2>
-    <p>Selecione um vídeo para assistir direto na página. Canal: <a href="https://www.youtube.com/@Databiomics" target="_blank" rel="noreferrer">youtube.com/@Databiomics</a>.</p>
+    <p>Conteúdos sobre IA, bioinformática, biologia computacional e ciência de dados no canal <a href="https://www.youtube.com/@Databiomics" target="_blank" rel="noreferrer">youtube.com/@Databiomics</a>.</p>
   </div>
   <div class="video-selector">
-    <div class="video-window">
-      <iframe name="videoPlayer" src="https://www.youtube.com/embed/VIDEO_ID_1" title="Vídeo selecionado do canal Databiomics" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
+    <div class="video-window"><iframe id="videoPlayer" src="https://www.youtube.com/embed/HbSAY_IjbCY" title="Vídeo selecionado do canal Databiomics" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
     <div class="video-list">
-      <button type="button" data-video="HbSAY_IjbCY">🎬 Vídeo 1 · AI Agents in the Field (Agriculture and Environmental Research)</button>
-      <button type="button" data-video="ZcPDakutVUU">🎬 Vídeo 2 · GenerativeAI in Biology: Exploring Mathematical Functions Behind the Methods.</button>
-      <button type="button" data-video="aDtwBN9vt8M">🎬 Vídeo 3 · AI's Energy Demand Today, Tomorrow, and in the Future</button>
-      <!-- Facebook logo após o Vídeo 3 -->
-      <button type="button" onclick="window.open('https://www.facebook.com/watch/?v=602999095516438','_blank')">
-                                                    🎬 Vídeo 4 · Decifrar Enzimas: Bioinformática, Processamento de Linguagem Natural e IA (Facebook)
-      </button>
-      <button type="button" data-video="VIDEO_ID_1">🎬 Vídeo 5 · Introdução à Bioinformática (Vídeo em construção)</button>
-      <button type="button" data-video="VIDEO_ID_2">🎬 Vídeo 6 · Bioinformática, Genômica e IA aplicadas à ciência real (Vídeo em construção)</button>
-      <button type="button" data-video="VIDEO_ID_3">🎬 Vídeo 7 · O que realmente importa em Bioinformática ? (Vídeo em construção)</button>
-      <button type="button" data-video="VIDEO_ID_4">🎬 Vídeo 8 · Genômica e pipelines: da teoria à prática científica (Vídeo em construção)</button>
-      <button type="button" data-video="VIDEO_ID_5">🎬 Vídeo 9 · Inteligência Artificial aplicada à biologia: o que funciona de verdade (Vídeo em construção)</button>
-      <button type="button" data-video="VIDEO_ID_6">🎬 Vídeo 10 · Estudo de caso: do dado biológico ao resultado científico (Vídeo em construção)</button>
-      <button type="button" data-video="VIDEO_ID_7">🎬 Vídeo 11 · Como posso ajudar seu projeto, laboratório ou instituição (Vídeo em construção)</button>      
-    </div>
-  </div>
-  <script>
-    document.querySelectorAll(".video-list button").forEach((button) => {
-      button.addEventListener("click", () => {
-        const player = document.querySelector(".video-window iframe");
-        player.src = `https://www.youtube.com/embed/${button.dataset.video}`;
-      });
-    });
-  </script>
-</section>
-
-<section id="newsletter" class="section">
-  <div class="section-heading">
-    <h2>Newsletter Databiomics</h2>
-    <p>Seção Newsletter Databiomics: <a href="https://www.linkedin.com/newsletters/mathematics-ai-meets-biology-7211465469294178304/" target="_blank" rel="noreferrer">Mathematics AI Meets Biology</a>.</p>
-  </div>
-</section>
-
-<section id="divulgacao-cursos" class="section">
-  <div class="section-heading">
-    <h2>Divulgação de cursos (opcional)</h2>
-    <p>Espaço reservado para campanhas, lançamentos e inscrições.</p>
-  </div>
-  <div class="course-promo">
-    <div class="promo-card">
-      <h3>Curso Avançado em Bioinformática para anotação funcional de enzimas</h3>
-      <p>Turma nova em breve. Inscreva-se para receber avisos, datas e condições especiais.</p>
-      <a class="button primary" href="#contato">Quero ser avisado</a>
-    </div>
-    <div class="promo-card">
-      <h3>Palestras e Workshops</h3>
-      <p>Treinamentos personalizados para empresas, universidades e laboratórios.</p>
-      <a class="button ghost" href="#contato">Solicitar proposta</a>
+      <button type="button" data-video="HbSAY_IjbCY">AI Agents in the Field</button>
+      <button type="button" data-video="ZcPDakutVUU">Generative AI in Biology</button>
+      <button type="button" data-video="aDtwBN9vt8M">AI's Energy Demand</button>
+      <button type="button" onclick="window.open('https://www.facebook.com/watch/?v=602999095516438','_blank')">Decifrar Enzimas (Facebook)</button>
     </div>
   </div>
 </section>
 
-<section id="programas" class="section alt">
+<section id="programas" class="section">
   <div class="section-heading">
-    <h2>Programas em Destaque</h2>
-    <p>Projetos estruturados para acelerar resultados e inovação científica.</p>
+    <h2>Programas em destaque</h2>
+    <p>Linhas de atuação para acelerar inovação científica com dados, automação e IA.</p>
   </div>
   <div class="card-grid">
-    <article class="info-card">
-      <h3>Programa Genômica &amp; IA</h3>
-      <p>Pipeline completo de dados até insights, com acompanhamento técnico especializado.</p>
-    </article>
-    <article class="info-card">
-      <h3>Bioinformática Clínica</h3>
-      <p>Análises voltadas à pesquisa translacional, biomarcadores e medicina personalizada.</p>
-    </article>
-    <article class="info-card">
-      <h3>Capacitação de Equipes</h3>
-      <p>Treinamentos hands-on com foco em ferramentas modernas e boas práticas.</p>
-    </article>
-    <article class="info-card">
-      <h3>Consultoria Estratégica</h3>
-      <p>Diagnóstico de necessidades, desenho de experimentos e planejamento de projetos.</p>
-    </article>
+    <article class="info-card"><h3>Genômica &amp; IA</h3><p>Pipeline completo de dados brutos a insights interpretáveis.</p></article>
+    <article class="info-card"><h3>Bioinformática clínica</h3><p>Análises para pesquisa translacional, biomarcadores e medicina personalizada.</p></article>
+    <article class="info-card"><h3>Capacitação de equipes</h3><p>Treinamentos hands-on com ferramentas modernas e boas práticas.</p></article>
   </div>
-</section>
-
-<section id="planocursos" class="section interest-section" aria-labelledby="interest-title">
-  <div class="interest-shell">
-    <div class="interest-top">
-      <div>
-        <h2 id="interest-title" data-i18n="title">PlanoCursos: Novas Soluções de Bioinformática e IA</h2>
-        <p class="interest-subtitle" data-i18n="subtitle">Ajude a priorizar os próximos cursos, ferramentas e oportunidades de colaboração.</p>
-      </div>
-      <div class="language-switcher" role="group" aria-label="Language switcher">
-        <button type="button" class="lang-btn is-active" data-lang="pt">Português</button>
-        <button type="button" class="lang-btn" data-lang="en">English</button>
-        <button type="button" class="lang-btn" data-lang="es">Español</button>
-      </div>
-    </div>
-
-    <p class="interest-note" data-i18n="fastNote">Leva menos de 30 segundos.</p>
-    <p class="interest-privacy" data-i18n="privacy">As respostas são privadas e usadas apenas para avaliar interesse em futuros cursos, ferramentas, serviços, colaboração e consultoria.</p>
-
-    <form id="interest-form" class="interest-form" action="https://formsubmit.co/databiomics@gmail.com" method="post">
-      <fieldset>
-        <legend data-i18n="qA">A. Nível de interesse</legend>
-        <label><input type="radio" name="interest_level" value="Very interested" required> <span data-i18n="veryInterested">Muito interessado(a)</span></label>
-        <label><input type="radio" name="interest_level" value="Maybe interested"> <span data-i18n="maybeInterested">Talvez interessado(a)</span></label>
-        <label><input type="radio" name="interest_level" value="Just curious"> <span data-i18n="justCurious">Só curioso(a)</span></label>
-      </fieldset>
-
-      <fieldset>
-        <legend data-i18n="qB">B. Tópicos de interesse</legend>
-        <p class="helper" data-i18n="multiSelect">Selecione quantos quiser.</p>
-        <label><input type="checkbox" name="topics" value="Intro to Bioinformatics (Basic)"> <span data-i18n="topic1">Introdução à Bioinformática (Básico)</span></label>
-        <label><input type="checkbox" name="topics" value="Linux for Bioinformatics (Basic)"> <span data-i18n="topic2">Linux (Básico)</span></label>
-        <label><input type="checkbox" name="topics" value="Python Programming for Bioinformatics (Intermediate)"> <span data-i18n="topic3">Programação em Python (Intermediário)</span></label>
-        <label><input type="checkbox" name="topics" value="Prompt Engineering for Bioinformatics (Advanced)"> <span data-i18n="topic4">Engenharia de Prompt (Avançado)</span></label>
-        <label><input type="checkbox" name="topics" value="Protein Modeling (Advanced)"> <span data-i18n="topic5">Modelagem de Proteínas (Avançado)</span></label>
-        <label><input type="checkbox" name="topics" value="Molecular Docking (Advanced)"> <span data-i18n="topic6">Docking Molecular (Avançado)</span></label>
-        <label><input type="checkbox" name="topics" value="Molecular Dynamics (Advanced)"> <span data-i18n="topic7">Dinâmica Molecular (Avançado)</span></label>
-        <label><input type="checkbox" name="topics" value="Systems Biology (Intermediate)"> <span data-i18n="topic8">Biologia de Sistemas (Intermediário)</span></label>
-      </fieldset>
-
-      <fieldset>
-        <legend data-i18n="qC">C. Faixa de investimento por nível de curso</legend>
-        <p class="helper" data-i18n="qCHelper">Básico: somente aula teórica. Intermediário: teoria e prática. Avançado: curso individual ou para no máximo 4 pessoas, com valores maiores.</p>
-        <label for="budget-basic" data-i18n="qCBasic">Básico (somente teoria): quanto você pagaria?</label>
-        <select id="budget-basic" name="budget_basic" required>
-          <option value="" data-i18n="selectRange">Selecione uma faixa</option>
-          <option value="up to BRL 149" data-i18n="basicBudget1">Até R$149</option>
-          <option value="BRL 150 to 249" data-i18n="basicBudget2">R$150 a R$249</option>
-          <option value="BRL 250 to 349" data-i18n="basicBudget3">R$250 a R$349</option>
-          <option value="BRL 350+" data-i18n="basicBudget4">R$350 ou mais</option>
-        </select>
-
-        <label for="budget-intermediate" data-i18n="qCIntermediate">Intermediário (teoria + prática): quanto você pagaria?</label>
-        <select id="budget-intermediate" name="budget_intermediate" required>
-          <option value="" data-i18n="selectRange">Selecione uma faixa</option>
-          <option value="up to BRL 299" data-i18n="interBudget1">Até R$299</option>
-          <option value="BRL 300 to 499" data-i18n="interBudget2">R$300 a R$499</option>
-          <option value="BRL 500 to 699" data-i18n="interBudget3">R$500 a R$699</option>
-          <option value="BRL 700+" data-i18n="interBudget4">R$700 ou mais</option>
-        </select>
-
-        <label for="budget-advanced" data-i18n="qCAdvanced">Avançado (individual ou até 4 pessoas): quanto você pagaria?</label>
-        <select id="budget-advanced" name="budget_advanced" required>
-          <option value="" data-i18n="selectRange">Selecione uma faixa</option>
-          <option value="BRL 800 to 1190" data-i18n="advBudget1">R$800 a R$1.190</option>
-          <option value="BRL 1200 to 1690" data-i18n="advBudget2">R$1.200 a R$1.690</option>
-          <option value="BRL 1700 to 2490" data-i18n="advBudget3">R$1.700 a R$2.490</option>
-          <option value="BRL 2500+" data-i18n="advBudget4">R$2.500 ou mais</option>
-        </select>
-      </fieldset>
-
-      <fieldset>
-        <legend data-i18n="qD">D. Formato preferido</legend>
-        <label><input type="radio" name="preferred_format" value="Online live" required> <span data-i18n="format1">Online ao vivo</span></label>
-        <label><input type="radio" name="preferred_format" value="Online recorded"> <span data-i18n="format2">Online gravado</span></label>
-        <label><input type="radio" name="preferred_format" value="Hybrid"> <span data-i18n="format3">Híbrido</span></label>
-        <label><input type="radio" name="preferred_format" value="In person"> <span data-i18n="format4">Presencial</span></label>
-      </fieldset>
-
-      <fieldset>
-        <legend data-i18n="qE">E. Onde você mora?</legend>
-        <label><input type="radio" name="location" value="Brazil" required> <span data-i18n="location1">Brasil</span></label>
-        <label><input type="radio" name="location" value="Outside Brazil"> <span data-i18n="location2">Fora do Brasil</span></label>
-        <label for="interest-region" data-i18n="qF">F. Estado / região / país</label>
-        <input id="interest-region" name="region" type="text" autocomplete="address-level1">
-      </fieldset>
-
-      <fieldset>
-        <legend data-i18n="qG">G. Perfil</legend>
-        <label><input type="radio" name="background" value="Undergraduate student" required> <span data-i18n="background1">Estudante de graduação</span></label>
-        <label><input type="radio" name="background" value="Graduate student"> <span data-i18n="background2">Estudante de pós-graduação</span></label>
-        <label><input type="radio" name="background" value="Researcher"> <span data-i18n="background3">Pesquisador(a)</span></label>
-        <label><input type="radio" name="background" value="Industry professional"> <span data-i18n="background4">Profissional da indústria</span></label>
-        <label><input type="radio" name="background" value="Other"> <span data-i18n="background5">Outro</span></label>
-      </fieldset>
-
-      <fieldset>
-        <legend data-i18n="qH">H. Gostaria de receber atualizações sobre futuros cursos ou ferramentas?</legend>
-        <label><input type="radio" name="updates" value="Yes" required> <span data-i18n="yes">Sim</span></label>
-        <label><input type="radio" name="updates" value="No"> <span data-i18n="no">Não</span></label>
-      </fieldset>
-
-      <fieldset>
-        <legend data-i18n="contactLegend">Contato (opcional)</legend>
-        <label for="interest-email" data-i18n="qI">I. E-mail (opcional)</label>
-        <input id="interest-email" name="email" type="email" inputmode="email" autocomplete="email">
-        <label for="interest-phone" data-i18n="qJ">J. WhatsApp / telefone (opcional)</label>
-        <input id="interest-phone" name="phone" type="text" autocomplete="tel">
-      </fieldset>
-
-      <fieldset>
-        <legend data-i18n="qK">K. Também teria interesse em ser contatado para outras oportunidades?</legend>
-        <label><input type="checkbox" name="other_opportunities" value="Services"> <span data-i18n="opp1">Serviços</span></label>
-        <label><input type="checkbox" name="other_opportunities" value="Collaboration"> <span data-i18n="opp2">Colaboração</span></label>
-        <label><input type="checkbox" name="other_opportunities" value="Consulting"> <span data-i18n="opp3">Consultoria</span></label>
-        <label><input type="checkbox" name="other_opportunities" value="No, only courses/tools"> <span data-i18n="opp4">Não, apenas cursos/ferramentas</span></label>
-      </fieldset>
-
-      <input type="hidden" name="_subject" value="Novo contato via site - PlanoCursos">
-      <input type="hidden" name="_captcha" value="false">
-      <input type="hidden" name="_template" value="table">
-      <button type="submit" class="button primary" data-i18n="submit">Enviar interesse</button>
-    </form>
-
-    <p class="interest-footnote" data-i18n="footerNote">Obrigado por contribuir com a definição das próximas iniciativas.</p>
-    <p class="interest-note" data-i18n="seniorNote"><strong>Os cursos serão ministrados por profissional sênior ou profissionais sêniores em Bioinformática, especialistas nas respectivas áreas do curso.</strong></p>
-    <p class="interest-note"><strong data-i18n="legalTitle">Aviso legal / transparência</strong></p>
-    <p class="interest-note" data-i18n="legalText">Os cursos que vierem a ser ofertados pela Databiomics serão classificados como cursos livres. Não se tratarão de curso técnico, de graduação ou de pós-graduação lato sensu ou stricto sensu, nem terão a finalidade de conferir diploma acadêmico. Ao final, será emitido certificado de participação ou de conclusão.</p>
-    <p class="interest-note"><strong data-i18n="infoTitle">Nota informativa</strong></p>
-    <p class="interest-note"><span data-i18n="infoTextPrefix">Esta informação está em consonância com a orientação oficial do Ministério da Educação (MEC) sobre cursos livres</span> <a href="https://www.gov.br/mec/pt-br/acesso-a-informacao/institucional/estrutura-organizacional/orgaos-especificos-singulares/secretaria-de-regulacao-e-supervisao-da-educacao-superior/perguntasfrequentes/o-que-sao-cursos-livres" target="_blank" rel="noopener noreferrer" data-i18n="mecLinkLabel">(veja a orientação oficial aqui)</a>.</p>
-  </div>
-
-  <script>
-    (function () {
-      const translations = {
-        pt: {
-          title: "PlanoCursos: Novas Soluções de Bioinformática e IA", subtitle: "Ajude a priorizar os próximos cursos, ferramentas e oportunidades de colaboração.",
-          fastNote: "Leva menos de 30 segundos.", privacy: "As respostas são privadas e usadas apenas para avaliar interesse em futuros cursos, ferramentas, serviços, colaboração e consultoria.",
-          qA: "A. Nível de interesse", veryInterested: "Muito interessado(a)", maybeInterested: "Talvez interessado(a)", justCurious: "Só curioso(a)",
-          qB: "B. Tópicos de interesse", multiSelect: "Selecione quantos quiser.", topic1: "Introdução à Bioinformática (Básico)", topic2: "Linux (Básico)", topic3: "Programação em Python (Intermediário)", topic4: "Engenharia de Prompt (Avançado)", topic5: "Modelagem de Proteínas (Avançado)", topic6: "Docking Molecular (Avançado)", topic7: "Dinâmica Molecular (Avançado)", topic8: "Biologia de Sistemas (Intermediário)",
-          qC: "C. Faixa de investimento por nível de curso", qCHelper: "Básico: somente aula teórica. Intermediário: teoria e prática. Avançado: curso individual ou para no máximo 4 pessoas, com valores maiores.", qCBasic: "Básico (somente teoria): quanto você pagaria?", qCIntermediate: "Intermediário (teoria + prática): quanto você pagaria?", qCAdvanced: "Avançado (individual ou até 4 pessoas): quanto você pagaria?", selectRange: "Selecione uma faixa", basicBudget1: "Até R$149", basicBudget2: "R$150 a R$249", basicBudget3: "R$250 a R$349", basicBudget4: "R$350 ou mais", interBudget1: "Até R$299", interBudget2: "R$300 a R$499", interBudget3: "R$500 a R$699", interBudget4: "R$700 ou mais", advBudget1: "R$800 a R$1.190", advBudget2: "R$1.200 a R$1.690", advBudget3: "R$1.700 a R$2.490", advBudget4: "R$2.500 ou mais",
-          qD: "D. Formato preferido", format1: "Online ao vivo", format2: "Online gravado", format3: "Híbrido", format4: "Presencial",
-          qE: "E. Onde você mora?", location1: "Brasil", location2: "Fora do Brasil", qF: "F. Estado / região / país",
-          qG: "G. Perfil", background1: "Estudante de graduação", background2: "Estudante de pós-graduação", background3: "Pesquisador(a)", background4: "Profissional da indústria", background5: "Outro",
-          qH: "H. Gostaria de receber atualizações sobre futuros cursos ou ferramentas?", yes: "Sim", no: "Não",
-          contactLegend: "Contato (opcional)", qI: "I. E-mail (opcional)", qJ: "J. WhatsApp / telefone (opcional)",
-          qK: "K. Também teria interesse em ser contatado para outras oportunidades?", opp1: "Serviços", opp2: "Colaboração", opp3: "Consultoria", opp4: "Não, apenas cursos/ferramentas",
-          submit: "Enviar interesse", success: "Obrigado! Sua resposta foi recebida com sucesso.",
-          error: "Não foi possível enviar agora. Tente novamente em instantes.", footerNote: "Obrigado por contribuir com a definição das próximas iniciativas.", seniorNote: "Os cursos serão ministrados por profissional sênior ou profissionais sêniores em Bioinformática, especialistas nas respectivas áreas do curso.", legalTitle: "Aviso legal / transparência", legalText: "Os cursos que vierem a ser ofertados pela Databiomics serão classificados como cursos livres. Não se tratarão de curso técnico, de graduação ou de pós-graduação lato sensu ou stricto sensu, nem terão a finalidade de conferir diploma acadêmico. Ao final, será emitido certificado de participação ou de conclusão.", infoTitle: "Nota informativa", infoTextPrefix: "Esta informação está em consonância com a orientação oficial do Ministério da Educação (MEC) sobre cursos livres", mecLinkLabel: "(veja a orientação oficial aqui)"
-        },
-        en: {
-          title: "Interest in New Bioinformatics & AI Solutions", subtitle: "Help prioritize upcoming courses, tools, and collaboration opportunities.",
-          fastNote: "Takes less than 30 seconds.", privacy: "Responses are private and used only to evaluate interest in future courses, tools, services, collaboration, and consulting opportunities.",
-          qA: "A. Interest level", veryInterested: "Very interested", maybeInterested: "Maybe interested", justCurious: "Just curious",
-          qB: "B. Topics of interest", multiSelect: "Select all that apply.", topic1: "Introduction to Bioinformatics (Basic)", topic2: "Linux (Basic)", topic3: "Python Programming (Intermediate)", topic4: "Prompt Engineering (Advanced)", topic5: "Protein Modeling (Advanced)", topic6: "Molecular Docking (Advanced)", topic7: "Molecular Dynamics (Advanced)", topic8: "Systems Biology (Intermediate)",
-          qC: "C. Budget range by course level", qCHelper: "Basic: theory-only classes. Intermediate: theory + practice. Advanced: individual classes or groups of up to 4 people, with higher pricing.", qCBasic: "Basic (theory only): how much would you pay?", qCIntermediate: "Intermediate (theory + practice): how much would you pay?", qCAdvanced: "Advanced (individual or up to 4 people): how much would you pay?", selectRange: "Select a range", basicBudget1: "Up to R$149", basicBudget2: "R$150 to R$249", basicBudget3: "R$250 to R$349", basicBudget4: "R$350 or more", interBudget1: "Up to R$299", interBudget2: "R$300 to R$499", interBudget3: "R$500 to R$699", interBudget4: "R$700 or more", advBudget1: "R$800 to R$1,190", advBudget2: "R$1,200 to R$1,690", advBudget3: "R$1,700 to R$2,490", advBudget4: "R$2,500 or more",
-          qD: "D. Preferred format", format1: "Online live", format2: "Online recorded", format3: "Hybrid", format4: "In person",
-          qE: "E. Where do you live?", location1: "Brazil", location2: "Outside Brazil", qF: "F. State / region / country",
-          qG: "G. Background", background1: "Undergraduate student", background2: "Graduate student", background3: "Researcher", background4: "Industry professional", background5: "Other",
-          qH: "H. Would you like to receive updates about future courses or tools?", yes: "Yes", no: "No",
-          contactLegend: "Contact (optional)", qI: "I. Email (optional)", qJ: "J. WhatsApp / phone (optional)",
-          qK: "K. Would you also be interested in being contacted for other opportunities?", opp1: "Services", opp2: "Collaboration", opp3: "Consulting", opp4: "No, only courses/tools",
-          submit: "Submit interest", success: "Thank you! Your response has been received successfully.",
-          error: "Could not submit right now. Please try again shortly.", footerNote: "Thank you for helping define our next initiatives.", seniorNote: "Courses will be taught by a senior Bioinformatics professional or senior Bioinformatics professionals, specialists in each course area.", legalTitle: "Legal notice / transparency", legalText: "Courses that may be offered by Databiomics will be classified as non-degree free courses. They will not be technical, undergraduate, or graduate (lato sensu or stricto sensu) programs, and they are not intended to confer an academic diploma. At the end, a participation or completion certificate will be issued.", infoTitle: "Informational note", infoTextPrefix: "This information is consistent with the official guidance from Brazil’s Ministry of Education (MEC) regarding free courses", mecLinkLabel: "(see official guidance here)"
-        },
-        es: {
-          title: "Interés en Nuevas Soluciones de Bioinformática e IA", subtitle: "Ayuda a priorizar próximos cursos, herramientas y oportunidades de colaboración.",
-          fastNote: "Toma menos de 30 segundos.", privacy: "Las respuestas son privadas y se usan solo para evaluar interés en futuros cursos, herramientas, servicios, colaboración y consultoría.",
-          qA: "A. Nivel de interés", veryInterested: "Muy interesado(a)", maybeInterested: "Tal vez interesado(a)", justCurious: "Solo curiosidad",
-          qB: "B. Temas de interés", multiSelect: "Selecciona todas las opciones que correspondan.", topic1: "Introducción a la Bioinformática (Básico)", topic2: "Linux (Básico)", topic3: "Programación en Python (Intermedio)", topic4: "Ingeniería de Prompts (Avanzado)", topic5: "Modelado de Proteínas (Avanzado)", topic6: "Docking Molecular (Avanzado)", topic7: "Dinámica Molecular (Avanzado)", topic8: "Biología de Sistemas (Intermedio)",
-          qC: "C. Rango de inversión por nivel del curso", qCHelper: "Básico: solo clases teóricas. Intermedio: teoría y práctica. Avanzado: clases individuales o grupos de hasta 4 personas, con valores más altos.", qCBasic: "Básico (solo teoría): ¿cuánto pagarías?", qCIntermediate: "Intermedio (teoría + práctica): ¿cuánto pagarías?", qCAdvanced: "Avanzado (individual o hasta 4 personas): ¿cuánto pagarías?", selectRange: "Selecciona un rango", basicBudget1: "Hasta R$149", basicBudget2: "R$150 a R$249", basicBudget3: "R$250 a R$349", basicBudget4: "R$350 o más", interBudget1: "Hasta R$299", interBudget2: "R$300 a R$499", interBudget3: "R$500 a R$699", interBudget4: "R$700 o más", advBudget1: "R$800 a R$1.190", advBudget2: "R$1.200 a R$1.690", advBudget3: "R$1.700 a R$2.490", advBudget4: "R$2.500 o más",
-          qD: "D. Formato preferido", format1: "Online en vivo", format2: "Online grabado", format3: "Híbrido", format4: "Presencial",
-          qE: "E. ¿Dónde vives?", location1: "Brasil", location2: "Fuera de Brasil", qF: "F. Estado / región / país",
-          qG: "G. Perfil", background1: "Estudiante de pregrado", background2: "Estudiante de posgrado", background3: "Investigador(a)", background4: "Profesional de la industria", background5: "Otro",
-          qH: "H. ¿Te gustaría recibir novedades sobre futuros cursos o herramientas?", yes: "Sí", no: "No",
-          contactLegend: "Contacto (opcional)", qI: "I. Correo electrónico (opcional)", qJ: "J. WhatsApp / teléfono (opcional)",
-          qK: "K. ¿También te interesaría ser contactado para otras oportunidades?", opp1: "Servicios", opp2: "Colaboración", opp3: "Consultoría", opp4: "No, solo cursos/herramientas",
-          submit: "Enviar interés", success: "¡Gracias! Tu respuesta fue recibida con éxito.",
-          error: "No se pudo enviar ahora. Inténtalo nuevamente en unos momentos.", footerNote: "Gracias por ayudar a definir las próximas iniciativas.", seniorNote: "Los cursos serán impartidos por un profesional sénior o profesionales sénior en Bioinformática, especialistas en las respectivas áreas del curso.", legalTitle: "Aviso legal / transparencia", legalText: "Los cursos que pueda ofrecer Databiomics se clasificarán como cursos libres. No serán cursos técnicos, de grado ni de posgrado lato sensu o stricto sensu, ni tendrán la finalidad de otorgar un diploma académico. Al final, se emitirá un certificado de participación o de finalización.", infoTitle: "Nota informativa", infoTextPrefix: "Esta información está en consonancia con la orientación oficial del Ministerio de Educación de Brasil (MEC) sobre cursos libres", mecLinkLabel: "(consulte la orientación oficial aquí)"
-        }
-      };
-
-      let currentLang = "pt";
-      const form = document.getElementById("interest-form");
-
-      function applyLanguage(lang) {
-        currentLang = lang;
-        document.querySelectorAll("[data-i18n]").forEach((node) => {
-          const key = node.getAttribute("data-i18n");
-          if (translations[lang][key]) node.textContent = translations[lang][key];
-        });
-
-        document.querySelectorAll(".lang-btn").forEach((btn) => {
-          btn.classList.toggle("is-active", btn.dataset.lang === lang);
-        });
-      }
-
-      document.querySelectorAll(".lang-btn").forEach((btn) => {
-        btn.addEventListener("click", () => applyLanguage(btn.dataset.lang));
-      });
-
-      applyLanguage(currentLang);
-    })();
-  </script>
 </section>
 
 <section id="contato" class="section contact">
   <div class="section-heading">
     <h2>Need Support? We’ve Got Your Back Anytime!</h2>
-    <p>Entre em contato para consultorias, cursos e projetos personalizados.</p>
+    <p>Entre em contato para consultorias, cursos, palestras, colaboração e desenvolvimento de soluções.</p>
   </div>
   <div class="contact-grid">
     <div class="contact-card">
-      <h3>Fale comigo</h3>
-      <p><strong>Skype:</strong> mattoslmp</p>
-      <p><strong>Horário:</strong> 8AM - 6PM (BRT) · Leandro de Mattos Pereira</p>
-      <p><strong>Email:</strong> <a href="mailto:databiomics@gmail.com">databiomics@gmail.com</a></p>
+      <h3>Fale com a Databiomics</h3>
+      <p><strong>E-mail:</strong> <a href="mailto:databiomics@gmail.com">databiomics@gmail.com</a></p>
+      <p><strong>Horário:</strong> 8AM - 6PM (BRT)</p>
       <div class="contact-actions">
         <a class="button primary" id="whatsapp-contact-link" href="#" target="_blank" rel="noreferrer">Enviar mensagem no WhatsApp</a>
         <a class="button ghost" href="mailto:databiomics@gmail.com?subject=Contato%20via%20site%20Databiomics">Enviar e-mail</a>
       </div>
-      <p class="contact-note">Seu atendimento pode ser iniciado por WhatsApp ou e-mail. O número não é exibido na página.</p>
     </div>
     <div class="contact-card">
       <h3>Caixa de mensagem</h3>
       <form class="contact-form" action="https://formsubmit.co/databiomics@gmail.com" method="post">
-        <label>
-          Nome completo
-          <input type="text" name="full-name" required>
-        </label>
-        <label>
-          E-mail
-          <input type="email" name="contact-email" required>
-        </label>
-        <label>
-          Mensagem
-          <textarea name="message" rows="4" placeholder="Como posso ajudar?"></textarea>
-        </label>
-        <input type="hidden" name="_subject" value="Novo contato via site - Caixa de mensagem">
+        <label>Nome completo<input type="text" name="full-name" required></label>
+        <label>E-mail<input type="email" name="contact-email" required></label>
+        <label>Mensagem<textarea name="message" rows="4" placeholder="Como podemos ajudar?"></textarea></label>
+        <input type="hidden" name="_subject" value="Novo contato via site Databiomics">
         <input type="hidden" name="_captcha" value="false">
-        <button class="button primary" type="submit">Enviar mensagem por e-mail</button>
+        <button class="button primary" type="submit">Enviar mensagem</button>
       </form>
     </div>
   </div>
@@ -545,48 +171,23 @@ layout: landing
 
 <footer class="site-footer">
   <div class="footer-content">
-    <div class="footer-block">
-      <h2>Contato para agendamento de serviços</h2>
-      <p>Agende pelo E-mail: <a href="mailto:databiomics@gmail.com">databiomics@gmail.com</a></p>
-    </div>
-    <div class="footer-block">
-      <h2>Visitante</h2>
-      <p id="visitor-country">Carregando país do visitante...</p>
-      <img id="visitor-flag" class="visitor-flag" alt="Bandeira do país visitante" loading="lazy" hidden>
-    </div>
+    <div class="footer-block"><h2>Databiomics</h2><p>Bioinformática, ciência de dados ômicos e inteligência artificial aplicada.</p></div>
+    <div class="footer-block"><h2>Contato</h2><p><a href="mailto:databiomics@gmail.com">databiomics@gmail.com</a></p></div>
   </div>
 </footer>
 
 <script>
+  document.querySelectorAll(".video-list button[data-video]").forEach((button) => {
+    button.addEventListener("click", () => {
+      const player = document.getElementById("videoPlayer");
+      player.src = `https://www.youtube.com/embed/${button.dataset.video}`;
+    });
+  });
+
   const whatsappButton = document.getElementById("whatsapp-contact-link");
   if (whatsappButton) {
-    const phoneParts = ["55", "22", "99796", "8983"];
-    const phoneNumber = phoneParts.join("");
-    const message = encodeURIComponent("Olá Leandro! Vi seu site e gostaria de mais informações sobre consultoria/cursos.");
+    const phoneNumber = ["55", "22", "99796", "8983"].join("");
+    const message = encodeURIComponent("Olá! Vi o site da Databiomics e gostaria de mais informações sobre consultoria/cursos.");
     whatsappButton.href = `https://wa.me/${phoneNumber}?text=${message}`;
   }
-
-  fetch("https://ipapi.co/json/")
-    .then((response) => response.json())
-    .then((data) => {
-      const countryName = data.country_name || "País não identificado";
-      const countryCode = (data.country_code || "").toLowerCase();
-      const countryLabel = document.getElementById("visitor-country");
-      const flagImage = document.getElementById("visitor-flag");
-
-      if (countryLabel) {
-        countryLabel.textContent = `País do visitante: ${countryName}`;
-      }
-
-      if (flagImage && countryCode) {
-        flagImage.src = `https://flagcdn.com/${countryCode}.svg`;
-        flagImage.hidden = false;
-      }
-    })
-    .catch(() => {
-      const countryLabel = document.getElementById("visitor-country");
-      if (countryLabel) {
-        countryLabel.textContent = "Não foi possível identificar o país do visitante.";
-      }
-    });
 </script>
